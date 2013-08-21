@@ -31,6 +31,7 @@ Currently Unstable. Patcher is working, but plugin updates need to be implemente
 Requirements
 ==========
 .Net Framework V4 Extended
+
 (Source) Visual Studio 2010 (or Visual C# Express 2010)
 
 Issues
