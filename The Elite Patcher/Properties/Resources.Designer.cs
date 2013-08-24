@@ -71,6 +71,16 @@ namespace The_Elite_Patcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] addons {
+            get {
+                object obj = ResourceManager.GetObject("addons", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap aw_banner {
@@ -141,12 +151,32 @@ namespace The_Elite_Patcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap IMG_0073 {
             get {
                 object obj = ResourceManager.GetObject("IMG_0073", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] info {
+            get {
+                object obj = ResourceManager.GetObject("info", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -191,6 +221,16 @@ namespace The_Elite_Patcher.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] patching {
+            get {
+                object obj = ResourceManager.GetObject("patching", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap red_circle {
@@ -217,6 +257,16 @@ namespace The_Elite_Patcher.Properties {
             get {
                 object obj = ResourceManager.GetObject("tep2-small", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] what_are_addons_and_plugins {
+            get {
+                object obj = ResourceManager.GetObject("what_are_addons_and_plugins", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

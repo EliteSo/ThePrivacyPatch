@@ -32,6 +32,116 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
+            this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
+            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.proxSrv4 = new System.Windows.Forms.RadioButton();
+            this.proxSrv3 = new System.Windows.Forms.RadioButton();
+            this.proxSrv2 = new System.Windows.Forms.RadioButton();
+            this.proxSrv1 = new System.Windows.Forms.RadioButton();
+            this.label65 = new System.Windows.Forms.Label();
+            this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
+            this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
+            this.superTabItem3 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.genVhostStat = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.ip = new DevComponents.Editors.IpAddressInput();
+            this.label63 = new System.Windows.Forms.Label();
+            this.subdomain = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.site = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.superTabItem4 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel6 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.metroTilePanel2 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
+            this.itemContainer4 = new DevComponents.DotNetBar.ItemContainer();
+            this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();
+            this.superTabItem6 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.metroTilePanel3 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
+            this.itemContainer6 = new DevComponents.DotNetBar.ItemContainer();
+            this.superTabItem5 = new DevComponents.DotNetBar.SuperTabItem();
+            this.UsrPnl4 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.UsrRegDateLbl4 = new System.Windows.Forms.Label();
+            this.label126 = new System.Windows.Forms.Label();
+            this.UsrUnreadConvoLbl4 = new System.Windows.Forms.Label();
+            this.label128 = new System.Windows.Forms.Label();
+            this.UsrMsgCntLbl4 = new System.Windows.Forms.Label();
+            this.UsrUnreadAlertsLbl4 = new System.Windows.Forms.Label();
+            this.label131 = new System.Windows.Forms.Label();
+            this.label132 = new System.Windows.Forms.Label();
+            this.UsrTimeZoneLbl4 = new System.Windows.Forms.Label();
+            this.label134 = new System.Windows.Forms.Label();
+            this.UsrTitleLbl4 = new System.Windows.Forms.Label();
+            this.label136 = new System.Windows.Forms.Label();
+            this.UsrEmailLbl4 = new System.Windows.Forms.Label();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label139 = new System.Windows.Forms.Label();
+            this.UsrWrningPntsLbl4 = new System.Windows.Forms.Label();
+            this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
+            this.groupBox27 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.suggstSiteTxt = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label71 = new System.Windows.Forms.Label();
+            this.UsrPnl2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.UsrRegDateLbl2 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.UsrUnreadConvoLbl2 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.UsrMsgCntLbl2 = new System.Windows.Forms.Label();
+            this.UsrUnreadAlertsLbl2 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.UsrTimeZoneLbl2 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.UsrTitleLbl2 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.UsrEmailLbl2 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.UsrWrningPntsLbl2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ribbonPanel10 = new DevComponents.DotNetBar.RibbonPanel();
+            this.UsrPnl8 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.UsrRegDateLbl8 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.UsrUnreadConvoLbl8 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.UsrMsgCntLbl8 = new System.Windows.Forms.Label();
+            this.UsrUnreadAlertsLbl8 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.UsrTimeZoneLbl8 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.UsrTitleLbl8 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.UsrEmailLbl8 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label114 = new System.Windows.Forms.Label();
+            this.UsrWrningPntsLbl8 = new System.Windows.Forms.Label();
+            this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label87 = new System.Windows.Forms.Label();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label85 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.superTabControl3 = new DevComponents.DotNetBar.SuperTabControl();
             this.superTabControlPanel7 = new DevComponents.DotNetBar.SuperTabControlPanel();
@@ -71,82 +181,10 @@
             this.label120 = new System.Windows.Forms.Label();
             this.UsrEmailLbl6 = new System.Windows.Forms.Label();
             this.label122 = new System.Windows.Forms.Label();
-            this.UsrAvitarPic6 = new System.Windows.Forms.PictureBox();
             this.label123 = new System.Windows.Forms.Label();
             this.UsrWrningPntsLbl6 = new System.Windows.Forms.Label();
-            this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
-            this.groupBox27 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.suggstSiteTxt = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label71 = new System.Windows.Forms.Label();
-            this.UsrPnl2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.UsrRegDateLbl2 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.UsrUnreadConvoLbl2 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.UsrMsgCntLbl2 = new System.Windows.Forms.Label();
-            this.UsrUnreadAlertsLbl2 = new System.Windows.Forms.Label();
-            this.label99 = new System.Windows.Forms.Label();
-            this.label100 = new System.Windows.Forms.Label();
-            this.UsrTimeZoneLbl2 = new System.Windows.Forms.Label();
-            this.label102 = new System.Windows.Forms.Label();
-            this.UsrTitleLbl2 = new System.Windows.Forms.Label();
-            this.label104 = new System.Windows.Forms.Label();
-            this.UsrEmailLbl2 = new System.Windows.Forms.Label();
-            this.label106 = new System.Windows.Forms.Label();
-            this.UsrAvitarPic2 = new System.Windows.Forms.PictureBox();
-            this.label107 = new System.Windows.Forms.Label();
-            this.UsrWrningPntsLbl2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ribbonPanel10 = new DevComponents.DotNetBar.RibbonPanel();
-            this.UsrPnl8 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.UsrRegDateLbl8 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.UsrUnreadConvoLbl8 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.UsrMsgCntLbl8 = new System.Windows.Forms.Label();
-            this.UsrUnreadAlertsLbl8 = new System.Windows.Forms.Label();
-            this.label98 = new System.Windows.Forms.Label();
-            this.label101 = new System.Windows.Forms.Label();
-            this.UsrTimeZoneLbl8 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.UsrTitleLbl8 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.UsrEmailLbl8 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
-            this.UsrAvitarPic8 = new System.Windows.Forms.PictureBox();
-            this.label114 = new System.Windows.Forms.Label();
-            this.UsrWrningPntsLbl8 = new System.Windows.Forms.Label();
-            this.groupPanel4 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label87 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.label85 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.ribbonPanel8 = new DevComponents.DotNetBar.RibbonPanel();
             this.superTabControl1 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.server1 = new System.Windows.Forms.GroupBox();
-            this.switchButton1 = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.server4 = new System.Windows.Forms.GroupBox();
-            this.switchButton4 = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.server3 = new System.Windows.Forms.GroupBox();
-            this.switchButton3 = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.server2 = new System.Windows.Forms.GroupBox();
-            this.switchButton2 = new DevComponents.DotNetBar.Controls.SwitchButton();
-            this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.label92 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -187,7 +225,6 @@
             this.label77 = new System.Windows.Forms.Label();
             this.UsrEmailLbl7 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
-            this.UsrAvitarPic7 = new System.Windows.Forms.PictureBox();
             this.label82 = new System.Windows.Forms.Label();
             this.UsrWrningPntsLbl7 = new System.Windows.Forms.Label();
             this.ribbonPanel5 = new DevComponents.DotNetBar.RibbonPanel();
@@ -260,6 +297,52 @@
             this.radioButton71 = new System.Windows.Forms.RadioButton();
             this.radioButton72 = new System.Windows.Forms.RadioButton();
             this.ribbonPanel7 = new DevComponents.DotNetBar.RibbonPanel();
+            this.UserNfoPanel = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.button36 = new System.Windows.Forms.Button();
+            this.UsrRegDateLbl = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.UsrUnreadConvoLbl = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.UsrMsgCntLbl = new System.Windows.Forms.Label();
+            this.UsrUnreadAlertsLbl = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.UsrTimeZoneLbl = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.UserTitleLbl = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.UsrEmailLbl = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.UsrWrningPntsLbl = new System.Windows.Forms.Label();
+            this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.Tools = new DevComponents.DotNetBar.RibbonTabItem();
+            this.Account = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem4 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.Info = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.ribbonTabItem5 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
+            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.updchk = new System.Windows.Forms.Timer(this.components);
+            this.superTabItem10 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.groupPanel5 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.superTabControl4 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabItem11 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel11 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.superTabItem12 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel12 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.DtlUsrNfoPnl = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.UsrReferridLbl = new System.Windows.Forms.Label();
             this.UsrValidStatLbl = new System.Windows.Forms.Label();
@@ -291,79 +374,13 @@
             this.UsrFriendCntLbl = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.UsrLikeCntLbl = new System.Windows.Forms.Label();
-            this.UserNfoPanel = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.button36 = new System.Windows.Forms.Button();
-            this.UsrRegDateLbl = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.UsrUnreadConvoLbl = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.UsrMsgCntLbl = new System.Windows.Forms.Label();
-            this.UsrUnreadAlertsLbl = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.UsrTimeZoneLbl = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.UserTitleLbl = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.UsrEmailLbl = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
+            this.UsrAvitarPic7 = new System.Windows.Forms.PictureBox();
+            this.UsrAvitarPic2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.UsrAvitarPic = new System.Windows.Forms.PictureBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.UsrWrningPntsLbl = new System.Windows.Forms.Label();
-            this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
-            this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.proxSrv4 = new System.Windows.Forms.RadioButton();
-            this.proxSrv3 = new System.Windows.Forms.RadioButton();
-            this.proxSrv2 = new System.Windows.Forms.RadioButton();
-            this.proxSrv1 = new System.Windows.Forms.RadioButton();
-            this.label65 = new System.Windows.Forms.Label();
-            this.superTabControl2 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.metroTilePanel1 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
-            this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
-            this.superTabItem3 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel6 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.metroTilePanel2 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
-            this.itemContainer4 = new DevComponents.DotNetBar.ItemContainer();
-            this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();
-            this.superTabItem6 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.metroTilePanel3 = new DevComponents.DotNetBar.Metro.MetroTilePanel();
-            this.itemContainer6 = new DevComponents.DotNetBar.ItemContainer();
-            this.superTabItem5 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.genVhostStat = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.ip = new DevComponents.Editors.IpAddressInput();
-            this.label63 = new System.Windows.Forms.Label();
-            this.subdomain = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.site = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.superTabItem4 = new DevComponents.DotNetBar.SuperTabItem();
-            this.UsrPnl4 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.UsrRegDateLbl4 = new System.Windows.Forms.Label();
-            this.label126 = new System.Windows.Forms.Label();
-            this.UsrUnreadConvoLbl4 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.UsrMsgCntLbl4 = new System.Windows.Forms.Label();
-            this.UsrUnreadAlertsLbl4 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.UsrTimeZoneLbl4 = new System.Windows.Forms.Label();
-            this.label134 = new System.Windows.Forms.Label();
-            this.UsrTitleLbl4 = new System.Windows.Forms.Label();
-            this.label136 = new System.Windows.Forms.Label();
-            this.UsrEmailLbl4 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
+            this.UsrAvitarPic6 = new System.Windows.Forms.PictureBox();
             this.UsrAvitarPic4 = new System.Windows.Forms.PictureBox();
-            this.label139 = new System.Windows.Forms.Label();
-            this.UsrWrningPntsLbl4 = new System.Windows.Forms.Label();
+            this.UsrAvitarPic8 = new System.Windows.Forms.PictureBox();
             this.office2007StartButton1 = new DevComponents.DotNetBar.Office2007StartButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer3 = new DevComponents.DotNetBar.ItemContainer();
@@ -385,45 +402,35 @@
             this.buttonItem16 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem18 = new DevComponents.DotNetBar.ButtonItem();
             this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonTabItem3 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.Tools = new DevComponents.DotNetBar.RibbonTabItem();
-            this.Account = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonTabItem4 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.Info = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonTabItem5 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.updchk = new System.Windows.Forms.Timer(this.components);
             this.ribbonControl1.SuspendLayout();
+            this.ribbonPanel3.SuspendLayout();
+            this.groupPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
+            this.superTabControl2.SuspendLayout();
+            this.superTabControlPanel3.SuspendLayout();
+            this.superTabControlPanel4.SuspendLayout();
+            this.groupPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ip)).BeginInit();
+            this.superTabControlPanel6.SuspendLayout();
+            this.superTabControlPanel5.SuspendLayout();
+            this.UsrPnl4.SuspendLayout();
+            this.ribbonPanel4.SuspendLayout();
+            this.groupBox27.SuspendLayout();
+            this.UsrPnl2.SuspendLayout();
+            this.ribbonPanel10.SuspendLayout();
+            this.UsrPnl8.SuspendLayout();
+            this.groupPanel4.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).BeginInit();
             this.superTabControl3.SuspendLayout();
             this.superTabControlPanel7.SuspendLayout();
             this.UsrPnl6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).BeginInit();
-            this.ribbonPanel4.SuspendLayout();
-            this.groupBox27.SuspendLayout();
-            this.UsrPnl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.ribbonPanel10.SuspendLayout();
-            this.UsrPnl8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).BeginInit();
-            this.groupPanel4.SuspendLayout();
             this.ribbonPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).BeginInit();
             this.superTabControl1.SuspendLayout();
-            this.superTabControlPanel1.SuspendLayout();
-            this.server1.SuspendLayout();
-            this.server4.SuspendLayout();
-            this.server3.SuspendLayout();
-            this.server2.SuspendLayout();
             this.superTabControlPanel2.SuspendLayout();
             this.groupPanel1.SuspendLayout();
             this.UsrPnl7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).BeginInit();
             this.ribbonPanel5.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox14.SuspendLayout();
@@ -438,21 +445,23 @@
             this.groupBox23.SuspendLayout();
             this.groupBox24.SuspendLayout();
             this.ribbonPanel7.SuspendLayout();
-            this.DtlUsrNfoPnl.SuspendLayout();
             this.UserNfoPanel.SuspendLayout();
+            this.superTabControlPanel10.SuspendLayout();
+            this.groupPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).BeginInit();
+            this.superTabControl4.SuspendLayout();
+            this.superTabControlPanel11.SuspendLayout();
+            this.superTabControlPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            this.superTabControlPanel1.SuspendLayout();
+            this.DtlUsrNfoPnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic)).BeginInit();
-            this.ribbonPanel3.SuspendLayout();
-            this.groupPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).BeginInit();
-            this.superTabControl2.SuspendLayout();
-            this.superTabControlPanel3.SuspendLayout();
-            this.superTabControlPanel6.SuspendLayout();
-            this.superTabControlPanel5.SuspendLayout();
-            this.superTabControlPanel4.SuspendLayout();
-            this.groupPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ip)).BeginInit();
-            this.UsrPnl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).BeginInit();
             this.SuspendLayout();
             // 
             // styleManager1
@@ -469,12 +478,12 @@
             this.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonControl1.CaptionVisible = true;
             this.ribbonControl1.Controls.Add(this.ribbonPanel4);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel10);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Controls.Add(this.ribbonPanel8);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel5);
             this.ribbonControl1.Controls.Add(this.ribbonPanel7);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel2);
             this.ribbonControl1.Controls.Add(this.ribbonPanel3);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel5);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel10);
             this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ribbonControl1.ForeColor = System.Drawing.Color.Black;
             this.ribbonControl1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -514,16 +523,1452 @@
             this.ribbonControl1.TabIndex = 15;
             this.ribbonControl1.Text = "ribbonControl1";
             // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel3.Controls.Add(this.groupPanel3);
+            this.ribbonPanel3.Controls.Add(this.superTabControl2);
+            this.ribbonPanel3.Controls.Add(this.UsrPnl4);
+            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel3.Location = new System.Drawing.Point(0, 0);
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel3.Size = new System.Drawing.Size(980, 467);
+            // 
+            // 
+            // 
+            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel3.TabIndex = 5;
+            this.ribbonPanel3.Visible = false;
+            // 
+            // groupPanel3
+            // 
+            this.groupPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel3.Controls.Add(this.proxSrv4);
+            this.groupPanel3.Controls.Add(this.proxSrv3);
+            this.groupPanel3.Controls.Add(this.proxSrv2);
+            this.groupPanel3.Controls.Add(this.proxSrv1);
+            this.groupPanel3.Controls.Add(this.label65);
+            this.groupPanel3.Location = new System.Drawing.Point(3, 243);
+            this.groupPanel3.Name = "groupPanel3";
+            this.groupPanel3.Size = new System.Drawing.Size(170, 162);
+            // 
+            // 
+            // 
+            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel3.Style.BackColorGradientAngle = 90;
+            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderBottomWidth = 1;
+            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderLeftWidth = 1;
+            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderRightWidth = 1;
+            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel3.Style.BorderTopWidth = 1;
+            this.groupPanel3.Style.CornerDiameter = 4;
+            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel3.TabIndex = 48;
+            this.groupPanel3.Text = "Proxies not working?";
+            this.groupPanel3.Visible = false;
+            // 
+            // proxSrv4
+            // 
+            this.proxSrv4.AutoSize = true;
+            this.proxSrv4.Location = new System.Drawing.Point(9, 117);
+            this.proxSrv4.Name = "proxSrv4";
+            this.proxSrv4.Size = new System.Drawing.Size(109, 17);
+            this.proxSrv4.TabIndex = 4;
+            this.proxSrv4.Text = "Alt Proxy Server 3";
+            this.proxSrv4.UseVisualStyleBackColor = true;
+            // 
+            // proxSrv3
+            // 
+            this.proxSrv3.AutoSize = true;
+            this.proxSrv3.Location = new System.Drawing.Point(9, 94);
+            this.proxSrv3.Name = "proxSrv3";
+            this.proxSrv3.Size = new System.Drawing.Size(109, 17);
+            this.proxSrv3.TabIndex = 3;
+            this.proxSrv3.Text = "Alt Proxy Server 2";
+            this.proxSrv3.UseVisualStyleBackColor = true;
+            // 
+            // proxSrv2
+            // 
+            this.proxSrv2.AutoSize = true;
+            this.proxSrv2.Location = new System.Drawing.Point(9, 71);
+            this.proxSrv2.Name = "proxSrv2";
+            this.proxSrv2.Size = new System.Drawing.Size(109, 17);
+            this.proxSrv2.TabIndex = 2;
+            this.proxSrv2.Text = "Alt Proxy Server 1";
+            this.proxSrv2.UseVisualStyleBackColor = true;
+            // 
+            // proxSrv1
+            // 
+            this.proxSrv1.AutoSize = true;
+            this.proxSrv1.Checked = true;
+            this.proxSrv1.Location = new System.Drawing.Point(9, 48);
+            this.proxSrv1.Name = "proxSrv1";
+            this.proxSrv1.Size = new System.Drawing.Size(111, 17);
+            this.proxSrv1.TabIndex = 1;
+            this.proxSrv1.TabStop = true;
+            this.proxSrv1.Text = "Main Proxy Server";
+            this.proxSrv1.UseVisualStyleBackColor = true;
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(11, 6);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(141, 39);
+            this.label65.TabIndex = 0;
+            this.label65.Text = "We have multiple proxies\r\navailable, feel free to switch \r\nbetween them!";
+            // 
+            // superTabControl2
+            // 
+            this.superTabControl2.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl2.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl2.ControlBox.MenuBox.Name = "";
+            this.superTabControl2.ControlBox.Name = "";
+            this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl2.ControlBox.MenuBox,
+            this.superTabControl2.ControlBox.CloseBox});
+            this.superTabControl2.Controls.Add(this.superTabControlPanel5);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel3);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel10);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel4);
+            this.superTabControl2.Controls.Add(this.superTabControlPanel6);
+            this.superTabControl2.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl2.Location = new System.Drawing.Point(185, 3);
+            this.superTabControl2.Name = "superTabControl2";
+            this.superTabControl2.ReorderTabsEnabled = true;
+            this.superTabControl2.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.superTabControl2.SelectedTabIndex = 1;
+            this.superTabControl2.Size = new System.Drawing.Size(783, 382);
+            this.superTabControl2.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.superTabControl2.TabIndex = 25;
+            this.superTabControl2.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem5,
+            this.superTabItem3,
+            this.superTabItem6,
+            this.superTabItem10,
+            this.superTabItem4});
+            this.superTabControl2.Text = "superTabControl2";
+            // 
+            // superTabControlPanel3
+            // 
+            this.superTabControlPanel3.Controls.Add(this.metroTilePanel1);
+            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel3.Name = "superTabControlPanel3";
+            this.superTabControlPanel3.Size = new System.Drawing.Size(783, 357);
+            this.superTabControlPanel3.TabIndex = 2;
+            this.superTabControlPanel3.TabItem = this.superTabItem3;
+            // 
+            // metroTilePanel1
+            // 
+            // 
+            // 
+            // 
+            this.metroTilePanel1.BackgroundStyle.Class = "MetroTilePanel";
+            this.metroTilePanel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTilePanel1.ContainerControlProcessDialogKey = true;
+            this.metroTilePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.itemContainer2});
+            this.metroTilePanel1.Location = new System.Drawing.Point(0, 0);
+            this.metroTilePanel1.Name = "metroTilePanel1";
+            this.metroTilePanel1.Size = new System.Drawing.Size(783, 357);
+            this.metroTilePanel1.TabIndex = 0;
+            this.metroTilePanel1.Text = "metroTilePanel1";
+            // 
+            // itemContainer2
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer2.MultiLine = true;
+            this.itemContainer2.Name = "itemContainer2";
+            // 
+            // 
+            // 
+            this.itemContainer2.TitleStyle.Class = "MetroTileGroupTitle";
+            this.itemContainer2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer2.TitleText = "Plugins";
+            // 
+            // superTabItem3
+            // 
+            this.superTabItem3.AttachedControl = this.superTabControlPanel3;
+            this.superTabItem3.GlobalItem = false;
+            this.superTabItem3.Name = "superTabItem3";
+            this.superTabItem3.Text = "Plugins";
+            // 
+            // superTabControlPanel4
+            // 
+            this.superTabControlPanel4.Controls.Add(this.button2);
+            this.superTabControlPanel4.Controls.Add(this.button1);
+            this.superTabControlPanel4.Controls.Add(this.button34);
+            this.superTabControlPanel4.Controls.Add(this.groupPanel2);
+            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel4.Name = "superTabControlPanel4";
+            this.superTabControlPanel4.Size = new System.Drawing.Size(795, 357);
+            this.superTabControlPanel4.TabIndex = 1;
+            this.superTabControlPanel4.TabItem = this.superTabItem4;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 60);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 54);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Generate MD5.txt for NDL";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(90, 9);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 41);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Test Boot Voice";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(6, 9);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 49);
+            this.button34.TabIndex = 23;
+            this.button34.Text = "Generate MD5.txt For Exe";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // groupPanel2
+            // 
+            this.groupPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel2.Controls.Add(this.checkBox1);
+            this.groupPanel2.Controls.Add(this.genVhostStat);
+            this.groupPanel2.Controls.Add(this.button3);
+            this.groupPanel2.Controls.Add(this.ip);
+            this.groupPanel2.Controls.Add(this.label63);
+            this.groupPanel2.Controls.Add(this.subdomain);
+            this.groupPanel2.Controls.Add(this.label37);
+            this.groupPanel2.Controls.Add(this.site);
+            this.groupPanel2.Controls.Add(this.label30);
+            this.groupPanel2.Location = new System.Drawing.Point(6, 192);
+            this.groupPanel2.Name = "groupPanel2";
+            this.groupPanel2.Size = new System.Drawing.Size(331, 162);
+            // 
+            // 
+            // 
+            this.groupPanel2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel2.Style.BackColorGradientAngle = 90;
+            this.groupPanel2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderBottomWidth = 1;
+            this.groupPanel2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderLeftWidth = 1;
+            this.groupPanel2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderRightWidth = 1;
+            this.groupPanel2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel2.Style.BorderTopWidth = 1;
+            this.groupPanel2.Style.CornerDiameter = 4;
+            this.groupPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel2.TabIndex = 22;
+            this.groupPanel2.Text = "Generate VHost File";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(196, 1);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(125, 17);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "Is Subdomain Proxy?";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // genVhostStat
+            // 
+            this.genVhostStat.AutoSize = true;
+            this.genVhostStat.BackColor = System.Drawing.Color.Transparent;
+            this.genVhostStat.Location = new System.Drawing.Point(17, 125);
+            this.genVhostStat.Name = "genVhostStat";
+            this.genVhostStat.Size = new System.Drawing.Size(0, 13);
+            this.genVhostStat.TabIndex = 7;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(196, 95);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Generate";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // ip
+            // 
+            this.ip.AutoOverwrite = true;
+            // 
+            // 
+            // 
+            this.ip.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.ip.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ip.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.ip.ButtonFreeText.Visible = true;
+            this.ip.Location = new System.Drawing.Point(32, 98);
+            this.ip.Name = "ip";
+            this.ip.Size = new System.Drawing.Size(107, 20);
+            this.ip.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ip.TabIndex = 5;
+            this.ip.Value = "192.168.1.1";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(13, 82);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(68, 13);
+            this.label63.TabIndex = 4;
+            this.label63.Text = "IP Of Server:";
+            // 
+            // subdomain
+            // 
+            this.subdomain.Location = new System.Drawing.Point(32, 59);
+            this.subdomain.Name = "subdomain";
+            this.subdomain.Size = new System.Drawing.Size(239, 20);
+            this.subdomain.TabIndex = 3;
+            this.subdomain.Text = "sub.domain.com";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(13, 43);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(127, 13);
+            this.label37.TabIndex = 2;
+            this.label37.Text = "SubDomain of Proxy Site:";
+            // 
+            // site
+            // 
+            this.site.Location = new System.Drawing.Point(32, 20);
+            this.site.Name = "site";
+            this.site.Size = new System.Drawing.Size(239, 20);
+            this.site.TabIndex = 1;
+            this.site.Text = "site.com";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(13, 4);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(99, 13);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Site to Redirect To:";
+            // 
+            // superTabItem4
+            // 
+            this.superTabItem4.AttachedControl = this.superTabControlPanel4;
+            this.superTabItem4.GlobalItem = false;
+            this.superTabItem4.Name = "superTabItem4";
+            this.superTabItem4.Text = "Developer Tools";
+            // 
+            // superTabControlPanel6
+            // 
+            this.superTabControlPanel6.Controls.Add(this.metroTilePanel2);
+            this.superTabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel6.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel6.Name = "superTabControlPanel6";
+            this.superTabControlPanel6.Size = new System.Drawing.Size(795, 357);
+            this.superTabControlPanel6.TabIndex = 4;
+            this.superTabControlPanel6.TabItem = this.superTabItem6;
+            // 
+            // metroTilePanel2
+            // 
+            this.metroTilePanel2.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.metroTilePanel2.BackgroundStyle.Class = "MetroTilePanel";
+            this.metroTilePanel2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTilePanel2.ContainerControlProcessDialogKey = true;
+            this.metroTilePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTilePanel2.ForeColor = System.Drawing.Color.Black;
+            this.metroTilePanel2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.itemContainer4,
+            this.itemContainer5});
+            this.metroTilePanel2.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
+            this.metroTilePanel2.Location = new System.Drawing.Point(0, 0);
+            this.metroTilePanel2.Name = "metroTilePanel2";
+            this.metroTilePanel2.Size = new System.Drawing.Size(795, 357);
+            this.metroTilePanel2.TabIndex = 1;
+            this.metroTilePanel2.Text = "metroTilePanel2";
+            // 
+            // itemContainer4
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer4.MultiLine = true;
+            this.itemContainer4.Name = "itemContainer4";
+            // 
+            // 
+            // 
+            this.itemContainer4.TitleStyle.Class = "MetroTileGroupTitle";
+            this.itemContainer4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer4.TitleText = "Addons";
+            // 
+            // itemContainer5
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer5.MultiLine = true;
+            this.itemContainer5.Name = "itemContainer5";
+            // 
+            // 
+            // 
+            this.itemContainer5.TitleStyle.Class = "MetroTileGroupTitle";
+            this.itemContainer5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer5.TitleText = "Plugins";
+            // 
+            // superTabItem6
+            // 
+            this.superTabItem6.AttachedControl = this.superTabControlPanel6;
+            this.superTabItem6.GlobalItem = false;
+            this.superTabItem6.Name = "superTabItem6";
+            this.superTabItem6.Text = "Get Plugins and Addons";
+            // 
+            // superTabControlPanel5
+            // 
+            this.superTabControlPanel5.Controls.Add(this.metroTilePanel3);
+            this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel5.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel5.Name = "superTabControlPanel5";
+            this.superTabControlPanel5.Size = new System.Drawing.Size(783, 357);
+            this.superTabControlPanel5.TabIndex = 3;
+            this.superTabControlPanel5.TabItem = this.superTabItem5;
+            // 
+            // metroTilePanel3
+            // 
+            // 
+            // 
+            // 
+            this.metroTilePanel3.BackgroundStyle.Class = "MetroTilePanel";
+            this.metroTilePanel3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.metroTilePanel3.ContainerControlProcessDialogKey = true;
+            this.metroTilePanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroTilePanel3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.itemContainer6});
+            this.metroTilePanel3.Location = new System.Drawing.Point(0, 0);
+            this.metroTilePanel3.Name = "metroTilePanel3";
+            this.metroTilePanel3.Size = new System.Drawing.Size(783, 357);
+            this.metroTilePanel3.TabIndex = 1;
+            this.metroTilePanel3.Text = "metroTilePanel3";
+            // 
+            // itemContainer6
+            // 
+            // 
+            // 
+            // 
+            this.itemContainer6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer6.MultiLine = true;
+            this.itemContainer6.Name = "itemContainer6";
+            // 
+            // 
+            // 
+            this.itemContainer6.TitleStyle.Class = "MetroTileGroupTitle";
+            this.itemContainer6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.itemContainer6.TitleText = "Addons";
+            // 
+            // superTabItem5
+            // 
+            this.superTabItem5.AttachedControl = this.superTabControlPanel5;
+            this.superTabItem5.GlobalItem = false;
+            this.superTabItem5.Name = "superTabItem5";
+            this.superTabItem5.Text = "Addons";
+            // 
+            // UsrPnl4
+            // 
+            this.UsrPnl4.BackColor = System.Drawing.Color.Transparent;
+            this.UsrPnl4.CanvasColor = System.Drawing.SystemColors.Control;
+            this.UsrPnl4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.UsrPnl4.Controls.Add(this.UsrRegDateLbl4);
+            this.UsrPnl4.Controls.Add(this.label126);
+            this.UsrPnl4.Controls.Add(this.UsrUnreadConvoLbl4);
+            this.UsrPnl4.Controls.Add(this.label128);
+            this.UsrPnl4.Controls.Add(this.UsrMsgCntLbl4);
+            this.UsrPnl4.Controls.Add(this.UsrUnreadAlertsLbl4);
+            this.UsrPnl4.Controls.Add(this.label131);
+            this.UsrPnl4.Controls.Add(this.label132);
+            this.UsrPnl4.Controls.Add(this.UsrTimeZoneLbl4);
+            this.UsrPnl4.Controls.Add(this.label134);
+            this.UsrPnl4.Controls.Add(this.UsrTitleLbl4);
+            this.UsrPnl4.Controls.Add(this.label136);
+            this.UsrPnl4.Controls.Add(this.UsrEmailLbl4);
+            this.UsrPnl4.Controls.Add(this.label138);
+            this.UsrPnl4.Controls.Add(this.UsrAvitarPic4);
+            this.UsrPnl4.Controls.Add(this.label139);
+            this.UsrPnl4.Controls.Add(this.UsrWrningPntsLbl4);
+            this.UsrPnl4.Location = new System.Drawing.Point(3, 3);
+            this.UsrPnl4.Name = "UsrPnl4";
+            this.UsrPnl4.Size = new System.Drawing.Size(170, 234);
+            // 
+            // 
+            // 
+            this.UsrPnl4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.UsrPnl4.Style.BackColorGradientAngle = 90;
+            this.UsrPnl4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.UsrPnl4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl4.Style.BorderBottomWidth = 1;
+            this.UsrPnl4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.UsrPnl4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl4.Style.BorderLeftWidth = 1;
+            this.UsrPnl4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl4.Style.BorderRightWidth = 1;
+            this.UsrPnl4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl4.Style.BorderTopWidth = 1;
+            this.UsrPnl4.Style.CornerDiameter = 4;
+            this.UsrPnl4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.UsrPnl4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.UsrPnl4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.UsrPnl4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.UsrPnl4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.UsrPnl4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.UsrPnl4.TabIndex = 19;
+            this.UsrPnl4.Text = "User Info";
+            // 
+            // UsrRegDateLbl4
+            // 
+            this.UsrRegDateLbl4.AutoSize = true;
+            this.UsrRegDateLbl4.Location = new System.Drawing.Point(96, 184);
+            this.UsrRegDateLbl4.Name = "UsrRegDateLbl4";
+            this.UsrRegDateLbl4.Size = new System.Drawing.Size(43, 13);
+            this.UsrRegDateLbl4.TabIndex = 20;
+            this.UsrRegDateLbl4.Text = "regdate";
+            // 
+            // label126
+            // 
+            this.label126.AutoSize = true;
+            this.label126.Location = new System.Drawing.Point(6, 184);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(92, 13);
+            this.label126.TabIndex = 19;
+            this.label126.Text = "Registration Date:";
+            // 
+            // UsrUnreadConvoLbl4
+            // 
+            this.UsrUnreadConvoLbl4.AutoSize = true;
+            this.UsrUnreadConvoLbl4.Location = new System.Drawing.Point(120, 169);
+            this.UsrUnreadConvoLbl4.Name = "UsrUnreadConvoLbl4";
+            this.UsrUnreadConvoLbl4.Size = new System.Drawing.Size(97, 13);
+            this.UsrUnreadConvoLbl4.TabIndex = 18;
+            this.UsrUnreadConvoLbl4.Text = "unreadconvocount";
+            // 
+            // label128
+            // 
+            this.label128.AutoSize = true;
+            this.label128.Location = new System.Drawing.Point(6, 169);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(115, 13);
+            this.label128.TabIndex = 17;
+            this.label128.Text = "Unread Conversations:";
+            // 
+            // UsrMsgCntLbl4
+            // 
+            this.UsrMsgCntLbl4.AutoSize = true;
+            this.UsrMsgCntLbl4.Location = new System.Drawing.Point(89, 156);
+            this.UsrMsgCntLbl4.Name = "UsrMsgCntLbl4";
+            this.UsrMsgCntLbl4.Size = new System.Drawing.Size(53, 13);
+            this.UsrMsgCntLbl4.TabIndex = 16;
+            this.UsrMsgCntLbl4.Text = "msgcount";
+            // 
+            // UsrUnreadAlertsLbl4
+            // 
+            this.UsrUnreadAlertsLbl4.AutoSize = true;
+            this.UsrUnreadAlertsLbl4.BackColor = System.Drawing.Color.Transparent;
+            this.UsrUnreadAlertsLbl4.Location = new System.Drawing.Point(77, 197);
+            this.UsrUnreadAlertsLbl4.Name = "UsrUnreadAlertsLbl4";
+            this.UsrUnreadAlertsLbl4.Size = new System.Drawing.Size(65, 13);
+            this.UsrUnreadAlertsLbl4.TabIndex = 44;
+            this.UsrUnreadAlertsLbl4.Text = "unreadalerts";
+            // 
+            // label131
+            // 
+            this.label131.AutoSize = true;
+            this.label131.Location = new System.Drawing.Point(6, 156);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(84, 13);
+            this.label131.TabIndex = 15;
+            this.label131.Text = "Message Count:";
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.BackColor = System.Drawing.Color.Transparent;
+            this.label132.Location = new System.Drawing.Point(6, 197);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(74, 13);
+            this.label132.TabIndex = 43;
+            this.label132.Text = "Unread Alerts:";
+            // 
+            // UsrTimeZoneLbl4
+            // 
+            this.UsrTimeZoneLbl4.AutoSize = true;
+            this.UsrTimeZoneLbl4.Location = new System.Drawing.Point(63, 143);
+            this.UsrTimeZoneLbl4.Name = "UsrTimeZoneLbl4";
+            this.UsrTimeZoneLbl4.Size = new System.Drawing.Size(49, 13);
+            this.UsrTimeZoneLbl4.TabIndex = 12;
+            this.UsrTimeZoneLbl4.Text = "timezone";
+            // 
+            // label134
+            // 
+            this.label134.AutoSize = true;
+            this.label134.Location = new System.Drawing.Point(6, 143);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(61, 13);
+            this.label134.TabIndex = 11;
+            this.label134.Text = "Time Zone:";
+            // 
+            // UsrTitleLbl4
+            // 
+            this.UsrTitleLbl4.AutoSize = true;
+            this.UsrTitleLbl4.Location = new System.Drawing.Point(35, 102);
+            this.UsrTitleLbl4.Name = "UsrTitleLbl4";
+            this.UsrTitleLbl4.Size = new System.Drawing.Size(52, 13);
+            this.UsrTitleLbl4.TabIndex = 10;
+            this.UsrTitleLbl4.Text = "User Title";
+            // 
+            // label136
+            // 
+            this.label136.AutoSize = true;
+            this.label136.Location = new System.Drawing.Point(6, 102);
+            this.label136.Name = "label136";
+            this.label136.Size = new System.Drawing.Size(30, 13);
+            this.label136.TabIndex = 9;
+            this.label136.Text = "Title:";
+            // 
+            // UsrEmailLbl4
+            // 
+            this.UsrEmailLbl4.AutoSize = true;
+            this.UsrEmailLbl4.Location = new System.Drawing.Point(39, 117);
+            this.UsrEmailLbl4.Name = "UsrEmailLbl4";
+            this.UsrEmailLbl4.Size = new System.Drawing.Size(31, 13);
+            this.UsrEmailLbl4.TabIndex = 6;
+            this.UsrEmailLbl4.Text = "email";
+            // 
+            // label138
+            // 
+            this.label138.AutoSize = true;
+            this.label138.Location = new System.Drawing.Point(6, 117);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(35, 13);
+            this.label138.TabIndex = 5;
+            this.label138.Text = "Email:";
+            // 
+            // label139
+            // 
+            this.label139.AutoSize = true;
+            this.label139.BackColor = System.Drawing.Color.Transparent;
+            this.label139.Location = new System.Drawing.Point(6, 130);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(82, 13);
+            this.label139.TabIndex = 29;
+            this.label139.Text = "Warning Points:";
+            // 
+            // UsrWrningPntsLbl4
+            // 
+            this.UsrWrningPntsLbl4.AutoSize = true;
+            this.UsrWrningPntsLbl4.BackColor = System.Drawing.Color.Transparent;
+            this.UsrWrningPntsLbl4.Location = new System.Drawing.Point(86, 130);
+            this.UsrWrningPntsLbl4.Name = "UsrWrningPntsLbl4";
+            this.UsrWrningPntsLbl4.Size = new System.Drawing.Size(72, 13);
+            this.UsrWrningPntsLbl4.TabIndex = 30;
+            this.UsrWrningPntsLbl4.Text = "warningpoints";
+            // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel4.Controls.Add(this.superTabControl4);
+            this.ribbonPanel4.Controls.Add(this.groupBox27);
+            this.ribbonPanel4.Controls.Add(this.label71);
+            this.ribbonPanel4.Controls.Add(this.UsrPnl2);
+            this.ribbonPanel4.Controls.Add(this.pictureBox1);
+            this.ribbonPanel4.Controls.Add(this.label3);
+            this.ribbonPanel4.Controls.Add(this.linkLabel1);
+            this.ribbonPanel4.Controls.Add(this.label2);
+            this.ribbonPanel4.Controls.Add(this.label1);
+            this.ribbonPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel4.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel4.Name = "ribbonPanel4";
+            this.ribbonPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel4.Size = new System.Drawing.Size(980, 414);
+            // 
+            // 
+            // 
+            this.ribbonPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel4.TabIndex = 4;
+            // 
+            // groupBox27
+            // 
+            this.groupBox27.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox27.Controls.Add(this.label5);
+            this.groupBox27.Controls.Add(this.suggstSiteTxt);
+            this.groupBox27.Controls.Add(this.button4);
+            this.groupBox27.Location = new System.Drawing.Point(3, 242);
+            this.groupBox27.Name = "groupBox27";
+            this.groupBox27.Size = new System.Drawing.Size(173, 139);
+            this.groupBox27.TabIndex = 51;
+            this.groupBox27.TabStop = false;
+            this.groupBox27.Text = "Site Suggestions";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 19);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(153, 52);
+            this.label5.TabIndex = 50;
+            this.label5.Text = "Think we should add a site to\r\nThe Elite Patch? Enter it below\r\nand it will be ad" +
+    "ded to the \r\nnext update!";
+            // 
+            // suggstSiteTxt
+            // 
+            this.suggstSiteTxt.Location = new System.Drawing.Point(6, 80);
+            this.suggstSiteTxt.Name = "suggstSiteTxt";
+            this.suggstSiteTxt.Size = new System.Drawing.Size(158, 20);
+            this.suggstSiteTxt.TabIndex = 49;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(6, 103);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(158, 23);
+            this.button4.TabIndex = 48;
+            this.button4.Text = "Suggest";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.label71.Location = new System.Drawing.Point(272, 22);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(22, 13);
+            this.label71.TabIndex = 20;
+            this.label71.Text = "2.5";
+            // 
+            // UsrPnl2
+            // 
+            this.UsrPnl2.BackColor = System.Drawing.Color.Transparent;
+            this.UsrPnl2.CanvasColor = System.Drawing.SystemColors.Control;
+            this.UsrPnl2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.UsrPnl2.Controls.Add(this.UsrRegDateLbl2);
+            this.UsrPnl2.Controls.Add(this.label94);
+            this.UsrPnl2.Controls.Add(this.UsrUnreadConvoLbl2);
+            this.UsrPnl2.Controls.Add(this.label96);
+            this.UsrPnl2.Controls.Add(this.UsrMsgCntLbl2);
+            this.UsrPnl2.Controls.Add(this.UsrUnreadAlertsLbl2);
+            this.UsrPnl2.Controls.Add(this.label99);
+            this.UsrPnl2.Controls.Add(this.label100);
+            this.UsrPnl2.Controls.Add(this.UsrTimeZoneLbl2);
+            this.UsrPnl2.Controls.Add(this.label102);
+            this.UsrPnl2.Controls.Add(this.UsrTitleLbl2);
+            this.UsrPnl2.Controls.Add(this.label104);
+            this.UsrPnl2.Controls.Add(this.UsrEmailLbl2);
+            this.UsrPnl2.Controls.Add(this.label106);
+            this.UsrPnl2.Controls.Add(this.UsrAvitarPic2);
+            this.UsrPnl2.Controls.Add(this.label107);
+            this.UsrPnl2.Controls.Add(this.UsrWrningPntsLbl2);
+            this.UsrPnl2.Location = new System.Drawing.Point(3, 3);
+            this.UsrPnl2.Name = "UsrPnl2";
+            this.UsrPnl2.Size = new System.Drawing.Size(170, 234);
+            // 
+            // 
+            // 
+            this.UsrPnl2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.UsrPnl2.Style.BackColorGradientAngle = 90;
+            this.UsrPnl2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.UsrPnl2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl2.Style.BorderBottomWidth = 1;
+            this.UsrPnl2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.UsrPnl2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl2.Style.BorderLeftWidth = 1;
+            this.UsrPnl2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl2.Style.BorderRightWidth = 1;
+            this.UsrPnl2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl2.Style.BorderTopWidth = 1;
+            this.UsrPnl2.Style.CornerDiameter = 4;
+            this.UsrPnl2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.UsrPnl2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.UsrPnl2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.UsrPnl2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.UsrPnl2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.UsrPnl2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.UsrPnl2.TabIndex = 19;
+            this.UsrPnl2.Text = "User Info";
+            // 
+            // UsrRegDateLbl2
+            // 
+            this.UsrRegDateLbl2.AutoSize = true;
+            this.UsrRegDateLbl2.Location = new System.Drawing.Point(96, 184);
+            this.UsrRegDateLbl2.Name = "UsrRegDateLbl2";
+            this.UsrRegDateLbl2.Size = new System.Drawing.Size(43, 13);
+            this.UsrRegDateLbl2.TabIndex = 20;
+            this.UsrRegDateLbl2.Text = "regdate";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(6, 184);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(92, 13);
+            this.label94.TabIndex = 19;
+            this.label94.Text = "Registration Date:";
+            // 
+            // UsrUnreadConvoLbl2
+            // 
+            this.UsrUnreadConvoLbl2.AutoSize = true;
+            this.UsrUnreadConvoLbl2.Location = new System.Drawing.Point(120, 169);
+            this.UsrUnreadConvoLbl2.Name = "UsrUnreadConvoLbl2";
+            this.UsrUnreadConvoLbl2.Size = new System.Drawing.Size(97, 13);
+            this.UsrUnreadConvoLbl2.TabIndex = 18;
+            this.UsrUnreadConvoLbl2.Text = "unreadconvocount";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(6, 169);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(115, 13);
+            this.label96.TabIndex = 17;
+            this.label96.Text = "Unread Conversations:";
+            // 
+            // UsrMsgCntLbl2
+            // 
+            this.UsrMsgCntLbl2.AutoSize = true;
+            this.UsrMsgCntLbl2.Location = new System.Drawing.Point(89, 156);
+            this.UsrMsgCntLbl2.Name = "UsrMsgCntLbl2";
+            this.UsrMsgCntLbl2.Size = new System.Drawing.Size(53, 13);
+            this.UsrMsgCntLbl2.TabIndex = 16;
+            this.UsrMsgCntLbl2.Text = "msgcount";
+            // 
+            // UsrUnreadAlertsLbl2
+            // 
+            this.UsrUnreadAlertsLbl2.AutoSize = true;
+            this.UsrUnreadAlertsLbl2.BackColor = System.Drawing.Color.Transparent;
+            this.UsrUnreadAlertsLbl2.Location = new System.Drawing.Point(77, 197);
+            this.UsrUnreadAlertsLbl2.Name = "UsrUnreadAlertsLbl2";
+            this.UsrUnreadAlertsLbl2.Size = new System.Drawing.Size(65, 13);
+            this.UsrUnreadAlertsLbl2.TabIndex = 44;
+            this.UsrUnreadAlertsLbl2.Text = "unreadalerts";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(6, 156);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(84, 13);
+            this.label99.TabIndex = 15;
+            this.label99.Text = "Message Count:";
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.BackColor = System.Drawing.Color.Transparent;
+            this.label100.Location = new System.Drawing.Point(6, 197);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(74, 13);
+            this.label100.TabIndex = 43;
+            this.label100.Text = "Unread Alerts:";
+            // 
+            // UsrTimeZoneLbl2
+            // 
+            this.UsrTimeZoneLbl2.AutoSize = true;
+            this.UsrTimeZoneLbl2.Location = new System.Drawing.Point(63, 143);
+            this.UsrTimeZoneLbl2.Name = "UsrTimeZoneLbl2";
+            this.UsrTimeZoneLbl2.Size = new System.Drawing.Size(49, 13);
+            this.UsrTimeZoneLbl2.TabIndex = 12;
+            this.UsrTimeZoneLbl2.Text = "timezone";
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(6, 143);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(61, 13);
+            this.label102.TabIndex = 11;
+            this.label102.Text = "Time Zone:";
+            // 
+            // UsrTitleLbl2
+            // 
+            this.UsrTitleLbl2.AutoSize = true;
+            this.UsrTitleLbl2.Location = new System.Drawing.Point(35, 102);
+            this.UsrTitleLbl2.Name = "UsrTitleLbl2";
+            this.UsrTitleLbl2.Size = new System.Drawing.Size(52, 13);
+            this.UsrTitleLbl2.TabIndex = 10;
+            this.UsrTitleLbl2.Text = "User Title";
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(6, 102);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(30, 13);
+            this.label104.TabIndex = 9;
+            this.label104.Text = "Title:";
+            // 
+            // UsrEmailLbl2
+            // 
+            this.UsrEmailLbl2.AutoSize = true;
+            this.UsrEmailLbl2.Location = new System.Drawing.Point(39, 117);
+            this.UsrEmailLbl2.Name = "UsrEmailLbl2";
+            this.UsrEmailLbl2.Size = new System.Drawing.Size(31, 13);
+            this.UsrEmailLbl2.TabIndex = 6;
+            this.UsrEmailLbl2.Text = "email";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(6, 117);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(35, 13);
+            this.label106.TabIndex = 5;
+            this.label106.Text = "Email:";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.BackColor = System.Drawing.Color.Transparent;
+            this.label107.Location = new System.Drawing.Point(6, 130);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(82, 13);
+            this.label107.TabIndex = 29;
+            this.label107.Text = "Warning Points:";
+            // 
+            // UsrWrningPntsLbl2
+            // 
+            this.UsrWrningPntsLbl2.AutoSize = true;
+            this.UsrWrningPntsLbl2.BackColor = System.Drawing.Color.Transparent;
+            this.UsrWrningPntsLbl2.Location = new System.Drawing.Point(86, 130);
+            this.UsrWrningPntsLbl2.Name = "UsrWrningPntsLbl2";
+            this.UsrWrningPntsLbl2.Size = new System.Drawing.Size(72, 13);
+            this.UsrWrningPntsLbl2.TabIndex = 30;
+            this.UsrWrningPntsLbl2.Text = "warningpoints";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(783, 321);
+            this.textBox1.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(272, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "2.6";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel1.Location = new System.Drawing.Point(272, 22);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(22, 13);
+            this.linkLabel1.TabIndex = 2;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "2.4";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(179, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Latest Version";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(179, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Program Version:";
+            // 
+            // ribbonPanel10
+            // 
+            this.ribbonPanel10.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel10.Controls.Add(this.UsrPnl8);
+            this.ribbonPanel10.Controls.Add(this.groupPanel4);
+            this.ribbonPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel10.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel10.Name = "ribbonPanel10";
+            this.ribbonPanel10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel10.Size = new System.Drawing.Size(980, 414);
+            // 
+            // 
+            // 
+            this.ribbonPanel10.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel10.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel10.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel10.TabIndex = 11;
+            this.ribbonPanel10.Visible = false;
+            // 
+            // UsrPnl8
+            // 
+            this.UsrPnl8.BackColor = System.Drawing.Color.Transparent;
+            this.UsrPnl8.CanvasColor = System.Drawing.SystemColors.Control;
+            this.UsrPnl8.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.UsrPnl8.Controls.Add(this.UsrRegDateLbl8);
+            this.UsrPnl8.Controls.Add(this.label15);
+            this.UsrPnl8.Controls.Add(this.UsrUnreadConvoLbl8);
+            this.UsrPnl8.Controls.Add(this.label93);
+            this.UsrPnl8.Controls.Add(this.UsrMsgCntLbl8);
+            this.UsrPnl8.Controls.Add(this.UsrUnreadAlertsLbl8);
+            this.UsrPnl8.Controls.Add(this.label98);
+            this.UsrPnl8.Controls.Add(this.label101);
+            this.UsrPnl8.Controls.Add(this.UsrTimeZoneLbl8);
+            this.UsrPnl8.Controls.Add(this.label105);
+            this.UsrPnl8.Controls.Add(this.UsrTitleLbl8);
+            this.UsrPnl8.Controls.Add(this.label109);
+            this.UsrPnl8.Controls.Add(this.UsrEmailLbl8);
+            this.UsrPnl8.Controls.Add(this.label113);
+            this.UsrPnl8.Controls.Add(this.UsrAvitarPic8);
+            this.UsrPnl8.Controls.Add(this.label114);
+            this.UsrPnl8.Controls.Add(this.UsrWrningPntsLbl8);
+            this.UsrPnl8.Location = new System.Drawing.Point(3, 3);
+            this.UsrPnl8.Name = "UsrPnl8";
+            this.UsrPnl8.Size = new System.Drawing.Size(170, 234);
+            // 
+            // 
+            // 
+            this.UsrPnl8.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.UsrPnl8.Style.BackColorGradientAngle = 90;
+            this.UsrPnl8.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.UsrPnl8.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl8.Style.BorderBottomWidth = 1;
+            this.UsrPnl8.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.UsrPnl8.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl8.Style.BorderLeftWidth = 1;
+            this.UsrPnl8.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl8.Style.BorderRightWidth = 1;
+            this.UsrPnl8.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl8.Style.BorderTopWidth = 1;
+            this.UsrPnl8.Style.CornerDiameter = 4;
+            this.UsrPnl8.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.UsrPnl8.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.UsrPnl8.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.UsrPnl8.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.UsrPnl8.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.UsrPnl8.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.UsrPnl8.TabIndex = 50;
+            this.UsrPnl8.Text = "User Info";
+            // 
+            // UsrRegDateLbl8
+            // 
+            this.UsrRegDateLbl8.AutoSize = true;
+            this.UsrRegDateLbl8.Location = new System.Drawing.Point(96, 184);
+            this.UsrRegDateLbl8.Name = "UsrRegDateLbl8";
+            this.UsrRegDateLbl8.Size = new System.Drawing.Size(43, 13);
+            this.UsrRegDateLbl8.TabIndex = 20;
+            this.UsrRegDateLbl8.Text = "regdate";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(6, 184);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(92, 13);
+            this.label15.TabIndex = 19;
+            this.label15.Text = "Registration Date:";
+            // 
+            // UsrUnreadConvoLbl8
+            // 
+            this.UsrUnreadConvoLbl8.AutoSize = true;
+            this.UsrUnreadConvoLbl8.Location = new System.Drawing.Point(120, 169);
+            this.UsrUnreadConvoLbl8.Name = "UsrUnreadConvoLbl8";
+            this.UsrUnreadConvoLbl8.Size = new System.Drawing.Size(97, 13);
+            this.UsrUnreadConvoLbl8.TabIndex = 18;
+            this.UsrUnreadConvoLbl8.Text = "unreadconvocount";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(6, 169);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(115, 13);
+            this.label93.TabIndex = 17;
+            this.label93.Text = "Unread Conversations:";
+            // 
+            // UsrMsgCntLbl8
+            // 
+            this.UsrMsgCntLbl8.AutoSize = true;
+            this.UsrMsgCntLbl8.Location = new System.Drawing.Point(89, 156);
+            this.UsrMsgCntLbl8.Name = "UsrMsgCntLbl8";
+            this.UsrMsgCntLbl8.Size = new System.Drawing.Size(53, 13);
+            this.UsrMsgCntLbl8.TabIndex = 16;
+            this.UsrMsgCntLbl8.Text = "msgcount";
+            // 
+            // UsrUnreadAlertsLbl8
+            // 
+            this.UsrUnreadAlertsLbl8.AutoSize = true;
+            this.UsrUnreadAlertsLbl8.BackColor = System.Drawing.Color.Transparent;
+            this.UsrUnreadAlertsLbl8.Location = new System.Drawing.Point(77, 197);
+            this.UsrUnreadAlertsLbl8.Name = "UsrUnreadAlertsLbl8";
+            this.UsrUnreadAlertsLbl8.Size = new System.Drawing.Size(65, 13);
+            this.UsrUnreadAlertsLbl8.TabIndex = 44;
+            this.UsrUnreadAlertsLbl8.Text = "unreadalerts";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(6, 156);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(84, 13);
+            this.label98.TabIndex = 15;
+            this.label98.Text = "Message Count:";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.BackColor = System.Drawing.Color.Transparent;
+            this.label101.Location = new System.Drawing.Point(6, 197);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(74, 13);
+            this.label101.TabIndex = 43;
+            this.label101.Text = "Unread Alerts:";
+            // 
+            // UsrTimeZoneLbl8
+            // 
+            this.UsrTimeZoneLbl8.AutoSize = true;
+            this.UsrTimeZoneLbl8.Location = new System.Drawing.Point(63, 143);
+            this.UsrTimeZoneLbl8.Name = "UsrTimeZoneLbl8";
+            this.UsrTimeZoneLbl8.Size = new System.Drawing.Size(49, 13);
+            this.UsrTimeZoneLbl8.TabIndex = 12;
+            this.UsrTimeZoneLbl8.Text = "timezone";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(6, 143);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(61, 13);
+            this.label105.TabIndex = 11;
+            this.label105.Text = "Time Zone:";
+            // 
+            // UsrTitleLbl8
+            // 
+            this.UsrTitleLbl8.AutoSize = true;
+            this.UsrTitleLbl8.Location = new System.Drawing.Point(35, 102);
+            this.UsrTitleLbl8.Name = "UsrTitleLbl8";
+            this.UsrTitleLbl8.Size = new System.Drawing.Size(52, 13);
+            this.UsrTitleLbl8.TabIndex = 10;
+            this.UsrTitleLbl8.Text = "User Title";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(6, 102);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(30, 13);
+            this.label109.TabIndex = 9;
+            this.label109.Text = "Title:";
+            // 
+            // UsrEmailLbl8
+            // 
+            this.UsrEmailLbl8.AutoSize = true;
+            this.UsrEmailLbl8.Location = new System.Drawing.Point(39, 117);
+            this.UsrEmailLbl8.Name = "UsrEmailLbl8";
+            this.UsrEmailLbl8.Size = new System.Drawing.Size(31, 13);
+            this.UsrEmailLbl8.TabIndex = 6;
+            this.UsrEmailLbl8.Text = "email";
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(6, 117);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(35, 13);
+            this.label113.TabIndex = 5;
+            this.label113.Text = "Email:";
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.BackColor = System.Drawing.Color.Transparent;
+            this.label114.Location = new System.Drawing.Point(6, 130);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(82, 13);
+            this.label114.TabIndex = 29;
+            this.label114.Text = "Warning Points:";
+            // 
+            // UsrWrningPntsLbl8
+            // 
+            this.UsrWrningPntsLbl8.AutoSize = true;
+            this.UsrWrningPntsLbl8.BackColor = System.Drawing.Color.Transparent;
+            this.UsrWrningPntsLbl8.Location = new System.Drawing.Point(86, 130);
+            this.UsrWrningPntsLbl8.Name = "UsrWrningPntsLbl8";
+            this.UsrWrningPntsLbl8.Size = new System.Drawing.Size(72, 13);
+            this.UsrWrningPntsLbl8.TabIndex = 30;
+            this.UsrWrningPntsLbl8.Text = "warningpoints";
+            // 
+            // groupPanel4
+            // 
+            this.groupPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel4.Controls.Add(this.button5);
+            this.groupPanel4.Controls.Add(this.label76);
+            this.groupPanel4.Controls.Add(this.label89);
+            this.groupPanel4.Controls.Add(this.label79);
+            this.groupPanel4.Controls.Add(this.textBox8);
+            this.groupPanel4.Controls.Add(this.label87);
+            this.groupPanel4.Controls.Add(this.radioButton3);
+            this.groupPanel4.Controls.Add(this.label85);
+            this.groupPanel4.Controls.Add(this.radioButton2);
+            this.groupPanel4.Controls.Add(this.radioButton1);
+            this.groupPanel4.Location = new System.Drawing.Point(179, 12);
+            this.groupPanel4.Name = "groupPanel4";
+            this.groupPanel4.Size = new System.Drawing.Size(257, 287);
+            // 
+            // 
+            // 
+            this.groupPanel4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel4.Style.BackColorGradientAngle = 90;
+            this.groupPanel4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderBottomWidth = 1;
+            this.groupPanel4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderLeftWidth = 1;
+            this.groupPanel4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderRightWidth = 1;
+            this.groupPanel4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel4.Style.BorderTopWidth = 1;
+            this.groupPanel4.Style.CornerDiameter = 4;
+            this.groupPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel4.TabIndex = 9;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(149, 249);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Submit";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.BackColor = System.Drawing.Color.Transparent;
+            this.label76.Location = new System.Drawing.Point(4, 11);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(83, 13);
+            this.label76.TabIndex = 0;
+            this.label76.Text = "Your Username:";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.BackColor = System.Drawing.Color.Transparent;
+            this.label89.Location = new System.Drawing.Point(6, 118);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(65, 13);
+            this.label89.TabIndex = 8;
+            this.label89.Text = "Extra Notes:";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.BackColor = System.Drawing.Color.Transparent;
+            this.label79.Location = new System.Drawing.Point(93, 9);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(27, 13);
+            this.label79.TabIndex = 1;
+            this.label79.Text = "user";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(19, 139);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(205, 104);
+            this.textBox8.TabIndex = 7;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.BackColor = System.Drawing.Color.Transparent;
+            this.label87.Location = new System.Drawing.Point(4, 27);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(60, 13);
+            this.label87.TabIndex = 2;
+            this.label87.Text = "Your Email:";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton3.Location = new System.Drawing.Point(9, 90);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(120, 17);
+            this.radioButton3.TabIndex = 6;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Proxy Failure Report";
+            this.radioButton3.UseVisualStyleBackColor = false;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.BackColor = System.Drawing.Color.Transparent;
+            this.label85.Location = new System.Drawing.Point(93, 27);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(31, 13);
+            this.label85.TabIndex = 3;
+            this.label85.Text = "email";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton2.Checked = true;
+            this.radioButton2.Location = new System.Drawing.Point(9, 66);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(131, 17);
+            this.radioButton2.TabIndex = 5;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Suggestion/Feedback";
+            this.radioButton2.UseVisualStyleBackColor = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.Location = new System.Drawing.Point(9, 43);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(79, 17);
+            this.radioButton1.TabIndex = 4;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Bug Report";
+            this.radioButton1.UseVisualStyleBackColor = false;
+            // 
             // ribbonPanel2
             // 
             this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonPanel2.Controls.Add(this.superTabControl3);
             this.ribbonPanel2.Controls.Add(this.UsrPnl6);
             this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 0);
             this.ribbonPanel2.Name = "ribbonPanel2";
             this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(980, 414);
+            this.ribbonPanel2.Size = new System.Drawing.Size(980, 467);
             // 
             // 
             // 
@@ -1035,14 +2480,6 @@
             this.label122.TabIndex = 5;
             this.label122.Text = "Email:";
             // 
-            // UsrAvitarPic6
-            // 
-            this.UsrAvitarPic6.Location = new System.Drawing.Point(32, 3);
-            this.UsrAvitarPic6.Name = "UsrAvitarPic6";
-            this.UsrAvitarPic6.Size = new System.Drawing.Size(96, 96);
-            this.UsrAvitarPic6.TabIndex = 0;
-            this.UsrAvitarPic6.TabStop = false;
-            // 
             // label123
             // 
             this.label123.AutoSize = true;
@@ -1062,763 +2499,6 @@
             this.UsrWrningPntsLbl6.Size = new System.Drawing.Size(72, 13);
             this.UsrWrningPntsLbl6.TabIndex = 30;
             this.UsrWrningPntsLbl6.Text = "warningpoints";
-            // 
-            // ribbonPanel4
-            // 
-            this.ribbonPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel4.Controls.Add(this.groupBox27);
-            this.ribbonPanel4.Controls.Add(this.label71);
-            this.ribbonPanel4.Controls.Add(this.UsrPnl2);
-            this.ribbonPanel4.Controls.Add(this.pictureBox1);
-            this.ribbonPanel4.Controls.Add(this.label4);
-            this.ribbonPanel4.Controls.Add(this.textBox1);
-            this.ribbonPanel4.Controls.Add(this.label3);
-            this.ribbonPanel4.Controls.Add(this.linkLabel1);
-            this.ribbonPanel4.Controls.Add(this.label2);
-            this.ribbonPanel4.Controls.Add(this.label1);
-            this.ribbonPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel4.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel4.Name = "ribbonPanel4";
-            this.ribbonPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel4.Size = new System.Drawing.Size(980, 414);
-            // 
-            // 
-            // 
-            this.ribbonPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel4.TabIndex = 4;
-            // 
-            // groupBox27
-            // 
-            this.groupBox27.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox27.Controls.Add(this.label5);
-            this.groupBox27.Controls.Add(this.suggstSiteTxt);
-            this.groupBox27.Controls.Add(this.button4);
-            this.groupBox27.Location = new System.Drawing.Point(3, 242);
-            this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(173, 139);
-            this.groupBox27.TabIndex = 51;
-            this.groupBox27.TabStop = false;
-            this.groupBox27.Text = "Site Suggestions";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 19);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(153, 52);
-            this.label5.TabIndex = 50;
-            this.label5.Text = "Think we should add a site to\r\nThe Elite Patch? Enter it below\r\nand it will be ad" +
-    "ded to the \r\nnext update!";
-            // 
-            // suggstSiteTxt
-            // 
-            this.suggstSiteTxt.Location = new System.Drawing.Point(6, 80);
-            this.suggstSiteTxt.Name = "suggstSiteTxt";
-            this.suggstSiteTxt.Size = new System.Drawing.Size(158, 20);
-            this.suggstSiteTxt.TabIndex = 49;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(6, 103);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(158, 23);
-            this.button4.TabIndex = 48;
-            this.button4.Text = "Suggest";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.BackColor = System.Drawing.Color.Transparent;
-            this.label71.Location = new System.Drawing.Point(272, 22);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(22, 13);
-            this.label71.TabIndex = 20;
-            this.label71.Text = "2.5";
-            // 
-            // UsrPnl2
-            // 
-            this.UsrPnl2.BackColor = System.Drawing.Color.Transparent;
-            this.UsrPnl2.CanvasColor = System.Drawing.SystemColors.Control;
-            this.UsrPnl2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.UsrPnl2.Controls.Add(this.UsrRegDateLbl2);
-            this.UsrPnl2.Controls.Add(this.label94);
-            this.UsrPnl2.Controls.Add(this.UsrUnreadConvoLbl2);
-            this.UsrPnl2.Controls.Add(this.label96);
-            this.UsrPnl2.Controls.Add(this.UsrMsgCntLbl2);
-            this.UsrPnl2.Controls.Add(this.UsrUnreadAlertsLbl2);
-            this.UsrPnl2.Controls.Add(this.label99);
-            this.UsrPnl2.Controls.Add(this.label100);
-            this.UsrPnl2.Controls.Add(this.UsrTimeZoneLbl2);
-            this.UsrPnl2.Controls.Add(this.label102);
-            this.UsrPnl2.Controls.Add(this.UsrTitleLbl2);
-            this.UsrPnl2.Controls.Add(this.label104);
-            this.UsrPnl2.Controls.Add(this.UsrEmailLbl2);
-            this.UsrPnl2.Controls.Add(this.label106);
-            this.UsrPnl2.Controls.Add(this.UsrAvitarPic2);
-            this.UsrPnl2.Controls.Add(this.label107);
-            this.UsrPnl2.Controls.Add(this.UsrWrningPntsLbl2);
-            this.UsrPnl2.Location = new System.Drawing.Point(3, 3);
-            this.UsrPnl2.Name = "UsrPnl2";
-            this.UsrPnl2.Size = new System.Drawing.Size(170, 234);
-            // 
-            // 
-            // 
-            this.UsrPnl2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.UsrPnl2.Style.BackColorGradientAngle = 90;
-            this.UsrPnl2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.UsrPnl2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl2.Style.BorderBottomWidth = 1;
-            this.UsrPnl2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.UsrPnl2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl2.Style.BorderLeftWidth = 1;
-            this.UsrPnl2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl2.Style.BorderRightWidth = 1;
-            this.UsrPnl2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl2.Style.BorderTopWidth = 1;
-            this.UsrPnl2.Style.CornerDiameter = 4;
-            this.UsrPnl2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.UsrPnl2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.UsrPnl2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.UsrPnl2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.UsrPnl2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.UsrPnl2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.UsrPnl2.TabIndex = 19;
-            this.UsrPnl2.Text = "User Info";
-            // 
-            // UsrRegDateLbl2
-            // 
-            this.UsrRegDateLbl2.AutoSize = true;
-            this.UsrRegDateLbl2.Location = new System.Drawing.Point(96, 184);
-            this.UsrRegDateLbl2.Name = "UsrRegDateLbl2";
-            this.UsrRegDateLbl2.Size = new System.Drawing.Size(43, 13);
-            this.UsrRegDateLbl2.TabIndex = 20;
-            this.UsrRegDateLbl2.Text = "regdate";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(6, 184);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(92, 13);
-            this.label94.TabIndex = 19;
-            this.label94.Text = "Registration Date:";
-            // 
-            // UsrUnreadConvoLbl2
-            // 
-            this.UsrUnreadConvoLbl2.AutoSize = true;
-            this.UsrUnreadConvoLbl2.Location = new System.Drawing.Point(120, 169);
-            this.UsrUnreadConvoLbl2.Name = "UsrUnreadConvoLbl2";
-            this.UsrUnreadConvoLbl2.Size = new System.Drawing.Size(97, 13);
-            this.UsrUnreadConvoLbl2.TabIndex = 18;
-            this.UsrUnreadConvoLbl2.Text = "unreadconvocount";
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(6, 169);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(115, 13);
-            this.label96.TabIndex = 17;
-            this.label96.Text = "Unread Conversations:";
-            // 
-            // UsrMsgCntLbl2
-            // 
-            this.UsrMsgCntLbl2.AutoSize = true;
-            this.UsrMsgCntLbl2.Location = new System.Drawing.Point(89, 156);
-            this.UsrMsgCntLbl2.Name = "UsrMsgCntLbl2";
-            this.UsrMsgCntLbl2.Size = new System.Drawing.Size(53, 13);
-            this.UsrMsgCntLbl2.TabIndex = 16;
-            this.UsrMsgCntLbl2.Text = "msgcount";
-            // 
-            // UsrUnreadAlertsLbl2
-            // 
-            this.UsrUnreadAlertsLbl2.AutoSize = true;
-            this.UsrUnreadAlertsLbl2.BackColor = System.Drawing.Color.Transparent;
-            this.UsrUnreadAlertsLbl2.Location = new System.Drawing.Point(77, 197);
-            this.UsrUnreadAlertsLbl2.Name = "UsrUnreadAlertsLbl2";
-            this.UsrUnreadAlertsLbl2.Size = new System.Drawing.Size(65, 13);
-            this.UsrUnreadAlertsLbl2.TabIndex = 44;
-            this.UsrUnreadAlertsLbl2.Text = "unreadalerts";
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(6, 156);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(84, 13);
-            this.label99.TabIndex = 15;
-            this.label99.Text = "Message Count:";
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.BackColor = System.Drawing.Color.Transparent;
-            this.label100.Location = new System.Drawing.Point(6, 197);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(74, 13);
-            this.label100.TabIndex = 43;
-            this.label100.Text = "Unread Alerts:";
-            // 
-            // UsrTimeZoneLbl2
-            // 
-            this.UsrTimeZoneLbl2.AutoSize = true;
-            this.UsrTimeZoneLbl2.Location = new System.Drawing.Point(63, 143);
-            this.UsrTimeZoneLbl2.Name = "UsrTimeZoneLbl2";
-            this.UsrTimeZoneLbl2.Size = new System.Drawing.Size(49, 13);
-            this.UsrTimeZoneLbl2.TabIndex = 12;
-            this.UsrTimeZoneLbl2.Text = "timezone";
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(6, 143);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(61, 13);
-            this.label102.TabIndex = 11;
-            this.label102.Text = "Time Zone:";
-            // 
-            // UsrTitleLbl2
-            // 
-            this.UsrTitleLbl2.AutoSize = true;
-            this.UsrTitleLbl2.Location = new System.Drawing.Point(35, 102);
-            this.UsrTitleLbl2.Name = "UsrTitleLbl2";
-            this.UsrTitleLbl2.Size = new System.Drawing.Size(52, 13);
-            this.UsrTitleLbl2.TabIndex = 10;
-            this.UsrTitleLbl2.Text = "User Title";
-            // 
-            // label104
-            // 
-            this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(6, 102);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(30, 13);
-            this.label104.TabIndex = 9;
-            this.label104.Text = "Title:";
-            // 
-            // UsrEmailLbl2
-            // 
-            this.UsrEmailLbl2.AutoSize = true;
-            this.UsrEmailLbl2.Location = new System.Drawing.Point(39, 117);
-            this.UsrEmailLbl2.Name = "UsrEmailLbl2";
-            this.UsrEmailLbl2.Size = new System.Drawing.Size(31, 13);
-            this.UsrEmailLbl2.TabIndex = 6;
-            this.UsrEmailLbl2.Text = "email";
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(6, 117);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(35, 13);
-            this.label106.TabIndex = 5;
-            this.label106.Text = "Email:";
-            // 
-            // UsrAvitarPic2
-            // 
-            this.UsrAvitarPic2.Location = new System.Drawing.Point(32, 3);
-            this.UsrAvitarPic2.Name = "UsrAvitarPic2";
-            this.UsrAvitarPic2.Size = new System.Drawing.Size(96, 96);
-            this.UsrAvitarPic2.TabIndex = 0;
-            this.UsrAvitarPic2.TabStop = false;
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.BackColor = System.Drawing.Color.Transparent;
-            this.label107.Location = new System.Drawing.Point(6, 130);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(82, 13);
-            this.label107.TabIndex = 29;
-            this.label107.Text = "Warning Points:";
-            // 
-            // UsrWrningPntsLbl2
-            // 
-            this.UsrWrningPntsLbl2.AutoSize = true;
-            this.UsrWrningPntsLbl2.BackColor = System.Drawing.Color.Transparent;
-            this.UsrWrningPntsLbl2.Location = new System.Drawing.Point(86, 130);
-            this.UsrWrningPntsLbl2.Name = "UsrWrningPntsLbl2";
-            this.UsrWrningPntsLbl2.Size = new System.Drawing.Size(72, 13);
-            this.UsrWrningPntsLbl2.TabIndex = 30;
-            this.UsrWrningPntsLbl2.Text = "warningpoints";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::The_Elite_Patcher.Properties.Resources.blue_circle;
-            this.pictureBox1.Location = new System.Drawing.Point(949, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            this.toolTip1.SetToolTip(this.pictureBox1, "Green = Md5 Matches\r\nRed = Md5 Mismatch\r\nBlue = Undetermined");
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(179, 34);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "News:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(182, 50);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(786, 361);
-            this.textBox1.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(272, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(22, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "2.6";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Location = new System.Drawing.Point(272, 22);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(22, 13);
-            this.linkLabel1.TabIndex = 2;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "2.4";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(179, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Latest Version";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(179, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Program Version:";
-            // 
-            // ribbonPanel10
-            // 
-            this.ribbonPanel10.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel10.Controls.Add(this.UsrPnl8);
-            this.ribbonPanel10.Controls.Add(this.groupPanel4);
-            this.ribbonPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel10.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel10.Name = "ribbonPanel10";
-            this.ribbonPanel10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel10.Size = new System.Drawing.Size(980, 414);
-            // 
-            // 
-            // 
-            this.ribbonPanel10.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel10.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel10.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel10.TabIndex = 11;
-            this.ribbonPanel10.Visible = false;
-            // 
-            // UsrPnl8
-            // 
-            this.UsrPnl8.BackColor = System.Drawing.Color.Transparent;
-            this.UsrPnl8.CanvasColor = System.Drawing.SystemColors.Control;
-            this.UsrPnl8.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.UsrPnl8.Controls.Add(this.UsrRegDateLbl8);
-            this.UsrPnl8.Controls.Add(this.label15);
-            this.UsrPnl8.Controls.Add(this.UsrUnreadConvoLbl8);
-            this.UsrPnl8.Controls.Add(this.label93);
-            this.UsrPnl8.Controls.Add(this.UsrMsgCntLbl8);
-            this.UsrPnl8.Controls.Add(this.UsrUnreadAlertsLbl8);
-            this.UsrPnl8.Controls.Add(this.label98);
-            this.UsrPnl8.Controls.Add(this.label101);
-            this.UsrPnl8.Controls.Add(this.UsrTimeZoneLbl8);
-            this.UsrPnl8.Controls.Add(this.label105);
-            this.UsrPnl8.Controls.Add(this.UsrTitleLbl8);
-            this.UsrPnl8.Controls.Add(this.label109);
-            this.UsrPnl8.Controls.Add(this.UsrEmailLbl8);
-            this.UsrPnl8.Controls.Add(this.label113);
-            this.UsrPnl8.Controls.Add(this.UsrAvitarPic8);
-            this.UsrPnl8.Controls.Add(this.label114);
-            this.UsrPnl8.Controls.Add(this.UsrWrningPntsLbl8);
-            this.UsrPnl8.Location = new System.Drawing.Point(3, 3);
-            this.UsrPnl8.Name = "UsrPnl8";
-            this.UsrPnl8.Size = new System.Drawing.Size(170, 234);
-            // 
-            // 
-            // 
-            this.UsrPnl8.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.UsrPnl8.Style.BackColorGradientAngle = 90;
-            this.UsrPnl8.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.UsrPnl8.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl8.Style.BorderBottomWidth = 1;
-            this.UsrPnl8.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.UsrPnl8.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl8.Style.BorderLeftWidth = 1;
-            this.UsrPnl8.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl8.Style.BorderRightWidth = 1;
-            this.UsrPnl8.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl8.Style.BorderTopWidth = 1;
-            this.UsrPnl8.Style.CornerDiameter = 4;
-            this.UsrPnl8.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.UsrPnl8.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.UsrPnl8.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.UsrPnl8.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.UsrPnl8.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.UsrPnl8.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.UsrPnl8.TabIndex = 50;
-            this.UsrPnl8.Text = "User Info";
-            // 
-            // UsrRegDateLbl8
-            // 
-            this.UsrRegDateLbl8.AutoSize = true;
-            this.UsrRegDateLbl8.Location = new System.Drawing.Point(96, 184);
-            this.UsrRegDateLbl8.Name = "UsrRegDateLbl8";
-            this.UsrRegDateLbl8.Size = new System.Drawing.Size(43, 13);
-            this.UsrRegDateLbl8.TabIndex = 20;
-            this.UsrRegDateLbl8.Text = "regdate";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 184);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(92, 13);
-            this.label15.TabIndex = 19;
-            this.label15.Text = "Registration Date:";
-            // 
-            // UsrUnreadConvoLbl8
-            // 
-            this.UsrUnreadConvoLbl8.AutoSize = true;
-            this.UsrUnreadConvoLbl8.Location = new System.Drawing.Point(120, 169);
-            this.UsrUnreadConvoLbl8.Name = "UsrUnreadConvoLbl8";
-            this.UsrUnreadConvoLbl8.Size = new System.Drawing.Size(97, 13);
-            this.UsrUnreadConvoLbl8.TabIndex = 18;
-            this.UsrUnreadConvoLbl8.Text = "unreadconvocount";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(6, 169);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(115, 13);
-            this.label93.TabIndex = 17;
-            this.label93.Text = "Unread Conversations:";
-            // 
-            // UsrMsgCntLbl8
-            // 
-            this.UsrMsgCntLbl8.AutoSize = true;
-            this.UsrMsgCntLbl8.Location = new System.Drawing.Point(89, 156);
-            this.UsrMsgCntLbl8.Name = "UsrMsgCntLbl8";
-            this.UsrMsgCntLbl8.Size = new System.Drawing.Size(53, 13);
-            this.UsrMsgCntLbl8.TabIndex = 16;
-            this.UsrMsgCntLbl8.Text = "msgcount";
-            // 
-            // UsrUnreadAlertsLbl8
-            // 
-            this.UsrUnreadAlertsLbl8.AutoSize = true;
-            this.UsrUnreadAlertsLbl8.BackColor = System.Drawing.Color.Transparent;
-            this.UsrUnreadAlertsLbl8.Location = new System.Drawing.Point(77, 197);
-            this.UsrUnreadAlertsLbl8.Name = "UsrUnreadAlertsLbl8";
-            this.UsrUnreadAlertsLbl8.Size = new System.Drawing.Size(65, 13);
-            this.UsrUnreadAlertsLbl8.TabIndex = 44;
-            this.UsrUnreadAlertsLbl8.Text = "unreadalerts";
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(6, 156);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(84, 13);
-            this.label98.TabIndex = 15;
-            this.label98.Text = "Message Count:";
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.BackColor = System.Drawing.Color.Transparent;
-            this.label101.Location = new System.Drawing.Point(6, 197);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(74, 13);
-            this.label101.TabIndex = 43;
-            this.label101.Text = "Unread Alerts:";
-            // 
-            // UsrTimeZoneLbl8
-            // 
-            this.UsrTimeZoneLbl8.AutoSize = true;
-            this.UsrTimeZoneLbl8.Location = new System.Drawing.Point(63, 143);
-            this.UsrTimeZoneLbl8.Name = "UsrTimeZoneLbl8";
-            this.UsrTimeZoneLbl8.Size = new System.Drawing.Size(49, 13);
-            this.UsrTimeZoneLbl8.TabIndex = 12;
-            this.UsrTimeZoneLbl8.Text = "timezone";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(6, 143);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(61, 13);
-            this.label105.TabIndex = 11;
-            this.label105.Text = "Time Zone:";
-            // 
-            // UsrTitleLbl8
-            // 
-            this.UsrTitleLbl8.AutoSize = true;
-            this.UsrTitleLbl8.Location = new System.Drawing.Point(35, 102);
-            this.UsrTitleLbl8.Name = "UsrTitleLbl8";
-            this.UsrTitleLbl8.Size = new System.Drawing.Size(52, 13);
-            this.UsrTitleLbl8.TabIndex = 10;
-            this.UsrTitleLbl8.Text = "User Title";
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(6, 102);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(30, 13);
-            this.label109.TabIndex = 9;
-            this.label109.Text = "Title:";
-            // 
-            // UsrEmailLbl8
-            // 
-            this.UsrEmailLbl8.AutoSize = true;
-            this.UsrEmailLbl8.Location = new System.Drawing.Point(39, 117);
-            this.UsrEmailLbl8.Name = "UsrEmailLbl8";
-            this.UsrEmailLbl8.Size = new System.Drawing.Size(31, 13);
-            this.UsrEmailLbl8.TabIndex = 6;
-            this.UsrEmailLbl8.Text = "email";
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(6, 117);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(35, 13);
-            this.label113.TabIndex = 5;
-            this.label113.Text = "Email:";
-            // 
-            // UsrAvitarPic8
-            // 
-            this.UsrAvitarPic8.Location = new System.Drawing.Point(32, 3);
-            this.UsrAvitarPic8.Name = "UsrAvitarPic8";
-            this.UsrAvitarPic8.Size = new System.Drawing.Size(96, 96);
-            this.UsrAvitarPic8.TabIndex = 0;
-            this.UsrAvitarPic8.TabStop = false;
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.BackColor = System.Drawing.Color.Transparent;
-            this.label114.Location = new System.Drawing.Point(6, 130);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(82, 13);
-            this.label114.TabIndex = 29;
-            this.label114.Text = "Warning Points:";
-            // 
-            // UsrWrningPntsLbl8
-            // 
-            this.UsrWrningPntsLbl8.AutoSize = true;
-            this.UsrWrningPntsLbl8.BackColor = System.Drawing.Color.Transparent;
-            this.UsrWrningPntsLbl8.Location = new System.Drawing.Point(86, 130);
-            this.UsrWrningPntsLbl8.Name = "UsrWrningPntsLbl8";
-            this.UsrWrningPntsLbl8.Size = new System.Drawing.Size(72, 13);
-            this.UsrWrningPntsLbl8.TabIndex = 30;
-            this.UsrWrningPntsLbl8.Text = "warningpoints";
-            // 
-            // groupPanel4
-            // 
-            this.groupPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.groupPanel4.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel4.Controls.Add(this.button5);
-            this.groupPanel4.Controls.Add(this.label76);
-            this.groupPanel4.Controls.Add(this.label89);
-            this.groupPanel4.Controls.Add(this.label79);
-            this.groupPanel4.Controls.Add(this.textBox8);
-            this.groupPanel4.Controls.Add(this.label87);
-            this.groupPanel4.Controls.Add(this.radioButton3);
-            this.groupPanel4.Controls.Add(this.label85);
-            this.groupPanel4.Controls.Add(this.radioButton2);
-            this.groupPanel4.Controls.Add(this.radioButton1);
-            this.groupPanel4.Location = new System.Drawing.Point(179, 12);
-            this.groupPanel4.Name = "groupPanel4";
-            this.groupPanel4.Size = new System.Drawing.Size(257, 287);
-            // 
-            // 
-            // 
-            this.groupPanel4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel4.Style.BackColorGradientAngle = 90;
-            this.groupPanel4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderBottomWidth = 1;
-            this.groupPanel4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderLeftWidth = 1;
-            this.groupPanel4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderRightWidth = 1;
-            this.groupPanel4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel4.Style.BorderTopWidth = 1;
-            this.groupPanel4.Style.CornerDiameter = 4;
-            this.groupPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel4.TabIndex = 9;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(149, 249);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Submit";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.BackColor = System.Drawing.Color.Transparent;
-            this.label76.Location = new System.Drawing.Point(4, 11);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(83, 13);
-            this.label76.TabIndex = 0;
-            this.label76.Text = "Your Username:";
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.BackColor = System.Drawing.Color.Transparent;
-            this.label89.Location = new System.Drawing.Point(6, 118);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(65, 13);
-            this.label89.TabIndex = 8;
-            this.label89.Text = "Extra Notes:";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.BackColor = System.Drawing.Color.Transparent;
-            this.label79.Location = new System.Drawing.Point(93, 9);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(27, 13);
-            this.label79.TabIndex = 1;
-            this.label79.Text = "user";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(19, 139);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(205, 104);
-            this.textBox8.TabIndex = 7;
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.BackColor = System.Drawing.Color.Transparent;
-            this.label87.Location = new System.Drawing.Point(4, 27);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(60, 13);
-            this.label87.TabIndex = 2;
-            this.label87.Text = "Your Email:";
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Location = new System.Drawing.Point(9, 90);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(120, 17);
-            this.radioButton3.TabIndex = 6;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Proxy Failure Report";
-            this.radioButton3.UseVisualStyleBackColor = false;
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.BackColor = System.Drawing.Color.Transparent;
-            this.label85.Location = new System.Drawing.Point(93, 27);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(31, 13);
-            this.label85.TabIndex = 3;
-            this.label85.Text = "email";
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Checked = true;
-            this.radioButton2.Location = new System.Drawing.Point(9, 66);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(131, 17);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Suggestion/Feedback";
-            this.radioButton2.UseVisualStyleBackColor = false;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Location = new System.Drawing.Point(9, 43);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(79, 17);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Bug Report";
-            this.radioButton1.UseVisualStyleBackColor = false;
             // 
             // ribbonPanel8
             // 
@@ -1863,8 +2543,8 @@
             this.superTabControl1.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl1.ControlBox.MenuBox,
             this.superTabControl1.ControlBox.CloseBox});
-            this.superTabControl1.Controls.Add(this.superTabControlPanel1);
             this.superTabControl1.Controls.Add(this.superTabControlPanel2);
+            this.superTabControl1.Controls.Add(this.superTabControlPanel1);
             this.superTabControl1.ForeColor = System.Drawing.Color.Black;
             this.superTabControl1.Location = new System.Drawing.Point(179, 3);
             this.superTabControl1.Name = "superTabControl1";
@@ -1876,125 +2556,9 @@
             this.superTabControl1.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.superTabControl1.TabIndex = 24;
             this.superTabControl1.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabItem1,
-            this.superTabItem2});
+            this.superTabItem2,
+            this.superTabItem1});
             this.superTabControl1.Text = "superTabControl1";
-            // 
-            // superTabControlPanel1
-            // 
-            this.superTabControlPanel1.Controls.Add(this.server1);
-            this.superTabControlPanel1.Controls.Add(this.server4);
-            this.superTabControlPanel1.Controls.Add(this.server3);
-            this.superTabControlPanel1.Controls.Add(this.server2);
-            this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel1.Name = "superTabControlPanel1";
-            this.superTabControlPanel1.Size = new System.Drawing.Size(698, 382);
-            this.superTabControlPanel1.TabIndex = 1;
-            this.superTabControlPanel1.TabItem = this.superTabItem1;
-            // 
-            // server1
-            // 
-            this.server1.BackColor = System.Drawing.Color.Transparent;
-            this.server1.Controls.Add(this.switchButton1);
-            this.server1.Location = new System.Drawing.Point(6, 8);
-            this.server1.Name = "server1";
-            this.server1.Size = new System.Drawing.Size(123, 50);
-            this.server1.TabIndex = 20;
-            this.server1.TabStop = false;
-            this.server1.Text = "ESO Proxy Server 1";
-            // 
-            // switchButton1
-            // 
-            // 
-            // 
-            // 
-            this.switchButton1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.switchButton1.IsReadOnly = true;
-            this.switchButton1.Location = new System.Drawing.Point(27, 19);
-            this.switchButton1.Name = "switchButton1";
-            this.switchButton1.Size = new System.Drawing.Size(66, 22);
-            this.switchButton1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchButton1.TabIndex = 15;
-            // 
-            // server4
-            // 
-            this.server4.BackColor = System.Drawing.Color.Transparent;
-            this.server4.Controls.Add(this.switchButton4);
-            this.server4.Location = new System.Drawing.Point(382, 8);
-            this.server4.Name = "server4";
-            this.server4.Size = new System.Drawing.Size(118, 50);
-            this.server4.TabIndex = 23;
-            this.server4.TabStop = false;
-            this.server4.Text = "ESO Proxy Server 4";
-            // 
-            // switchButton4
-            // 
-            // 
-            // 
-            // 
-            this.switchButton4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.switchButton4.IsReadOnly = true;
-            this.switchButton4.Location = new System.Drawing.Point(24, 19);
-            this.switchButton4.Name = "switchButton4";
-            this.switchButton4.Size = new System.Drawing.Size(66, 22);
-            this.switchButton4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchButton4.TabIndex = 17;
-            // 
-            // server3
-            // 
-            this.server3.BackColor = System.Drawing.Color.Transparent;
-            this.server3.Controls.Add(this.switchButton3);
-            this.server3.Location = new System.Drawing.Point(258, 8);
-            this.server3.Name = "server3";
-            this.server3.Size = new System.Drawing.Size(118, 50);
-            this.server3.TabIndex = 22;
-            this.server3.TabStop = false;
-            this.server3.Text = "ESO Proxy Server 3";
-            // 
-            // switchButton3
-            // 
-            // 
-            // 
-            // 
-            this.switchButton3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.switchButton3.IsReadOnly = true;
-            this.switchButton3.Location = new System.Drawing.Point(24, 19);
-            this.switchButton3.Name = "switchButton3";
-            this.switchButton3.Size = new System.Drawing.Size(66, 22);
-            this.switchButton3.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchButton3.TabIndex = 17;
-            // 
-            // server2
-            // 
-            this.server2.BackColor = System.Drawing.Color.Transparent;
-            this.server2.Controls.Add(this.switchButton2);
-            this.server2.Location = new System.Drawing.Point(135, 8);
-            this.server2.Name = "server2";
-            this.server2.Size = new System.Drawing.Size(117, 50);
-            this.server2.TabIndex = 21;
-            this.server2.TabStop = false;
-            this.server2.Text = "ESO Proxy Server 2";
-            // 
-            // switchButton2
-            // 
-            // 
-            // 
-            // 
-            this.switchButton2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.switchButton2.IsReadOnly = true;
-            this.switchButton2.Location = new System.Drawing.Point(23, 19);
-            this.switchButton2.Name = "switchButton2";
-            this.switchButton2.Size = new System.Drawing.Size(66, 22);
-            this.switchButton2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchButton2.TabIndex = 16;
-            // 
-            // superTabItem1
-            // 
-            this.superTabItem1.AttachedControl = this.superTabControlPanel1;
-            this.superTabItem1.GlobalItem = false;
-            this.superTabItem1.Name = "superTabItem1";
-            this.superTabItem1.Text = "Proxy Statuses";
             // 
             // superTabControlPanel2
             // 
@@ -2014,7 +2578,7 @@
             this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel2.Name = "superTabControlPanel2";
-            this.superTabControlPanel2.Size = new System.Drawing.Size(698, 382);
+            this.superTabControlPanel2.Size = new System.Drawing.Size(700, 382);
             this.superTabControlPanel2.TabIndex = 0;
             this.superTabControlPanel2.TabItem = this.superTabItem2;
             // 
@@ -2475,14 +3039,6 @@
             this.label81.TabIndex = 5;
             this.label81.Text = "Email:";
             // 
-            // UsrAvitarPic7
-            // 
-            this.UsrAvitarPic7.Location = new System.Drawing.Point(32, 3);
-            this.UsrAvitarPic7.Name = "UsrAvitarPic7";
-            this.UsrAvitarPic7.Size = new System.Drawing.Size(96, 96);
-            this.UsrAvitarPic7.TabIndex = 0;
-            this.UsrAvitarPic7.TabStop = false;
-            // 
             // label82
             // 
             this.label82.AutoSize = true;
@@ -2527,10 +3083,10 @@
             this.ribbonPanel5.Controls.Add(this.groupBox23);
             this.ribbonPanel5.Controls.Add(this.groupBox24);
             this.ribbonPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel5.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel5.Location = new System.Drawing.Point(0, 0);
             this.ribbonPanel5.Name = "ribbonPanel5";
             this.ribbonPanel5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel5.Size = new System.Drawing.Size(980, 414);
+            this.ribbonPanel5.Size = new System.Drawing.Size(980, 467);
             // 
             // 
             // 
@@ -3282,13 +3838,12 @@
             // ribbonPanel7
             // 
             this.ribbonPanel7.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel7.Controls.Add(this.DtlUsrNfoPnl);
             this.ribbonPanel7.Controls.Add(this.UserNfoPanel);
             this.ribbonPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel7.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel7.Location = new System.Drawing.Point(0, 0);
             this.ribbonPanel7.Name = "ribbonPanel7";
             this.ribbonPanel7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel7.Size = new System.Drawing.Size(980, 414);
+            this.ribbonPanel7.Size = new System.Drawing.Size(980, 467);
             // 
             // 
             // 
@@ -3303,6 +3858,506 @@
             this.ribbonPanel7.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel7.TabIndex = 8;
             this.ribbonPanel7.Visible = false;
+            // 
+            // UserNfoPanel
+            // 
+            this.UserNfoPanel.BackColor = System.Drawing.Color.Transparent;
+            this.UserNfoPanel.CanvasColor = System.Drawing.SystemColors.Control;
+            this.UserNfoPanel.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.UserNfoPanel.Controls.Add(this.button36);
+            this.UserNfoPanel.Controls.Add(this.UsrRegDateLbl);
+            this.UserNfoPanel.Controls.Add(this.label56);
+            this.UserNfoPanel.Controls.Add(this.UsrUnreadConvoLbl);
+            this.UserNfoPanel.Controls.Add(this.label54);
+            this.UserNfoPanel.Controls.Add(this.UsrMsgCntLbl);
+            this.UserNfoPanel.Controls.Add(this.UsrUnreadAlertsLbl);
+            this.UserNfoPanel.Controls.Add(this.label52);
+            this.UserNfoPanel.Controls.Add(this.label60);
+            this.UserNfoPanel.Controls.Add(this.UsrTimeZoneLbl);
+            this.UserNfoPanel.Controls.Add(this.label48);
+            this.UserNfoPanel.Controls.Add(this.UserTitleLbl);
+            this.UserNfoPanel.Controls.Add(this.label46);
+            this.UserNfoPanel.Controls.Add(this.UsrEmailLbl);
+            this.UserNfoPanel.Controls.Add(this.label42);
+            this.UserNfoPanel.Controls.Add(this.UsrAvitarPic);
+            this.UserNfoPanel.Controls.Add(this.label47);
+            this.UserNfoPanel.Controls.Add(this.UsrWrningPntsLbl);
+            this.UserNfoPanel.Location = new System.Drawing.Point(3, 3);
+            this.UserNfoPanel.Name = "UserNfoPanel";
+            this.UserNfoPanel.Size = new System.Drawing.Size(170, 264);
+            // 
+            // 
+            // 
+            this.UserNfoPanel.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.UserNfoPanel.Style.BackColorGradientAngle = 90;
+            this.UserNfoPanel.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.UserNfoPanel.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UserNfoPanel.Style.BorderBottomWidth = 1;
+            this.UserNfoPanel.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.UserNfoPanel.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UserNfoPanel.Style.BorderLeftWidth = 1;
+            this.UserNfoPanel.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UserNfoPanel.Style.BorderRightWidth = 1;
+            this.UserNfoPanel.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UserNfoPanel.Style.BorderTopWidth = 1;
+            this.UserNfoPanel.Style.CornerDiameter = 4;
+            this.UserNfoPanel.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.UserNfoPanel.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.UserNfoPanel.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.UserNfoPanel.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.UserNfoPanel.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.UserNfoPanel.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.UserNfoPanel.TabIndex = 4;
+            this.UserNfoPanel.Text = "User Info";
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(9, 213);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(139, 23);
+            this.button36.TabIndex = 50;
+            this.button36.Text = "Detailed Info >>";
+            this.button36.UseVisualStyleBackColor = true;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
+            // 
+            // UsrRegDateLbl
+            // 
+            this.UsrRegDateLbl.AutoSize = true;
+            this.UsrRegDateLbl.Location = new System.Drawing.Point(96, 184);
+            this.UsrRegDateLbl.Name = "UsrRegDateLbl";
+            this.UsrRegDateLbl.Size = new System.Drawing.Size(43, 13);
+            this.UsrRegDateLbl.TabIndex = 20;
+            this.UsrRegDateLbl.Text = "regdate";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(6, 184);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(92, 13);
+            this.label56.TabIndex = 19;
+            this.label56.Text = "Registration Date:";
+            // 
+            // UsrUnreadConvoLbl
+            // 
+            this.UsrUnreadConvoLbl.AutoSize = true;
+            this.UsrUnreadConvoLbl.Location = new System.Drawing.Point(120, 169);
+            this.UsrUnreadConvoLbl.Name = "UsrUnreadConvoLbl";
+            this.UsrUnreadConvoLbl.Size = new System.Drawing.Size(97, 13);
+            this.UsrUnreadConvoLbl.TabIndex = 18;
+            this.UsrUnreadConvoLbl.Text = "unreadconvocount";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(6, 169);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(115, 13);
+            this.label54.TabIndex = 17;
+            this.label54.Text = "Unread Conversations:";
+            // 
+            // UsrMsgCntLbl
+            // 
+            this.UsrMsgCntLbl.AutoSize = true;
+            this.UsrMsgCntLbl.Location = new System.Drawing.Point(89, 156);
+            this.UsrMsgCntLbl.Name = "UsrMsgCntLbl";
+            this.UsrMsgCntLbl.Size = new System.Drawing.Size(53, 13);
+            this.UsrMsgCntLbl.TabIndex = 16;
+            this.UsrMsgCntLbl.Text = "msgcount";
+            // 
+            // UsrUnreadAlertsLbl
+            // 
+            this.UsrUnreadAlertsLbl.AutoSize = true;
+            this.UsrUnreadAlertsLbl.BackColor = System.Drawing.Color.Transparent;
+            this.UsrUnreadAlertsLbl.Location = new System.Drawing.Point(77, 197);
+            this.UsrUnreadAlertsLbl.Name = "UsrUnreadAlertsLbl";
+            this.UsrUnreadAlertsLbl.Size = new System.Drawing.Size(65, 13);
+            this.UsrUnreadAlertsLbl.TabIndex = 44;
+            this.UsrUnreadAlertsLbl.Text = "unreadalerts";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(6, 156);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(84, 13);
+            this.label52.TabIndex = 15;
+            this.label52.Text = "Message Count:";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.BackColor = System.Drawing.Color.Transparent;
+            this.label60.Location = new System.Drawing.Point(6, 197);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(74, 13);
+            this.label60.TabIndex = 43;
+            this.label60.Text = "Unread Alerts:";
+            // 
+            // UsrTimeZoneLbl
+            // 
+            this.UsrTimeZoneLbl.AutoSize = true;
+            this.UsrTimeZoneLbl.Location = new System.Drawing.Point(63, 143);
+            this.UsrTimeZoneLbl.Name = "UsrTimeZoneLbl";
+            this.UsrTimeZoneLbl.Size = new System.Drawing.Size(49, 13);
+            this.UsrTimeZoneLbl.TabIndex = 12;
+            this.UsrTimeZoneLbl.Text = "timezone";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(6, 143);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(61, 13);
+            this.label48.TabIndex = 11;
+            this.label48.Text = "Time Zone:";
+            // 
+            // UserTitleLbl
+            // 
+            this.UserTitleLbl.AutoSize = true;
+            this.UserTitleLbl.Location = new System.Drawing.Point(35, 102);
+            this.UserTitleLbl.Name = "UserTitleLbl";
+            this.UserTitleLbl.Size = new System.Drawing.Size(52, 13);
+            this.UserTitleLbl.TabIndex = 10;
+            this.UserTitleLbl.Text = "User Title";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(6, 102);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(30, 13);
+            this.label46.TabIndex = 9;
+            this.label46.Text = "Title:";
+            // 
+            // UsrEmailLbl
+            // 
+            this.UsrEmailLbl.AutoSize = true;
+            this.UsrEmailLbl.Location = new System.Drawing.Point(39, 117);
+            this.UsrEmailLbl.Name = "UsrEmailLbl";
+            this.UsrEmailLbl.Size = new System.Drawing.Size(31, 13);
+            this.UsrEmailLbl.TabIndex = 6;
+            this.UsrEmailLbl.Text = "email";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(6, 117);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(35, 13);
+            this.label42.TabIndex = 5;
+            this.label42.Text = "Email:";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.Location = new System.Drawing.Point(6, 130);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(82, 13);
+            this.label47.TabIndex = 29;
+            this.label47.Text = "Warning Points:";
+            // 
+            // UsrWrningPntsLbl
+            // 
+            this.UsrWrningPntsLbl.AutoSize = true;
+            this.UsrWrningPntsLbl.BackColor = System.Drawing.Color.Transparent;
+            this.UsrWrningPntsLbl.Location = new System.Drawing.Point(86, 130);
+            this.UsrWrningPntsLbl.Name = "UsrWrningPntsLbl";
+            this.UsrWrningPntsLbl.Size = new System.Drawing.Size(72, 13);
+            this.UsrWrningPntsLbl.TabIndex = 30;
+            this.UsrWrningPntsLbl.Text = "warningpoints";
+            // 
+            // ribbonTabItem3
+            // 
+            this.ribbonTabItem3.Checked = true;
+            this.ribbonTabItem3.Name = "ribbonTabItem3";
+            this.ribbonTabItem3.Panel = this.ribbonPanel4;
+            this.ribbonTabItem3.Text = "Home\r\n";
+            // 
+            // Tools
+            // 
+            this.Tools.Name = "Tools";
+            this.Tools.Panel = this.ribbonPanel3;
+            this.Tools.Text = "Tools";
+            // 
+            // Account
+            // 
+            this.Account.Name = "Account";
+            this.Account.Panel = this.ribbonPanel7;
+            this.Account.Text = "Account";
+            this.Account.Visible = false;
+            // 
+            // ribbonTabItem4
+            // 
+            this.ribbonTabItem4.Name = "ribbonTabItem4";
+            this.ribbonTabItem4.Panel = this.ribbonPanel5;
+            this.ribbonTabItem4.Text = "iOS Tools";
+            this.ribbonTabItem4.Visible = false;
+            // 
+            // Info
+            // 
+            this.Info.Name = "Info";
+            this.Info.Panel = this.ribbonPanel8;
+            this.Info.Text = "Info";
+            // 
+            // ribbonTabItem2
+            // 
+            this.ribbonTabItem2.Name = "ribbonTabItem2";
+            this.ribbonTabItem2.Panel = this.ribbonPanel2;
+            this.ribbonTabItem2.Text = "Updates";
+            // 
+            // ribbonTabItem5
+            // 
+            this.ribbonTabItem5.Name = "ribbonTabItem5";
+            this.ribbonTabItem5.Panel = this.ribbonPanel10;
+            this.ribbonTabItem5.Text = "Bug Reporter";
+            // 
+            // buttonItem14
+            // 
+            this.buttonItem14.Name = "buttonItem14";
+            this.buttonItem14.Text = "Release Thread";
+            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
+            // 
+            // qatCustomizeItem1
+            // 
+            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
+            // 
+            // updchk
+            // 
+            this.updchk.Interval = 300000;
+            this.updchk.Tick += new System.EventHandler(this.updchk_Tick);
+            // 
+            // superTabItem10
+            // 
+            this.superTabItem10.AttachedControl = this.superTabControlPanel10;
+            this.superTabItem10.GlobalItem = false;
+            this.superTabItem10.Name = "superTabItem10";
+            this.superTabItem10.Text = "Hosts Tools";
+            this.superTabItem10.TextAlignment = DevComponents.DotNetBar.eItemAlignment.Center;
+            // 
+            // superTabControlPanel10
+            // 
+            this.superTabControlPanel10.Controls.Add(this.groupPanel5);
+            this.superTabControlPanel10.Controls.Add(this.label62);
+            this.superTabControlPanel10.Controls.Add(this.listBox2);
+            this.superTabControlPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel10.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel10.Name = "superTabControlPanel10";
+            this.superTabControlPanel10.Size = new System.Drawing.Size(783, 357);
+            this.superTabControlPanel10.TabIndex = 0;
+            this.superTabControlPanel10.TabItem = this.superTabItem10;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(3, 26);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.ScrollAlwaysVisible = true;
+            this.listBox2.Size = new System.Drawing.Size(382, 329);
+            this.listBox2.TabIndex = 0;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.BackColor = System.Drawing.Color.Transparent;
+            this.label62.Location = new System.Drawing.Point(3, 6);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(113, 13);
+            this.label62.TabIndex = 1;
+            this.label62.Text = "Contents of Hosts File:";
+            // 
+            // groupPanel5
+            // 
+            this.groupPanel5.BackColor = System.Drawing.Color.White;
+            this.groupPanel5.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel5.Controls.Add(this.button9);
+            this.groupPanel5.Controls.Add(this.button8);
+            this.groupPanel5.Controls.Add(this.button7);
+            this.groupPanel5.Location = new System.Drawing.Point(391, 17);
+            this.groupPanel5.Name = "groupPanel5";
+            this.groupPanel5.Size = new System.Drawing.Size(389, 156);
+            // 
+            // 
+            // 
+            this.groupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel5.Style.BackColorGradientAngle = 90;
+            this.groupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderBottomWidth = 1;
+            this.groupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderLeftWidth = 1;
+            this.groupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderRightWidth = 1;
+            this.groupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel5.Style.BorderTopWidth = 1;
+            this.groupPanel5.Style.CornerDiameter = 4;
+            this.groupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel5.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel5.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel5.TabIndex = 2;
+            this.groupPanel5.Text = "Functions";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(69, 45);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Backup Hosts File";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(78, 2);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 45);
+            this.button8.TabIndex = 1;
+            this.button8.Text = "Restore Hosts File";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(160, 2);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 45);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "Write New Hosts File";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // superTabControl4
+            // 
+            this.superTabControl4.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl4.ControlBox.MenuBox.Name = "";
+            this.superTabControl4.ControlBox.Name = "";
+            this.superTabControl4.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl4.ControlBox.MenuBox,
+            this.superTabControl4.ControlBox.CloseBox});
+            this.superTabControl4.Controls.Add(this.superTabControlPanel11);
+            this.superTabControl4.Controls.Add(this.superTabControlPanel12);
+            this.superTabControl4.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl4.Location = new System.Drawing.Point(182, 35);
+            this.superTabControl4.Name = "superTabControl4";
+            this.superTabControl4.ReorderTabsEnabled = true;
+            this.superTabControl4.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.superTabControl4.SelectedTabIndex = 1;
+            this.superTabControl4.Size = new System.Drawing.Size(783, 346);
+            this.superTabControl4.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.superTabControl4.TabIndex = 52;
+            this.superTabControl4.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem12,
+            this.superTabItem11});
+            this.superTabControl4.Text = "hometabs";
+            // 
+            // superTabItem11
+            // 
+            this.superTabItem11.AttachedControl = this.superTabControlPanel11;
+            this.superTabItem11.GlobalItem = false;
+            this.superTabItem11.Name = "superTabItem11";
+            this.superTabItem11.Text = "News";
+            // 
+            // superTabControlPanel11
+            // 
+            this.superTabControlPanel11.Controls.Add(this.textBox1);
+            this.superTabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel11.Name = "superTabControlPanel11";
+            this.superTabControlPanel11.Size = new System.Drawing.Size(783, 321);
+            this.superTabControlPanel11.TabIndex = 1;
+            this.superTabControlPanel11.TabItem = this.superTabItem11;
+            // 
+            // superTabItem12
+            // 
+            this.superTabItem12.AttachedControl = this.superTabControlPanel12;
+            this.superTabItem12.GlobalItem = false;
+            this.superTabItem12.Name = "superTabItem12";
+            this.superTabItem12.Text = "Tutorials";
+            // 
+            // superTabControlPanel12
+            // 
+            this.superTabControlPanel12.Controls.Add(this.listBox3);
+            this.superTabControlPanel12.Controls.Add(this.axWindowsMediaPlayer1);
+            this.superTabControlPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel12.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel12.Name = "superTabControlPanel12";
+            this.superTabControlPanel12.Size = new System.Drawing.Size(783, 321);
+            this.superTabControlPanel12.TabIndex = 0;
+            this.superTabControlPanel12.TabItem = this.superTabItem12;
+            // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(315, 0);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(468, 321);
+            this.axWindowsMediaPlayer1.TabIndex = 0;
+            // 
+            // listBox3
+            // 
+            this.listBox3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Items.AddRange(new object[] {
+            "Click a video to view in the player",
+            "Home",
+            "Patching",
+            "Addons",
+            "What Are Addons And Plugins",
+            "Info",
+            "DevTools"});
+            this.listBox3.Location = new System.Drawing.Point(0, 0);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(309, 321);
+            this.listBox3.TabIndex = 1;
+            this.listBox3.SelectedIndexChanged += new System.EventHandler(this.listBox3_SelectedIndexChanged);
+            // 
+            // superTabItem1
+            // 
+            this.superTabItem1.AttachedControl = this.superTabControlPanel1;
+            this.superTabItem1.GlobalItem = false;
+            this.superTabItem1.Name = "superTabItem1";
+            this.superTabItem1.Text = "User Info";
+            // 
+            // superTabControlPanel1
+            // 
+            this.superTabControlPanel1.Controls.Add(this.DtlUsrNfoPnl);
+            this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel1.Name = "superTabControlPanel1";
+            this.superTabControlPanel1.Size = new System.Drawing.Size(703, 382);
+            this.superTabControlPanel1.TabIndex = 0;
+            this.superTabControlPanel1.TabItem = this.superTabItem1;
             // 
             // DtlUsrNfoPnl
             // 
@@ -3339,9 +4394,10 @@
             this.DtlUsrNfoPnl.Controls.Add(this.UsrFriendCntLbl);
             this.DtlUsrNfoPnl.Controls.Add(this.label49);
             this.DtlUsrNfoPnl.Controls.Add(this.UsrLikeCntLbl);
-            this.DtlUsrNfoPnl.Location = new System.Drawing.Point(179, 4);
+            this.DtlUsrNfoPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DtlUsrNfoPnl.Location = new System.Drawing.Point(0, 0);
             this.DtlUsrNfoPnl.Name = "DtlUsrNfoPnl";
-            this.DtlUsrNfoPnl.Size = new System.Drawing.Size(331, 263);
+            this.DtlUsrNfoPnl.Size = new System.Drawing.Size(703, 382);
             // 
             // 
             // 
@@ -3370,9 +4426,8 @@
             // 
             // 
             this.DtlUsrNfoPnl.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.DtlUsrNfoPnl.TabIndex = 49;
+            this.DtlUsrNfoPnl.TabIndex = 50;
             this.DtlUsrNfoPnl.Text = "Detailed User Info For";
-            this.DtlUsrNfoPnl.Visible = false;
             // 
             // UsrReferridLbl
             // 
@@ -3681,200 +4736,33 @@
             this.UsrLikeCntLbl.Text = "likecnt";
             this.UsrLikeCntLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // UserNfoPanel
+            // UsrAvitarPic7
             // 
-            this.UserNfoPanel.BackColor = System.Drawing.Color.Transparent;
-            this.UserNfoPanel.CanvasColor = System.Drawing.SystemColors.Control;
-            this.UserNfoPanel.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.UserNfoPanel.Controls.Add(this.button36);
-            this.UserNfoPanel.Controls.Add(this.UsrRegDateLbl);
-            this.UserNfoPanel.Controls.Add(this.label56);
-            this.UserNfoPanel.Controls.Add(this.UsrUnreadConvoLbl);
-            this.UserNfoPanel.Controls.Add(this.label54);
-            this.UserNfoPanel.Controls.Add(this.UsrMsgCntLbl);
-            this.UserNfoPanel.Controls.Add(this.UsrUnreadAlertsLbl);
-            this.UserNfoPanel.Controls.Add(this.label52);
-            this.UserNfoPanel.Controls.Add(this.label60);
-            this.UserNfoPanel.Controls.Add(this.UsrTimeZoneLbl);
-            this.UserNfoPanel.Controls.Add(this.label48);
-            this.UserNfoPanel.Controls.Add(this.UserTitleLbl);
-            this.UserNfoPanel.Controls.Add(this.label46);
-            this.UserNfoPanel.Controls.Add(this.UsrEmailLbl);
-            this.UserNfoPanel.Controls.Add(this.label42);
-            this.UserNfoPanel.Controls.Add(this.UsrAvitarPic);
-            this.UserNfoPanel.Controls.Add(this.label47);
-            this.UserNfoPanel.Controls.Add(this.UsrWrningPntsLbl);
-            this.UserNfoPanel.Location = new System.Drawing.Point(3, 3);
-            this.UserNfoPanel.Name = "UserNfoPanel";
-            this.UserNfoPanel.Size = new System.Drawing.Size(170, 264);
+            this.UsrAvitarPic7.Location = new System.Drawing.Point(32, 3);
+            this.UsrAvitarPic7.Name = "UsrAvitarPic7";
+            this.UsrAvitarPic7.Size = new System.Drawing.Size(96, 96);
+            this.UsrAvitarPic7.TabIndex = 0;
+            this.UsrAvitarPic7.TabStop = false;
             // 
+            // UsrAvitarPic2
             // 
+            this.UsrAvitarPic2.Location = new System.Drawing.Point(32, 3);
+            this.UsrAvitarPic2.Name = "UsrAvitarPic2";
+            this.UsrAvitarPic2.Size = new System.Drawing.Size(96, 96);
+            this.UsrAvitarPic2.TabIndex = 0;
+            this.UsrAvitarPic2.TabStop = false;
             // 
-            this.UserNfoPanel.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.UserNfoPanel.Style.BackColorGradientAngle = 90;
-            this.UserNfoPanel.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.UserNfoPanel.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UserNfoPanel.Style.BorderBottomWidth = 1;
-            this.UserNfoPanel.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.UserNfoPanel.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UserNfoPanel.Style.BorderLeftWidth = 1;
-            this.UserNfoPanel.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UserNfoPanel.Style.BorderRightWidth = 1;
-            this.UserNfoPanel.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UserNfoPanel.Style.BorderTopWidth = 1;
-            this.UserNfoPanel.Style.CornerDiameter = 4;
-            this.UserNfoPanel.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.UserNfoPanel.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.UserNfoPanel.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.UserNfoPanel.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // pictureBox1
             // 
-            // 
-            // 
-            this.UserNfoPanel.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.UserNfoPanel.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.UserNfoPanel.TabIndex = 4;
-            this.UserNfoPanel.Text = "User Info";
-            // 
-            // button36
-            // 
-            this.button36.Location = new System.Drawing.Point(9, 213);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(139, 23);
-            this.button36.TabIndex = 50;
-            this.button36.Text = "Detailed Info >>";
-            this.button36.UseVisualStyleBackColor = true;
-            this.button36.Click += new System.EventHandler(this.button36_Click);
-            // 
-            // UsrRegDateLbl
-            // 
-            this.UsrRegDateLbl.AutoSize = true;
-            this.UsrRegDateLbl.Location = new System.Drawing.Point(96, 184);
-            this.UsrRegDateLbl.Name = "UsrRegDateLbl";
-            this.UsrRegDateLbl.Size = new System.Drawing.Size(43, 13);
-            this.UsrRegDateLbl.TabIndex = 20;
-            this.UsrRegDateLbl.Text = "regdate";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(6, 184);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(92, 13);
-            this.label56.TabIndex = 19;
-            this.label56.Text = "Registration Date:";
-            // 
-            // UsrUnreadConvoLbl
-            // 
-            this.UsrUnreadConvoLbl.AutoSize = true;
-            this.UsrUnreadConvoLbl.Location = new System.Drawing.Point(120, 169);
-            this.UsrUnreadConvoLbl.Name = "UsrUnreadConvoLbl";
-            this.UsrUnreadConvoLbl.Size = new System.Drawing.Size(97, 13);
-            this.UsrUnreadConvoLbl.TabIndex = 18;
-            this.UsrUnreadConvoLbl.Text = "unreadconvocount";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(6, 169);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(115, 13);
-            this.label54.TabIndex = 17;
-            this.label54.Text = "Unread Conversations:";
-            // 
-            // UsrMsgCntLbl
-            // 
-            this.UsrMsgCntLbl.AutoSize = true;
-            this.UsrMsgCntLbl.Location = new System.Drawing.Point(89, 156);
-            this.UsrMsgCntLbl.Name = "UsrMsgCntLbl";
-            this.UsrMsgCntLbl.Size = new System.Drawing.Size(53, 13);
-            this.UsrMsgCntLbl.TabIndex = 16;
-            this.UsrMsgCntLbl.Text = "msgcount";
-            // 
-            // UsrUnreadAlertsLbl
-            // 
-            this.UsrUnreadAlertsLbl.AutoSize = true;
-            this.UsrUnreadAlertsLbl.BackColor = System.Drawing.Color.Transparent;
-            this.UsrUnreadAlertsLbl.Location = new System.Drawing.Point(77, 197);
-            this.UsrUnreadAlertsLbl.Name = "UsrUnreadAlertsLbl";
-            this.UsrUnreadAlertsLbl.Size = new System.Drawing.Size(65, 13);
-            this.UsrUnreadAlertsLbl.TabIndex = 44;
-            this.UsrUnreadAlertsLbl.Text = "unreadalerts";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(6, 156);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(84, 13);
-            this.label52.TabIndex = 15;
-            this.label52.Text = "Message Count:";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.BackColor = System.Drawing.Color.Transparent;
-            this.label60.Location = new System.Drawing.Point(6, 197);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(74, 13);
-            this.label60.TabIndex = 43;
-            this.label60.Text = "Unread Alerts:";
-            // 
-            // UsrTimeZoneLbl
-            // 
-            this.UsrTimeZoneLbl.AutoSize = true;
-            this.UsrTimeZoneLbl.Location = new System.Drawing.Point(63, 143);
-            this.UsrTimeZoneLbl.Name = "UsrTimeZoneLbl";
-            this.UsrTimeZoneLbl.Size = new System.Drawing.Size(49, 13);
-            this.UsrTimeZoneLbl.TabIndex = 12;
-            this.UsrTimeZoneLbl.Text = "timezone";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(6, 143);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(61, 13);
-            this.label48.TabIndex = 11;
-            this.label48.Text = "Time Zone:";
-            // 
-            // UserTitleLbl
-            // 
-            this.UserTitleLbl.AutoSize = true;
-            this.UserTitleLbl.Location = new System.Drawing.Point(35, 102);
-            this.UserTitleLbl.Name = "UserTitleLbl";
-            this.UserTitleLbl.Size = new System.Drawing.Size(52, 13);
-            this.UserTitleLbl.TabIndex = 10;
-            this.UserTitleLbl.Text = "User Title";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(6, 102);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(30, 13);
-            this.label46.TabIndex = 9;
-            this.label46.Text = "Title:";
-            // 
-            // UsrEmailLbl
-            // 
-            this.UsrEmailLbl.AutoSize = true;
-            this.UsrEmailLbl.Location = new System.Drawing.Point(39, 117);
-            this.UsrEmailLbl.Name = "UsrEmailLbl";
-            this.UsrEmailLbl.Size = new System.Drawing.Size(31, 13);
-            this.UsrEmailLbl.TabIndex = 6;
-            this.UsrEmailLbl.Text = "email";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(6, 117);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(35, 13);
-            this.label42.TabIndex = 5;
-            this.label42.Text = "Email:";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::The_Elite_Patcher.Properties.Resources.blue_circle;
+            this.pictureBox1.Location = new System.Drawing.Point(949, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(19, 19);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox1, "Green = Md5 Matches\r\nRed = Md5 Mismatch\r\nBlue = Undetermined");
             // 
             // UsrAvitarPic
             // 
@@ -3884,720 +4772,13 @@
             this.UsrAvitarPic.TabIndex = 0;
             this.UsrAvitarPic.TabStop = false;
             // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.BackColor = System.Drawing.Color.Transparent;
-            this.label47.Location = new System.Drawing.Point(6, 130);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(82, 13);
-            this.label47.TabIndex = 29;
-            this.label47.Text = "Warning Points:";
-            // 
-            // UsrWrningPntsLbl
-            // 
-            this.UsrWrningPntsLbl.AutoSize = true;
-            this.UsrWrningPntsLbl.BackColor = System.Drawing.Color.Transparent;
-            this.UsrWrningPntsLbl.Location = new System.Drawing.Point(86, 130);
-            this.UsrWrningPntsLbl.Name = "UsrWrningPntsLbl";
-            this.UsrWrningPntsLbl.Size = new System.Drawing.Size(72, 13);
-            this.UsrWrningPntsLbl.TabIndex = 30;
-            this.UsrWrningPntsLbl.Text = "warningpoints";
-            // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel3.Controls.Add(this.groupPanel3);
-            this.ribbonPanel3.Controls.Add(this.superTabControl2);
-            this.ribbonPanel3.Controls.Add(this.UsrPnl4);
-            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel3.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel3.Name = "ribbonPanel3";
-            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel3.Size = new System.Drawing.Size(980, 414);
-            // 
-            // 
-            // 
-            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel3.TabIndex = 5;
-            this.ribbonPanel3.Visible = false;
-            // 
-            // groupPanel3
-            // 
-            this.groupPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel3.Controls.Add(this.proxSrv4);
-            this.groupPanel3.Controls.Add(this.proxSrv3);
-            this.groupPanel3.Controls.Add(this.proxSrv2);
-            this.groupPanel3.Controls.Add(this.proxSrv1);
-            this.groupPanel3.Controls.Add(this.label65);
-            this.groupPanel3.Location = new System.Drawing.Point(3, 243);
-            this.groupPanel3.Name = "groupPanel3";
-            this.groupPanel3.Size = new System.Drawing.Size(170, 162);
-            // 
-            // 
-            // 
-            this.groupPanel3.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel3.Style.BackColorGradientAngle = 90;
-            this.groupPanel3.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel3.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderBottomWidth = 1;
-            this.groupPanel3.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel3.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderLeftWidth = 1;
-            this.groupPanel3.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderRightWidth = 1;
-            this.groupPanel3.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel3.Style.BorderTopWidth = 1;
-            this.groupPanel3.Style.CornerDiameter = 4;
-            this.groupPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel3.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel3.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel3.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel3.TabIndex = 48;
-            this.groupPanel3.Text = "Proxies not working?";
-            this.groupPanel3.Visible = false;
-            // 
-            // proxSrv4
-            // 
-            this.proxSrv4.AutoSize = true;
-            this.proxSrv4.Location = new System.Drawing.Point(9, 117);
-            this.proxSrv4.Name = "proxSrv4";
-            this.proxSrv4.Size = new System.Drawing.Size(109, 17);
-            this.proxSrv4.TabIndex = 4;
-            this.proxSrv4.Text = "Alt Proxy Server 3";
-            this.proxSrv4.UseVisualStyleBackColor = true;
-            // 
-            // proxSrv3
-            // 
-            this.proxSrv3.AutoSize = true;
-            this.proxSrv3.Location = new System.Drawing.Point(9, 94);
-            this.proxSrv3.Name = "proxSrv3";
-            this.proxSrv3.Size = new System.Drawing.Size(109, 17);
-            this.proxSrv3.TabIndex = 3;
-            this.proxSrv3.Text = "Alt Proxy Server 2";
-            this.proxSrv3.UseVisualStyleBackColor = true;
-            // 
-            // proxSrv2
-            // 
-            this.proxSrv2.AutoSize = true;
-            this.proxSrv2.Location = new System.Drawing.Point(9, 71);
-            this.proxSrv2.Name = "proxSrv2";
-            this.proxSrv2.Size = new System.Drawing.Size(109, 17);
-            this.proxSrv2.TabIndex = 2;
-            this.proxSrv2.Text = "Alt Proxy Server 1";
-            this.proxSrv2.UseVisualStyleBackColor = true;
-            // 
-            // proxSrv1
-            // 
-            this.proxSrv1.AutoSize = true;
-            this.proxSrv1.Checked = true;
-            this.proxSrv1.Location = new System.Drawing.Point(9, 48);
-            this.proxSrv1.Name = "proxSrv1";
-            this.proxSrv1.Size = new System.Drawing.Size(111, 17);
-            this.proxSrv1.TabIndex = 1;
-            this.proxSrv1.TabStop = true;
-            this.proxSrv1.Text = "Main Proxy Server";
-            this.proxSrv1.UseVisualStyleBackColor = true;
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(11, 6);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(141, 39);
-            this.label65.TabIndex = 0;
-            this.label65.Text = "We have multiple proxies\r\navailable, feel free to switch \r\nbetween them!";
-            // 
-            // superTabControl2
-            // 
-            this.superTabControl2.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            this.superTabControl2.ControlBox.CloseBox.Name = "";
-            // 
-            // 
-            // 
-            this.superTabControl2.ControlBox.MenuBox.Name = "";
-            this.superTabControl2.ControlBox.Name = "";
-            this.superTabControl2.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabControl2.ControlBox.MenuBox,
-            this.superTabControl2.ControlBox.CloseBox});
-            this.superTabControl2.Controls.Add(this.superTabControlPanel3);
-            this.superTabControl2.Controls.Add(this.superTabControlPanel6);
-            this.superTabControl2.Controls.Add(this.superTabControlPanel5);
-            this.superTabControl2.Controls.Add(this.superTabControlPanel4);
-            this.superTabControl2.ForeColor = System.Drawing.Color.Black;
-            this.superTabControl2.Location = new System.Drawing.Point(185, 3);
-            this.superTabControl2.Name = "superTabControl2";
-            this.superTabControl2.ReorderTabsEnabled = true;
-            this.superTabControl2.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.superTabControl2.SelectedTabIndex = 1;
-            this.superTabControl2.Size = new System.Drawing.Size(795, 382);
-            this.superTabControl2.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.superTabControl2.TabIndex = 25;
-            this.superTabControl2.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabItem3,
-            this.superTabItem5,
-            this.superTabItem6,
-            this.superTabItem4});
-            this.superTabControl2.Text = "superTabControl2";
-            // 
-            // superTabControlPanel3
-            // 
-            this.superTabControlPanel3.Controls.Add(this.metroTilePanel1);
-            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 25);
-            this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(795, 357);
-            this.superTabControlPanel3.TabIndex = 2;
-            this.superTabControlPanel3.TabItem = this.superTabItem3;
-            // 
-            // metroTilePanel1
-            // 
-            // 
-            // 
-            // 
-            this.metroTilePanel1.BackgroundStyle.Class = "MetroTilePanel";
-            this.metroTilePanel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTilePanel1.ContainerControlProcessDialogKey = true;
-            this.metroTilePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTilePanel1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.itemContainer2});
-            this.metroTilePanel1.Location = new System.Drawing.Point(0, 0);
-            this.metroTilePanel1.Name = "metroTilePanel1";
-            this.metroTilePanel1.Size = new System.Drawing.Size(795, 357);
-            this.metroTilePanel1.TabIndex = 0;
-            this.metroTilePanel1.Text = "metroTilePanel1";
-            // 
-            // itemContainer2
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer2.MultiLine = true;
-            this.itemContainer2.Name = "itemContainer2";
-            // 
-            // 
-            // 
-            this.itemContainer2.TitleStyle.Class = "MetroTileGroupTitle";
-            this.itemContainer2.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer2.TitleText = "Plugins";
-            // 
-            // superTabItem3
-            // 
-            this.superTabItem3.AttachedControl = this.superTabControlPanel3;
-            this.superTabItem3.GlobalItem = false;
-            this.superTabItem3.Name = "superTabItem3";
-            this.superTabItem3.Text = "Plugins";
-            // 
-            // superTabControlPanel6
-            // 
-            this.superTabControlPanel6.Controls.Add(this.metroTilePanel2);
-            this.superTabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel6.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel6.Name = "superTabControlPanel6";
-            this.superTabControlPanel6.Size = new System.Drawing.Size(795, 382);
-            this.superTabControlPanel6.TabIndex = 4;
-            this.superTabControlPanel6.TabItem = this.superTabItem6;
-            // 
-            // metroTilePanel2
-            // 
-            this.metroTilePanel2.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.metroTilePanel2.BackgroundStyle.Class = "MetroTilePanel";
-            this.metroTilePanel2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTilePanel2.ContainerControlProcessDialogKey = true;
-            this.metroTilePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTilePanel2.ForeColor = System.Drawing.Color.Black;
-            this.metroTilePanel2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.itemContainer4,
-            this.itemContainer5});
-            this.metroTilePanel2.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
-            this.metroTilePanel2.Location = new System.Drawing.Point(0, 0);
-            this.metroTilePanel2.Name = "metroTilePanel2";
-            this.metroTilePanel2.Size = new System.Drawing.Size(795, 382);
-            this.metroTilePanel2.TabIndex = 1;
-            this.metroTilePanel2.Text = "metroTilePanel2";
-            // 
-            // itemContainer4
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer4.MultiLine = true;
-            this.itemContainer4.Name = "itemContainer4";
-            // 
-            // 
-            // 
-            this.itemContainer4.TitleStyle.Class = "MetroTileGroupTitle";
-            this.itemContainer4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer4.TitleText = "Plugins";
-            // 
-            // itemContainer5
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer5.MultiLine = true;
-            this.itemContainer5.Name = "itemContainer5";
-            // 
-            // 
-            // 
-            this.itemContainer5.TitleStyle.Class = "MetroTileGroupTitle";
-            this.itemContainer5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer5.TitleText = "Hosts Edits";
-            // 
-            // superTabItem6
-            // 
-            this.superTabItem6.AttachedControl = this.superTabControlPanel6;
-            this.superTabItem6.GlobalItem = false;
-            this.superTabItem6.Name = "superTabItem6";
-            this.superTabItem6.Text = "Get Plugins and Addons";
-            // 
-            // superTabControlPanel5
-            // 
-            this.superTabControlPanel5.Controls.Add(this.metroTilePanel3);
-            this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel5.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel5.Name = "superTabControlPanel5";
-            this.superTabControlPanel5.Size = new System.Drawing.Size(795, 382);
-            this.superTabControlPanel5.TabIndex = 3;
-            this.superTabControlPanel5.TabItem = this.superTabItem5;
-            // 
-            // metroTilePanel3
-            // 
-            // 
-            // 
-            // 
-            this.metroTilePanel3.BackgroundStyle.Class = "MetroTilePanel";
-            this.metroTilePanel3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.metroTilePanel3.ContainerControlProcessDialogKey = true;
-            this.metroTilePanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTilePanel3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.itemContainer6});
-            this.metroTilePanel3.Location = new System.Drawing.Point(0, 0);
-            this.metroTilePanel3.Name = "metroTilePanel3";
-            this.metroTilePanel3.Size = new System.Drawing.Size(795, 382);
-            this.metroTilePanel3.TabIndex = 1;
-            this.metroTilePanel3.Text = "metroTilePanel3";
-            // 
-            // itemContainer6
-            // 
-            // 
-            // 
-            // 
-            this.itemContainer6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer6.MultiLine = true;
-            this.itemContainer6.Name = "itemContainer6";
-            // 
-            // 
-            // 
-            this.itemContainer6.TitleStyle.Class = "MetroTileGroupTitle";
-            this.itemContainer6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.itemContainer6.TitleText = "Addons";
-            // 
-            // superTabItem5
-            // 
-            this.superTabItem5.AttachedControl = this.superTabControlPanel5;
-            this.superTabItem5.GlobalItem = false;
-            this.superTabItem5.Name = "superTabItem5";
-            this.superTabItem5.Text = "Addons";
-            // 
-            // superTabControlPanel4
-            // 
-            this.superTabControlPanel4.Controls.Add(this.button2);
-            this.superTabControlPanel4.Controls.Add(this.button1);
-            this.superTabControlPanel4.Controls.Add(this.button34);
-            this.superTabControlPanel4.Controls.Add(this.groupPanel2);
-            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel4.Name = "superTabControlPanel4";
-            this.superTabControlPanel4.Size = new System.Drawing.Size(795, 382);
-            this.superTabControlPanel4.TabIndex = 1;
-            this.superTabControlPanel4.TabItem = this.superTabItem4;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 54);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Generate MD5.txt for NDL";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(90, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Test Boot Voice";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(6, 9);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 49);
-            this.button34.TabIndex = 23;
-            this.button34.Text = "Generate MD5.txt For Exe";
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // groupPanel2
-            // 
-            this.groupPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel2.Controls.Add(this.checkBox1);
-            this.groupPanel2.Controls.Add(this.genVhostStat);
-            this.groupPanel2.Controls.Add(this.button3);
-            this.groupPanel2.Controls.Add(this.ip);
-            this.groupPanel2.Controls.Add(this.label63);
-            this.groupPanel2.Controls.Add(this.subdomain);
-            this.groupPanel2.Controls.Add(this.label37);
-            this.groupPanel2.Controls.Add(this.site);
-            this.groupPanel2.Controls.Add(this.label30);
-            this.groupPanel2.Location = new System.Drawing.Point(6, 192);
-            this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(331, 162);
-            // 
-            // 
-            // 
-            this.groupPanel2.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel2.Style.BackColorGradientAngle = 90;
-            this.groupPanel2.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel2.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderBottomWidth = 1;
-            this.groupPanel2.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel2.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderLeftWidth = 1;
-            this.groupPanel2.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderRightWidth = 1;
-            this.groupPanel2.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel2.Style.BorderTopWidth = 1;
-            this.groupPanel2.Style.CornerDiameter = 4;
-            this.groupPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel2.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel2.TabIndex = 22;
-            this.groupPanel2.Text = "Generate VHost File";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(196, 1);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 17);
-            this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Is Subdomain Proxy?";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // genVhostStat
-            // 
-            this.genVhostStat.AutoSize = true;
-            this.genVhostStat.BackColor = System.Drawing.Color.Transparent;
-            this.genVhostStat.Location = new System.Drawing.Point(17, 125);
-            this.genVhostStat.Name = "genVhostStat";
-            this.genVhostStat.Size = new System.Drawing.Size(0, 13);
-            this.genVhostStat.TabIndex = 7;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(196, 95);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Generate";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // ip
-            // 
-            this.ip.AutoOverwrite = true;
-            // 
-            // 
-            // 
-            this.ip.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.ip.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ip.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.ip.ButtonFreeText.Visible = true;
-            this.ip.Location = new System.Drawing.Point(32, 98);
-            this.ip.Name = "ip";
-            this.ip.Size = new System.Drawing.Size(107, 20);
-            this.ip.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ip.TabIndex = 5;
-            this.ip.Value = "192.168.1.1";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(13, 82);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(68, 13);
-            this.label63.TabIndex = 4;
-            this.label63.Text = "IP Of Server:";
-            // 
-            // subdomain
-            // 
-            this.subdomain.Location = new System.Drawing.Point(32, 59);
-            this.subdomain.Name = "subdomain";
-            this.subdomain.Size = new System.Drawing.Size(239, 20);
-            this.subdomain.TabIndex = 3;
-            this.subdomain.Text = "sub.domain.com";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(13, 43);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(127, 13);
-            this.label37.TabIndex = 2;
-            this.label37.Text = "SubDomain of Proxy Site:";
-            // 
-            // site
-            // 
-            this.site.Location = new System.Drawing.Point(32, 20);
-            this.site.Name = "site";
-            this.site.Size = new System.Drawing.Size(239, 20);
-            this.site.TabIndex = 1;
-            this.site.Text = "site.com";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(13, 4);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(99, 13);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "Site to Redirect To:";
-            // 
-            // superTabItem4
-            // 
-            this.superTabItem4.AttachedControl = this.superTabControlPanel4;
-            this.superTabItem4.GlobalItem = false;
-            this.superTabItem4.Name = "superTabItem4";
-            this.superTabItem4.Text = "Developer Tools";
-            // 
-            // UsrPnl4
-            // 
-            this.UsrPnl4.BackColor = System.Drawing.Color.Transparent;
-            this.UsrPnl4.CanvasColor = System.Drawing.SystemColors.Control;
-            this.UsrPnl4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.UsrPnl4.Controls.Add(this.UsrRegDateLbl4);
-            this.UsrPnl4.Controls.Add(this.label126);
-            this.UsrPnl4.Controls.Add(this.UsrUnreadConvoLbl4);
-            this.UsrPnl4.Controls.Add(this.label128);
-            this.UsrPnl4.Controls.Add(this.UsrMsgCntLbl4);
-            this.UsrPnl4.Controls.Add(this.UsrUnreadAlertsLbl4);
-            this.UsrPnl4.Controls.Add(this.label131);
-            this.UsrPnl4.Controls.Add(this.label132);
-            this.UsrPnl4.Controls.Add(this.UsrTimeZoneLbl4);
-            this.UsrPnl4.Controls.Add(this.label134);
-            this.UsrPnl4.Controls.Add(this.UsrTitleLbl4);
-            this.UsrPnl4.Controls.Add(this.label136);
-            this.UsrPnl4.Controls.Add(this.UsrEmailLbl4);
-            this.UsrPnl4.Controls.Add(this.label138);
-            this.UsrPnl4.Controls.Add(this.UsrAvitarPic4);
-            this.UsrPnl4.Controls.Add(this.label139);
-            this.UsrPnl4.Controls.Add(this.UsrWrningPntsLbl4);
-            this.UsrPnl4.Location = new System.Drawing.Point(3, 3);
-            this.UsrPnl4.Name = "UsrPnl4";
-            this.UsrPnl4.Size = new System.Drawing.Size(170, 234);
-            // 
-            // 
-            // 
-            this.UsrPnl4.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.UsrPnl4.Style.BackColorGradientAngle = 90;
-            this.UsrPnl4.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.UsrPnl4.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl4.Style.BorderBottomWidth = 1;
-            this.UsrPnl4.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.UsrPnl4.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl4.Style.BorderLeftWidth = 1;
-            this.UsrPnl4.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl4.Style.BorderRightWidth = 1;
-            this.UsrPnl4.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl4.Style.BorderTopWidth = 1;
-            this.UsrPnl4.Style.CornerDiameter = 4;
-            this.UsrPnl4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.UsrPnl4.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.UsrPnl4.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.UsrPnl4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.UsrPnl4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.UsrPnl4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.UsrPnl4.TabIndex = 19;
-            this.UsrPnl4.Text = "User Info";
-            // 
-            // UsrRegDateLbl4
-            // 
-            this.UsrRegDateLbl4.AutoSize = true;
-            this.UsrRegDateLbl4.Location = new System.Drawing.Point(96, 184);
-            this.UsrRegDateLbl4.Name = "UsrRegDateLbl4";
-            this.UsrRegDateLbl4.Size = new System.Drawing.Size(43, 13);
-            this.UsrRegDateLbl4.TabIndex = 20;
-            this.UsrRegDateLbl4.Text = "regdate";
-            // 
-            // label126
-            // 
-            this.label126.AutoSize = true;
-            this.label126.Location = new System.Drawing.Point(6, 184);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(92, 13);
-            this.label126.TabIndex = 19;
-            this.label126.Text = "Registration Date:";
-            // 
-            // UsrUnreadConvoLbl4
-            // 
-            this.UsrUnreadConvoLbl4.AutoSize = true;
-            this.UsrUnreadConvoLbl4.Location = new System.Drawing.Point(120, 169);
-            this.UsrUnreadConvoLbl4.Name = "UsrUnreadConvoLbl4";
-            this.UsrUnreadConvoLbl4.Size = new System.Drawing.Size(97, 13);
-            this.UsrUnreadConvoLbl4.TabIndex = 18;
-            this.UsrUnreadConvoLbl4.Text = "unreadconvocount";
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(6, 169);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(115, 13);
-            this.label128.TabIndex = 17;
-            this.label128.Text = "Unread Conversations:";
-            // 
-            // UsrMsgCntLbl4
-            // 
-            this.UsrMsgCntLbl4.AutoSize = true;
-            this.UsrMsgCntLbl4.Location = new System.Drawing.Point(89, 156);
-            this.UsrMsgCntLbl4.Name = "UsrMsgCntLbl4";
-            this.UsrMsgCntLbl4.Size = new System.Drawing.Size(53, 13);
-            this.UsrMsgCntLbl4.TabIndex = 16;
-            this.UsrMsgCntLbl4.Text = "msgcount";
-            // 
-            // UsrUnreadAlertsLbl4
-            // 
-            this.UsrUnreadAlertsLbl4.AutoSize = true;
-            this.UsrUnreadAlertsLbl4.BackColor = System.Drawing.Color.Transparent;
-            this.UsrUnreadAlertsLbl4.Location = new System.Drawing.Point(77, 197);
-            this.UsrUnreadAlertsLbl4.Name = "UsrUnreadAlertsLbl4";
-            this.UsrUnreadAlertsLbl4.Size = new System.Drawing.Size(65, 13);
-            this.UsrUnreadAlertsLbl4.TabIndex = 44;
-            this.UsrUnreadAlertsLbl4.Text = "unreadalerts";
-            // 
-            // label131
-            // 
-            this.label131.AutoSize = true;
-            this.label131.Location = new System.Drawing.Point(6, 156);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(84, 13);
-            this.label131.TabIndex = 15;
-            this.label131.Text = "Message Count:";
-            // 
-            // label132
-            // 
-            this.label132.AutoSize = true;
-            this.label132.BackColor = System.Drawing.Color.Transparent;
-            this.label132.Location = new System.Drawing.Point(6, 197);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(74, 13);
-            this.label132.TabIndex = 43;
-            this.label132.Text = "Unread Alerts:";
-            // 
-            // UsrTimeZoneLbl4
-            // 
-            this.UsrTimeZoneLbl4.AutoSize = true;
-            this.UsrTimeZoneLbl4.Location = new System.Drawing.Point(63, 143);
-            this.UsrTimeZoneLbl4.Name = "UsrTimeZoneLbl4";
-            this.UsrTimeZoneLbl4.Size = new System.Drawing.Size(49, 13);
-            this.UsrTimeZoneLbl4.TabIndex = 12;
-            this.UsrTimeZoneLbl4.Text = "timezone";
-            // 
-            // label134
-            // 
-            this.label134.AutoSize = true;
-            this.label134.Location = new System.Drawing.Point(6, 143);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(61, 13);
-            this.label134.TabIndex = 11;
-            this.label134.Text = "Time Zone:";
-            // 
-            // UsrTitleLbl4
-            // 
-            this.UsrTitleLbl4.AutoSize = true;
-            this.UsrTitleLbl4.Location = new System.Drawing.Point(35, 102);
-            this.UsrTitleLbl4.Name = "UsrTitleLbl4";
-            this.UsrTitleLbl4.Size = new System.Drawing.Size(52, 13);
-            this.UsrTitleLbl4.TabIndex = 10;
-            this.UsrTitleLbl4.Text = "User Title";
-            // 
-            // label136
-            // 
-            this.label136.AutoSize = true;
-            this.label136.Location = new System.Drawing.Point(6, 102);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(30, 13);
-            this.label136.TabIndex = 9;
-            this.label136.Text = "Title:";
-            // 
-            // UsrEmailLbl4
-            // 
-            this.UsrEmailLbl4.AutoSize = true;
-            this.UsrEmailLbl4.Location = new System.Drawing.Point(39, 117);
-            this.UsrEmailLbl4.Name = "UsrEmailLbl4";
-            this.UsrEmailLbl4.Size = new System.Drawing.Size(31, 13);
-            this.UsrEmailLbl4.TabIndex = 6;
-            this.UsrEmailLbl4.Text = "email";
-            // 
-            // label138
-            // 
-            this.label138.AutoSize = true;
-            this.label138.Location = new System.Drawing.Point(6, 117);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(35, 13);
-            this.label138.TabIndex = 5;
-            this.label138.Text = "Email:";
+            // UsrAvitarPic6
+            // 
+            this.UsrAvitarPic6.Location = new System.Drawing.Point(32, 3);
+            this.UsrAvitarPic6.Name = "UsrAvitarPic6";
+            this.UsrAvitarPic6.Size = new System.Drawing.Size(96, 96);
+            this.UsrAvitarPic6.TabIndex = 0;
+            this.UsrAvitarPic6.TabStop = false;
             // 
             // UsrAvitarPic4
             // 
@@ -4607,25 +4788,13 @@
             this.UsrAvitarPic4.TabIndex = 0;
             this.UsrAvitarPic4.TabStop = false;
             // 
-            // label139
+            // UsrAvitarPic8
             // 
-            this.label139.AutoSize = true;
-            this.label139.BackColor = System.Drawing.Color.Transparent;
-            this.label139.Location = new System.Drawing.Point(6, 130);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(82, 13);
-            this.label139.TabIndex = 29;
-            this.label139.Text = "Warning Points:";
-            // 
-            // UsrWrningPntsLbl4
-            // 
-            this.UsrWrningPntsLbl4.AutoSize = true;
-            this.UsrWrningPntsLbl4.BackColor = System.Drawing.Color.Transparent;
-            this.UsrWrningPntsLbl4.Location = new System.Drawing.Point(86, 130);
-            this.UsrWrningPntsLbl4.Name = "UsrWrningPntsLbl4";
-            this.UsrWrningPntsLbl4.Size = new System.Drawing.Size(72, 13);
-            this.UsrWrningPntsLbl4.TabIndex = 30;
-            this.UsrWrningPntsLbl4.Text = "warningpoints";
+            this.UsrAvitarPic8.Location = new System.Drawing.Point(32, 3);
+            this.UsrAvitarPic8.Name = "UsrAvitarPic8";
+            this.UsrAvitarPic8.Size = new System.Drawing.Size(96, 96);
+            this.UsrAvitarPic8.TabIndex = 0;
+            this.UsrAvitarPic8.TabStop = false;
             // 
             // office2007StartButton1
             // 
@@ -4807,65 +4976,6 @@
             this.buttonItem7.Text = "&Exit";
             this.buttonItem7.Click += new System.EventHandler(this.buttonItem7_Click);
             // 
-            // ribbonTabItem3
-            // 
-            this.ribbonTabItem3.Checked = true;
-            this.ribbonTabItem3.Name = "ribbonTabItem3";
-            this.ribbonTabItem3.Panel = this.ribbonPanel4;
-            this.ribbonTabItem3.Text = "Home\r\n";
-            // 
-            // Tools
-            // 
-            this.Tools.Name = "Tools";
-            this.Tools.Panel = this.ribbonPanel3;
-            this.Tools.Text = "Tools";
-            // 
-            // Account
-            // 
-            this.Account.Name = "Account";
-            this.Account.Panel = this.ribbonPanel7;
-            this.Account.Text = "Account";
-            // 
-            // ribbonTabItem4
-            // 
-            this.ribbonTabItem4.Name = "ribbonTabItem4";
-            this.ribbonTabItem4.Panel = this.ribbonPanel5;
-            this.ribbonTabItem4.Text = "iOS Tools";
-            this.ribbonTabItem4.Visible = false;
-            // 
-            // Info
-            // 
-            this.Info.Name = "Info";
-            this.Info.Panel = this.ribbonPanel8;
-            this.Info.Text = "Info";
-            // 
-            // ribbonTabItem2
-            // 
-            this.ribbonTabItem2.Name = "ribbonTabItem2";
-            this.ribbonTabItem2.Panel = this.ribbonPanel2;
-            this.ribbonTabItem2.Text = "Updates";
-            // 
-            // ribbonTabItem5
-            // 
-            this.ribbonTabItem5.Name = "ribbonTabItem5";
-            this.ribbonTabItem5.Panel = this.ribbonPanel10;
-            this.ribbonTabItem5.Text = "Bug Reporter";
-            // 
-            // buttonItem14
-            // 
-            this.buttonItem14.Name = "buttonItem14";
-            this.buttonItem14.Text = "Release Thread";
-            this.buttonItem14.Click += new System.EventHandler(this.buttonItem14_Click);
-            // 
-            // qatCustomizeItem1
-            // 
-            this.qatCustomizeItem1.Name = "qatCustomizeItem1";
-            // 
-            // updchk
-            // 
-            this.updchk.Interval = 300000;
-            this.updchk.Tick += new System.EventHandler(this.updchk_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4884,6 +4994,31 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
+            this.ribbonPanel3.ResumeLayout(false);
+            this.groupPanel3.ResumeLayout(false);
+            this.groupPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
+            this.superTabControl2.ResumeLayout(false);
+            this.superTabControlPanel3.ResumeLayout(false);
+            this.superTabControlPanel4.ResumeLayout(false);
+            this.groupPanel2.ResumeLayout(false);
+            this.groupPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ip)).EndInit();
+            this.superTabControlPanel6.ResumeLayout(false);
+            this.superTabControlPanel5.ResumeLayout(false);
+            this.UsrPnl4.ResumeLayout(false);
+            this.UsrPnl4.PerformLayout();
+            this.ribbonPanel4.ResumeLayout(false);
+            this.ribbonPanel4.PerformLayout();
+            this.groupBox27.ResumeLayout(false);
+            this.groupBox27.PerformLayout();
+            this.UsrPnl2.ResumeLayout(false);
+            this.UsrPnl2.PerformLayout();
+            this.ribbonPanel10.ResumeLayout(false);
+            this.UsrPnl8.ResumeLayout(false);
+            this.UsrPnl8.PerformLayout();
+            this.groupPanel4.ResumeLayout(false);
+            this.groupPanel4.PerformLayout();
             this.ribbonPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).EndInit();
             this.superTabControl3.ResumeLayout(false);
@@ -4891,36 +5026,15 @@
             this.superTabControlPanel7.PerformLayout();
             this.UsrPnl6.ResumeLayout(false);
             this.UsrPnl6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).EndInit();
-            this.ribbonPanel4.ResumeLayout(false);
-            this.ribbonPanel4.PerformLayout();
-            this.groupBox27.ResumeLayout(false);
-            this.groupBox27.PerformLayout();
-            this.UsrPnl2.ResumeLayout(false);
-            this.UsrPnl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ribbonPanel10.ResumeLayout(false);
-            this.UsrPnl8.ResumeLayout(false);
-            this.UsrPnl8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).EndInit();
-            this.groupPanel4.ResumeLayout(false);
-            this.groupPanel4.PerformLayout();
             this.ribbonPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).EndInit();
             this.superTabControl1.ResumeLayout(false);
-            this.superTabControlPanel1.ResumeLayout(false);
-            this.server1.ResumeLayout(false);
-            this.server4.ResumeLayout(false);
-            this.server3.ResumeLayout(false);
-            this.server2.ResumeLayout(false);
             this.superTabControlPanel2.ResumeLayout(false);
             this.superTabControlPanel2.PerformLayout();
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
             this.UsrPnl7.ResumeLayout(false);
             this.UsrPnl7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).EndInit();
             this.ribbonPanel5.ResumeLayout(false);
             this.ribbonPanel5.PerformLayout();
             this.groupBox13.ResumeLayout(false);
@@ -4948,26 +5062,27 @@
             this.groupBox24.ResumeLayout(false);
             this.groupBox24.PerformLayout();
             this.ribbonPanel7.ResumeLayout(false);
-            this.DtlUsrNfoPnl.ResumeLayout(false);
-            this.DtlUsrNfoPnl.PerformLayout();
             this.UserNfoPanel.ResumeLayout(false);
             this.UserNfoPanel.PerformLayout();
+            this.superTabControlPanel10.ResumeLayout(false);
+            this.superTabControlPanel10.PerformLayout();
+            this.groupPanel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).EndInit();
+            this.superTabControl4.ResumeLayout(false);
+            this.superTabControlPanel11.ResumeLayout(false);
+            this.superTabControlPanel11.PerformLayout();
+            this.superTabControlPanel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            this.superTabControlPanel1.ResumeLayout(false);
+            this.DtlUsrNfoPnl.ResumeLayout(false);
+            this.DtlUsrNfoPnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic)).EndInit();
-            this.ribbonPanel3.ResumeLayout(false);
-            this.groupPanel3.ResumeLayout(false);
-            this.groupPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.superTabControl2)).EndInit();
-            this.superTabControl2.ResumeLayout(false);
-            this.superTabControlPanel3.ResumeLayout(false);
-            this.superTabControlPanel6.ResumeLayout(false);
-            this.superTabControlPanel5.ResumeLayout(false);
-            this.superTabControlPanel4.ResumeLayout(false);
-            this.groupPanel2.ResumeLayout(false);
-            this.groupPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ip)).EndInit();
-            this.UsrPnl4.ResumeLayout(false);
-            this.UsrPnl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4989,7 +5104,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.ButtonItem buttonItem2;
@@ -5082,16 +5196,10 @@
         private DevComponents.DotNetBar.RibbonTabItem Account;
         private DevComponents.DotNetBar.Controls.GroupPanel UserNfoPanel;
         private System.Windows.Forms.PictureBox UsrAvitarPic;
-        private System.Windows.Forms.Label UsrIdLbl;
-        private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label UsrEmailLbl;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label UsrGenderLbl;
-        private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label UserTitleLbl;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label UserVisibilityLbl;
-        private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label UsrTimeZoneLbl;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label UsrRegDateLbl;
@@ -5100,35 +5208,10 @@
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label UsrMsgCntLbl;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label UsrReferridLbl;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label UsrBnkAmtLbl;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label UsrFreeInvitesLbl;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label UsrModStatLbl;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label UsrAdminStatLbl;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label UsrBanStatLbl;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label UsrLikeCntLbl;
-        private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label UsrWrningPntsLbl;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label UsrFriendCntLbl;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label UsrLastActiveDate;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label UsrTrophyPntsLbl;
-        private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label UsrUnreadAlertsLbl;
         private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label UsrAviDateLbl;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label UsrValidStatLbl;
-        private System.Windows.Forms.Label label57;
-        private DevComponents.DotNetBar.Controls.GroupPanel DtlUsrNfoPnl;
         private System.Windows.Forms.Button button36;
         private DevComponents.DotNetBar.Controls.GroupPanel UsrPnl2;
         private System.Windows.Forms.Label UsrRegDateLbl2;
@@ -5206,14 +5289,6 @@
         private System.Windows.Forms.Label UsrWrningPntsLbl7;
         private DevComponents.DotNetBar.RibbonTabItem Info;
         private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.GroupBox server4;
-        private DevComponents.DotNetBar.Controls.SwitchButton switchButton4;
-        private System.Windows.Forms.GroupBox server1;
-        private DevComponents.DotNetBar.Controls.SwitchButton switchButton1;
-        private System.Windows.Forms.GroupBox server2;
-        private DevComponents.DotNetBar.Controls.SwitchButton switchButton2;
-        private System.Windows.Forms.GroupBox server3;
-        private DevComponents.DotNetBar.Controls.SwitchButton switchButton3;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel10;
         private System.Windows.Forms.Label label85;
         private System.Windows.Forms.Label label87;
@@ -5255,8 +5330,6 @@
         private System.Windows.Forms.TextBox suggstSiteTxt;
         private System.Windows.Forms.Button button4;
         private DevComponents.DotNetBar.SuperTabControl superTabControl1;
-        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel1;
-        private DevComponents.DotNetBar.SuperTabItem superTabItem1;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel2;
         private System.Windows.Forms.Label label92;
         private System.Windows.Forms.ListBox listBox1;
@@ -5340,6 +5413,54 @@
         private DevComponents.DotNetBar.SuperTabItem superTabItem9;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel8;
         private DevComponents.DotNetBar.SuperTabItem superTabItem8;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel10;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.ListBox listBox2;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem10;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel5;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private DevComponents.DotNetBar.SuperTabControl superTabControl4;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel11;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem11;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel12;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem12;
+        private System.Windows.Forms.ListBox listBox3;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel1;
+        private DevComponents.DotNetBar.SuperTabItem superTabItem1;
+        private DevComponents.DotNetBar.Controls.GroupPanel DtlUsrNfoPnl;
+        private System.Windows.Forms.Label UsrReferridLbl;
+        private System.Windows.Forms.Label UsrValidStatLbl;
+        private System.Windows.Forms.Label UsrLastActiveDate;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label UsrModStatLbl;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label UsrAdminStatLbl;
+        private System.Windows.Forms.Label UsrTrophyPntsLbl;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label UsrIdLbl;
+        private System.Windows.Forms.Label UsrBanStatLbl;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label UsrAviDateLbl;
+        private System.Windows.Forms.Label UsrGenderLbl;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label UserVisibilityLbl;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label UsrFreeInvitesLbl;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label UsrBnkAmtLbl;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label UsrFriendCntLbl;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label UsrLikeCntLbl;
     }
 }
 

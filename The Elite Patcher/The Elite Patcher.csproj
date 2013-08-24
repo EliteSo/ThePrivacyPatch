@@ -153,6 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <EmbeddedResource Include="Resources\info.avi" />
+    <EmbeddedResource Include="Resources\home.avi" />
+    <EmbeddedResource Include="Resources\what_are_addons_and_plugins.avi" />
+    <EmbeddedResource Include="Resources\addons.avi" />
+    <EmbeddedResource Include="Resources\patching.avi" />
     <None Include="Resources\cc logo-tep.png" />
     <None Include="Resources\logoaw.png" />
     <None Include="Resources\awlogo.png" />
@@ -171,6 +176,25 @@
     <None Include="Resources\119498475589498995button-red_benji_park_01.svg.med.png" />
     <None Include="Resources\lin_agt_wrench-256.png" />
     <None Include="Resources\body-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

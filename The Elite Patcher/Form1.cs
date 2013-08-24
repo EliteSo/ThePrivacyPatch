@@ -226,64 +226,6 @@ namespace The_Elite_Patcher
                     NiCoding_Development_Library.File_Operations.WriteFile.cleanHosts(hosts);
                 }
             }
-            #region proxy statuses
-            try
-            {
-
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://files.theelitepatch.com/server1.txt");
-                WebResponse response = request.GetResponse();
-                System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
-                bool isup1 = Convert.ToBoolean(sr.ReadToEnd());
-                switchButton1.Value = isup1;
-
-            }
-            catch (Exception ex)
-            {
-                switchButton1.Value = false;
-            }
-            try
-            {
-
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://files.theelitepatch.com/server2.txt");
-                WebResponse response = request.GetResponse();
-                System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
-                bool isup1 = Convert.ToBoolean(sr.ReadToEnd());
-                switchButton2.Value = isup1;
-
-            }
-            catch (Exception ex)
-            {
-                switchButton1.Value = false;
-            }
-            try
-            {
-
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://files.theelitepatch.com/server3.txt");
-                WebResponse response = request.GetResponse();
-                System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
-                bool isup1 = Convert.ToBoolean(sr.ReadToEnd());
-                switchButton3.Value = isup1;
-
-            }
-            catch (Exception ex)
-            {
-                switchButton1.Value = false;
-            }
-            try
-            {
-
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://files.theelitepatch.com/server4.txt");
-                WebResponse response = request.GetResponse();
-                System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
-                bool isup1 = Convert.ToBoolean(sr.ReadToEnd());
-                switchButton4.Value = isup1;
-
-            }
-            catch (Exception ex)
-            {
-                switchButton1.Value = false;
-            }
-            #endregion
             #region md5 check
             try
             {
@@ -421,6 +363,7 @@ namespace The_Elite_Patcher
             addonCheck();
             getPlugins();
             getHosts();
+            loadHostsFile();
             string[] removeMe = The_Elite_Patcher.Properties.Settings.Default.removeme.Split('=');
             try
             {
@@ -435,6 +378,7 @@ namespace The_Elite_Patcher
         private void pluginCheck()
         {
             int plgcnt = 0;
+            itemContainer2.SubItems.Clear();
             #region checkforaddons
             try
             {
@@ -520,6 +464,7 @@ namespace The_Elite_Patcher
         }
         private void addonCheck()
         {
+            itemContainer6.SubItems.Clear();
             try
             {
                 string[] fileEntries = Directory.GetFiles(addondir, "*.dll");
@@ -765,7 +710,6 @@ namespace The_Elite_Patcher
                     label3.Location = new Point(179, 3);
                     label2.Location = new Point(3, 19);
                     linkLabel1.Location = new Point(179, 19);
-                    label4.Location = new Point(3, 36);
                 }
             }
             else
@@ -1105,6 +1049,38 @@ namespace The_Elite_Patcher
             The_Elite_Patcher.Properties.Settings.Default.Save();
             NiCoding_Development_Library.Encryption.EncFuncs.encryptFile(path);
         }
+        #region hosts tools
+        private void backupHosts()
+        {
+            SaveFileDialog SFD = new SaveFileDialog();
+            SFD.Title = "Choose a location to backup your hosts file to.";
+            SFD.OverwritePrompt = true;
+            SFD.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\Drivers\etc\";
+            if (SFD.ShowDialog() == DialogResult.OK)
+            {
+                File.Copy(hosts, SFD.FileName);
+                MessageBox.Show("Successfully Backed Up Hosts File to " + SFD.FileName);
+            }
+        }
+
+        private void writeNewHosts()
+        {
+            NiCoding_Development_Library.File_Operations.WriteFile.cleanHosts(hosts);
+        }
+
+        private void restoreOldHosts()
+        {
+            OpenFileDialog OFD = new OpenFileDialog();
+            OFD.Title = "Choose your backed up hosts file.";
+            OFD.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\Drivers\etc\";
+            if (OFD.ShowDialog() == DialogResult.OK)
+            {
+                File.Delete(hosts);
+                File.Copy(OFD.FileName, hosts);
+                MessageBox.Show("Successfully Restored Hosts File to " + OFD.FileName);
+            }
+        }
+        #endregion
         #region globals
         Timer tim1 = new Timer();
         string getplugins = "";
@@ -1166,14 +1142,25 @@ namespace The_Elite_Patcher
             {
                 if (plugin.Contains(clickedItem.Name))
                 {
-                    /*The_Elite_Patcher.Properties.Settings.Default.dltype = "plugins";
-                    The_Elite_Patcher.Properties.Settings.Default.dlink = plugin.Split('~')[2];
-                    The_Elite_Patcher.Properties.Settings.Default.newdl = true;*/
-                    MessageBox.Show(clickedItem.Name);
-                    The_Elite_Patcher.Properties.Settings.Default.Save();
+                    try
+                    {
+                        WebClient wc = new WebClient();
+                        string url = plugin.Split('~')[2];
+                        string FileName = url.Substring(url.LastIndexOf("/") + 1,
+                           (url.Length - url.LastIndexOf("/") - 1));
+                        string dlfolder = addondir;
+                        wc.DownloadFileCompleted +=
+                        delegate(object s, AsyncCompletedEventArgs de)
+                        {
+                            addonCheck();
+                        };
+                        wc.DownloadFileAsync(new Uri(url), dlfolder + @"\" + FileName);
+                    }
+                    catch (Exception ex) { MessageBox.Show(ex.Message); }
                 }
             }
         }
+
         #endregion
         #region get hosts list async
         private void getHosts()
@@ -1231,12 +1218,31 @@ namespace The_Elite_Patcher
             {
                 if (plugin.Contains(clickedItem.Name))
                 {
-                    /*The_Elite_Patcher.Properties.Settings.Default.dltype = "hosts";
-                    The_Elite_Patcher.Properties.Settings.Default.dlink = plugin.Split('~')[2];
-                    The_Elite_Patcher.Properties.Settings.Default.newdl = true;*/
-                    MessageBox.Show(clickedItem.Name);
-                    The_Elite_Patcher.Properties.Settings.Default.Save();
+                    try
+                    {
+                        WebClient wc = new WebClient();
+                        string url = plugin.Split('~')[2];
+                        string FileName = url.Substring(url.LastIndexOf("/") + 1,
+                           (url.Length - url.LastIndexOf("/") - 1));
+                        string dlfolder = plugindir;
+                        wc.DownloadFileCompleted +=
+                        delegate(object s, AsyncCompletedEventArgs de)
+                        {
+                            pluginCheck();
+                        };
+                        wc.DownloadFileAsync(new Uri(url), dlfolder + @"\" + FileName);
+                    }
+                    catch (Exception ex) { MessageBox.Show(ex.Message); }
                 }
+            }
+        }
+        #endregion
+        #region loadhostsfiletolistbox
+        private void loadHostsFile()
+        {
+            foreach (string line in File.ReadAllLines(The_Elite_Patcher.Properties.Settings.Default.hosts))
+            {
+                listBox2.Items.Add(line);
             }
         }
         #endregion
@@ -2588,6 +2594,56 @@ namespace The_Elite_Patcher
                 textBox4.Text = "Unable to get update news at this time.";
                 DownloadUpdate(true);
 
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            backupHosts();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            restoreOldHosts();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            writeNewHosts();
+        }
+
+        private void listBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                // Get the currently selected item in the ListBox. 
+                string curItem = listBox3.SelectedItem.ToString();
+                curItem = curItem.Replace(" ", "_");
+                if (curItem != "Click a video to view in the player")
+                {
+                    string streamPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\";
+                    Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("The_Elite_Patcher.Resources." + curItem.ToLower() + ".avi");
+                    using (Stream output = new FileStream(streamPath + curItem.ToLower() + ".avi", FileMode.Create))
+                    {
+                        byte[] buffer = new byte[32 * 1024];
+                        int read;
+
+                        while ((read = stream.Read(buffer, 0, buffer.Length)) > 0)
+                        {
+                            output.Write(buffer, 0, read);
+                        }
+                    }
+                    axWindowsMediaPlayer1.URL = streamPath + curItem.ToLower() + ".avi";
+                    axWindowsMediaPlayer1.Ctlcontrols.play();
+                    if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsMediaEnded)
+                    {
+                        File.Delete(streamPath + curItem.ToLower() + ".avi");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
             }
         }
     }

@@ -166,4 +166,19 @@
   <data name="cc logo-tep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cc logo-tep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="patching" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\patching.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addons.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="what_are_addons_and_plugins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\what_are_addons_and_plugins.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
