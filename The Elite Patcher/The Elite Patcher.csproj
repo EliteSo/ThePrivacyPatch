@@ -42,9 +42,6 @@
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar.Schedule, Version=10.7.0.0, Culture=neutral, PublicKeyToken=ff0069e61369d6d6, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=10.7.0.0, Culture=neutral, PublicKeyToken=ff0069e61369d6d6, processorArchitecture=MSIL" />
-    <Reference Include="IrcDotNet">
-      <HintPath>..\extra libs\IrcDotNet.dll</HintPath>
-    </Reference>
     <Reference Include="NDL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\NiCoding Development Library\NiCoding Development Library\bin\Debug\NDL.dll</HintPath>

@@ -436,7 +436,7 @@ namespace The_Elite_Patcher
                                     itemplug.Text = itemplug.Name.ToString();
                                 }
                             }
-                            catch (Exception ex) { }
+                            catch { }
                             itemplug.Click += new EventHandler(itemplug_Click);
                             itemContainer2.SubItems.Add(itemplug);
                             plgcnt++;
@@ -473,7 +473,6 @@ namespace The_Elite_Patcher
                 {
                     if (IsDirectoryEmpty(addondir) == false)
                     {
-                        int i = 0;
                         foreach (string fileName in fileEntries)
                         {
                             assembly = fileName;
@@ -582,15 +581,13 @@ namespace The_Elite_Patcher
                         #region basic
                         #region avatar pics
                         //avi on account
-                        UsrAvitarPic.ImageLocation = NiCoding_Development_Library.Forum_Tools.Xenforo.getAvatar(user, hash);
-                        UsrAvitarPic2.ImageLocation = UsrAvitarPic.ImageLocation;
-                        UsrAvitarPic4.ImageLocation = UsrAvitarPic.ImageLocation;
-                        UsrAvitarPic6.ImageLocation = UsrAvitarPic.ImageLocation;
-                        UsrAvitarPic7.ImageLocation = UsrAvitarPic.ImageLocation;
-                        UsrAvitarPic8.ImageLocation = UsrAvitarPic.ImageLocation;
+                        UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.Xenforo.getAvatar(user, hash);
+                        UsrAvitarPic4.ImageLocation = UsrAvitarPic2.ImageLocation;
+                        UsrAvitarPic6.ImageLocation = UsrAvitarPic2.ImageLocation;
+                        UsrAvitarPic7.ImageLocation = UsrAvitarPic2.ImageLocation;
+                        UsrAvitarPic8.ImageLocation = UsrAvitarPic2.ImageLocation;
                         GraphicsPath gp = new GraphicsPath();
-                        gp.AddEllipse(UsrAvitarPic.DisplayRectangle);
-                        UsrAvitarPic.Region = new Region(gp);
+                        gp.AddEllipse(UsrAvitarPic2.DisplayRectangle);
                         UsrAvitarPic2.Region = new Region(gp);
                         UsrAvitarPic4.Region = new Region(gp);
                         UsrAvitarPic6.Region = new Region(gp);
@@ -598,7 +595,6 @@ namespace The_Elite_Patcher
                         UsrAvitarPic8.Region = new Region(gp);
                         #endregion
                         #region panels
-                        UserNfoPanel.Text = user;
                         UsrPnl2.Text = user;
                         UsrPnl4.Text = user;
                         UsrPnl6.Text = user;
@@ -606,68 +602,68 @@ namespace The_Elite_Patcher
                         UsrPnl8.Text = user;
                         #endregion
                         #region usrtitle
-                        UserTitleLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserCustomTitle(user);
-                        UsrTitleLbl2.Text = UserTitleLbl.Text;
-                        UsrTitleLbl4.Text = UserTitleLbl.Text;
-                        UsrTitleLbl6.Text = UserTitleLbl.Text;
-                        UsrTitleLbl7.Text = UserTitleLbl.Text;
-                        UsrTitleLbl8.Text = UserTitleLbl.Text;
+                        string usrtitle = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserCustomTitle(user);
+                        UsrTitleLbl2.Text = usrtitle;
+                        UsrTitleLbl4.Text = usrtitle;
+                        UsrTitleLbl6.Text = usrtitle;
+                        UsrTitleLbl7.Text = usrtitle;
+                        UsrTitleLbl8.Text = usrtitle;
                         #endregion
                         #region email
-                        UsrEmailLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail(user);
-                        UsrEmailLbl2.Text = UsrEmailLbl.Text;
-                        UsrEmailLbl4.Text = UsrEmailLbl.Text;
-                        UsrEmailLbl6.Text = UsrEmailLbl.Text;
-                        UsrEmailLbl7.Text = UsrEmailLbl.Text;
-                        UsrEmailLbl8.Text = UsrEmailLbl.Text;
+                        string usremail = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail(user);
+                        UsrEmailLbl2.Text = usremail;
+                        UsrEmailLbl4.Text = usremail;
+                        UsrEmailLbl6.Text = usremail;
+                        UsrEmailLbl7.Text = usremail;
+                        UsrEmailLbl8.Text = usremail;
                         #endregion
                         #region warning points
-                        UsrWrningPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserWarningPoints(user).ToString();
-                        UsrWrningPntsLbl2.Text = UsrWrningPntsLbl.Text;
-                        UsrWrningPntsLbl4.Text = UsrWrningPntsLbl.Text;
-                        UsrWrningPntsLbl6.Text = UsrWrningPntsLbl.Text;
-                        UsrWrningPntsLbl7.Text = UsrWrningPntsLbl.Text;
-                        UsrWrningPntsLbl8.Text = UsrWrningPntsLbl.Text;
+                        string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserWarningPoints(user).ToString();
+                        UsrWrningPntsLbl2.Text = UsrWrningPntsLbl;
+                        UsrWrningPntsLbl4.Text = UsrWrningPntsLbl;
+                        UsrWrningPntsLbl6.Text = UsrWrningPntsLbl;
+                        UsrWrningPntsLbl7.Text = UsrWrningPntsLbl;
+                        UsrWrningPntsLbl8.Text = UsrWrningPntsLbl;
                         #endregion
                         #region time zone
-                        UsrTimeZoneLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTimeZone(user);
-                        UsrTimeZoneLbl2.Text = UsrTimeZoneLbl.Text;
-                        UsrTimeZoneLbl4.Text = UsrTimeZoneLbl.Text;
-                        UsrTimeZoneLbl6.Text = UsrTimeZoneLbl.Text;
-                        UsrTimeZoneLbl7.Text = UsrTimeZoneLbl.Text;
-                        UsrTimeZoneLbl8.Text = UsrTimeZoneLbl.Text;
+                        string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTimeZone(user);
+                        UsrTimeZoneLbl2.Text = UsrTimeZoneLbl;
+                        UsrTimeZoneLbl4.Text = UsrTimeZoneLbl;
+                        UsrTimeZoneLbl6.Text = UsrTimeZoneLbl;
+                        UsrTimeZoneLbl7.Text = UsrTimeZoneLbl;
+                        UsrTimeZoneLbl8.Text = UsrTimeZoneLbl;
                         #endregion
                         #region msg count
-                        UsrMsgCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserMsgCount(user);
-                        UsrMsgCntLbl2.Text = UsrMsgCntLbl.Text;
-                        UsrMsgCntLbl4.Text = UsrMsgCntLbl.Text;
-                        UsrMsgCntLbl6.Text = UsrMsgCntLbl.Text;
-                        UsrMsgCntLbl7.Text = UsrMsgCntLbl.Text;
-                        UsrMsgCntLbl8.Text = UsrMsgCntLbl.Text;
+                        string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserMsgCount(user);
+                        UsrMsgCntLbl2.Text = UsrMsgCntLbl;
+                        UsrMsgCntLbl4.Text = UsrMsgCntLbl;
+                        UsrMsgCntLbl6.Text = UsrMsgCntLbl;
+                        UsrMsgCntLbl7.Text = UsrMsgCntLbl;
+                        UsrMsgCntLbl8.Text = UsrMsgCntLbl;
                         #endregion
                         #region unreadconvos
-                        UsrUnreadConvoLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadConvos(user);
-                        UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl.Text;
-                        UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl.Text;
-                        UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl.Text;
-                        UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl.Text;
-                        UsrUnreadConvoLbl8.Text = UsrUnreadConvoLbl.Text;
+                        string UsrUnreadConvoLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadConvos(user);
+                        UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl;
+                        UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl;
+                        UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl;
+                        UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl;
+                        UsrUnreadConvoLbl8.Text = UsrUnreadConvoLbl;
                         #endregion
                         #region regdate
-                        UsrRegDateLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserRegDate(user);
-                        UsrRegDateLbl2.Text = UsrRegDateLbl.Text;
-                        UsrRegDateLbl4.Text = UsrRegDateLbl.Text;
-                        UsrRegDateLbl6.Text = UsrRegDateLbl.Text;
-                        UsrRegDateLbl7.Text = UsrRegDateLbl.Text;
-                        UsrRegDateLbl8.Text = UsrRegDateLbl.Text;
+                        string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserRegDate(user);
+                        UsrRegDateLbl2.Text = UsrRegDateLbl;
+                        UsrRegDateLbl4.Text = UsrRegDateLbl;
+                        UsrRegDateLbl6.Text = UsrRegDateLbl;
+                        UsrRegDateLbl7.Text = UsrRegDateLbl;
+                        UsrRegDateLbl8.Text = UsrRegDateLbl;
                         #endregion
                         #region unread alerts
-                        UsrUnreadAlertsLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadAlerts(user).ToString();
-                        UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl.Text;
-                        UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl.Text;
-                        UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl.Text;
-                        UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl.Text;
-                        UsrUnreadAlertsLbl8.Text = UsrUnreadAlertsLbl.Text;
+                        string UsrUnreadAlertsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadAlerts(user).ToString();
+                        UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl;
+                        UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl;
+                        UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl;
+                        UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl;
+                        UsrUnreadAlertsLbl8.Text = UsrUnreadAlertsLbl;
                         #endregion
                         #endregion
                         #region detailed
@@ -699,7 +695,6 @@ namespace The_Elite_Patcher
                     UsrPnl4.Visible = false;
                     UsrPnl6.Visible = false;
                     UsrPnl7.Visible = false;
-                    Account.Visible = false;
                     textBox1.Location = new Point(3, 57);
                     textBox1.Size = new Size(965, 354);
                     groupPanel3.Location = new Point(3, 3);
@@ -719,81 +714,78 @@ namespace The_Elite_Patcher
                     #region basic
                     #region avatar pics
                     //avi on account
-                    UsrAvitarPic.ImageLocation = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getAvatar(user, hash);
-                    UsrAvitarPic2.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic4.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic6.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic7.ImageLocation = UsrAvitarPic.ImageLocation;
+                    UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getAvatar(user, hash);
+                    UsrAvitarPic4.ImageLocation = UsrAvitarPic2.ImageLocation;
+                    UsrAvitarPic6.ImageLocation = UsrAvitarPic2.ImageLocation;
+                    UsrAvitarPic7.ImageLocation = UsrAvitarPic2.ImageLocation;
                     GraphicsPath gp = new GraphicsPath();
-                    gp.AddEllipse(UsrAvitarPic.DisplayRectangle);
-                    UsrAvitarPic.Region = new Region(gp);
+                    gp.AddEllipse(UsrAvitarPic2.DisplayRectangle);
                     UsrAvitarPic2.Region = new Region(gp);
                     UsrAvitarPic4.Region = new Region(gp);
                     UsrAvitarPic6.Region = new Region(gp);
                     UsrAvitarPic7.Region = new Region(gp);
                     #endregion
                     #region panels
-                    UserNfoPanel.Text = user;
                     UsrPnl2.Text = user;
                     UsrPnl4.Text = user;
                     UsrPnl6.Text = user;
                     UsrPnl7.Text = user;
                     #endregion
                     #region usrtitle
-                    UserTitleLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserCustomTitle(user);
-                    UsrTitleLbl2.Text = UserTitleLbl.Text;
-                    UsrTitleLbl4.Text = UserTitleLbl.Text;
-                    UsrTitleLbl6.Text = UserTitleLbl.Text;
-                    UsrTitleLbl7.Text = UserTitleLbl.Text;
+                    string usrtitle = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserCustomTitle(user);
+                    UsrTitleLbl2.Text = usrtitle;
+                    UsrTitleLbl4.Text = usrtitle;
+                    UsrTitleLbl6.Text = usrtitle;
+                    UsrTitleLbl7.Text = usrtitle;
                     #endregion
                     #region email
-                    UsrEmailLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserEmail(user);
-                    UsrEmailLbl2.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl4.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl6.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl7.Text = UsrEmailLbl.Text;
+                    string UsrEmailLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserEmail(user);
+                    UsrEmailLbl2.Text = UsrEmailLbl;
+                    UsrEmailLbl4.Text = UsrEmailLbl;
+                    UsrEmailLbl6.Text = UsrEmailLbl;
+                    UsrEmailLbl7.Text = UsrEmailLbl;
                     #endregion
                     #region warning points
-                    UsrWrningPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserWarningPoints(user).ToString();
-                    UsrWrningPntsLbl2.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl4.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl6.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl7.Text = UsrWrningPntsLbl.Text;
+                    string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserWarningPoints(user).ToString();
+                    UsrWrningPntsLbl2.Text = UsrWrningPntsLbl;
+                    UsrWrningPntsLbl4.Text = UsrWrningPntsLbl;
+                    UsrWrningPntsLbl6.Text = UsrWrningPntsLbl;
+                    UsrWrningPntsLbl7.Text = UsrWrningPntsLbl;
                     #endregion
                     #region time zone
-                    UsrTimeZoneLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserTimeZone(user);
-                    UsrTimeZoneLbl2.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl4.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl6.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl7.Text = UsrTimeZoneLbl.Text;
+                    string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserTimeZone(user);
+                    UsrTimeZoneLbl2.Text = UsrTimeZoneLbl;
+                    UsrTimeZoneLbl4.Text = UsrTimeZoneLbl;
+                    UsrTimeZoneLbl6.Text = UsrTimeZoneLbl;
+                    UsrTimeZoneLbl7.Text = UsrTimeZoneLbl;
                     #endregion
                     #region msg count
-                    UsrMsgCntLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserMsgCount(user);
-                    UsrMsgCntLbl2.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl4.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl6.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl7.Text = UsrMsgCntLbl.Text;
+                    string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserMsgCount(user);
+                    UsrMsgCntLbl2.Text = UsrMsgCntLbl;
+                    UsrMsgCntLbl4.Text = UsrMsgCntLbl;
+                    UsrMsgCntLbl6.Text = UsrMsgCntLbl;
+                    UsrMsgCntLbl7.Text = UsrMsgCntLbl;
                     #endregion
                     #region unreadconvos
-                    UsrUnreadConvoLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadConvos(user);
-                    UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl.Text;
+                    string UsrUnreadConvoLbl= NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadConvos(user);
+                    UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl;
+                    UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl;
+                    UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl;
+                    UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl;
                     #endregion
                     #region regdate
-                    UsrRegDateLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserRegDate(user);
-                    UsrRegDateLbl2.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl4.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl6.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl7.Text = UsrRegDateLbl.Text;
+                    string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserRegDate(user);
+                    UsrRegDateLbl2.Text = UsrRegDateLbl;
+                    UsrRegDateLbl4.Text = UsrRegDateLbl;
+                    UsrRegDateLbl6.Text = UsrRegDateLbl;
+                    UsrRegDateLbl7.Text = UsrRegDateLbl;
                     #endregion
                     #region unread alerts
-                    UsrUnreadAlertsLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadAlerts(user).ToString();
-                    UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl.Text;
+                    string UsrUnreadAlertsLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadAlerts(user).ToString();
+                    UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl;
+                    UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl;
+                    UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl;
+                    UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl;
                     #endregion
                     #endregion
                     #region detailed
@@ -834,13 +826,12 @@ namespace The_Elite_Patcher
                 if (set.Contains("username"))
                 {
                     The_Elite_Patcher.Properties.Settings.Default.user = set[1];
-                    UserNfoPanel.Text = set[1];
                     user = set[1];
-                    UsrPnl2.Text = UserNfoPanel.Text;
-                    UsrPnl4.Text = UserNfoPanel.Text;
-                    UsrPnl6.Text = UserNfoPanel.Text;
-                    UsrPnl7.Text = UserNfoPanel.Text;
-                    UsrPnl8.Text = UserNfoPanel.Text;
+                    UsrPnl2.Text = set[1];
+                    UsrPnl4.Text = set[1];
+                    UsrPnl6.Text = set[1];
+                    UsrPnl7.Text = set[1];
+                    UsrPnl8.Text = set[1];
                     DtlUsrNfoPnl.Text = "Detailed User Info For " + set[1];
                 }
                 else if (set.Contains("pass"))
@@ -849,15 +840,13 @@ namespace The_Elite_Patcher
                 }
                 else if (set.Contains("avatarlocation"))
                 {
-                    UsrAvitarPic.ImageLocation = set[1];
-                    UsrAvitarPic2.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic4.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic6.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic7.ImageLocation = UsrAvitarPic.ImageLocation;
-                    UsrAvitarPic8.ImageLocation = UsrAvitarPic.ImageLocation;
+                    UsrAvitarPic2.ImageLocation = set[1];
+                    UsrAvitarPic4.ImageLocation = UsrAvitarPic2.ImageLocation;
+                    UsrAvitarPic6.ImageLocation = UsrAvitarPic2.ImageLocation;
+                    UsrAvitarPic7.ImageLocation = UsrAvitarPic2.ImageLocation;
+                    UsrAvitarPic8.ImageLocation = UsrAvitarPic2.ImageLocation;
                     GraphicsPath gp = new GraphicsPath();
-                    gp.AddEllipse(UsrAvitarPic.DisplayRectangle);
-                    UsrAvitarPic.Region = new Region(gp);
+                    gp.AddEllipse(UsrAvitarPic2.DisplayRectangle);
                     UsrAvitarPic2.Region = new Region(gp);
                     UsrAvitarPic4.Region = new Region(gp);
                     UsrAvitarPic6.Region = new Region(gp);
@@ -866,75 +855,67 @@ namespace The_Elite_Patcher
                 }
                 else if (set.Contains("usertitle"))
                 {
-                    UserTitleLbl.Text = set[1];
-                    UsrTitleLbl2.Text = UserTitleLbl.Text;
-                    UsrTitleLbl4.Text = UserTitleLbl.Text;
-                    UsrTitleLbl6.Text = UserTitleLbl.Text;
-                    UsrTitleLbl7.Text = UserTitleLbl.Text;
-                    UsrTitleLbl8.Text = UserTitleLbl.Text;
+                    UsrTitleLbl2.Text = set[1];
+                    UsrTitleLbl4.Text = UsrTitleLbl2.Text;
+                    UsrTitleLbl6.Text = UsrTitleLbl2.Text;
+                    UsrTitleLbl7.Text = UsrTitleLbl2.Text;
+                    UsrTitleLbl8.Text = UsrTitleLbl2.Text;
                 }
                 else if (set.Contains("email"))
                 {
-                    UsrEmailLbl.Text = set[1];
-                    UsrEmailLbl2.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl4.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl6.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl7.Text = UsrEmailLbl.Text;
-                    UsrEmailLbl8.Text = UsrEmailLbl.Text;
+                    UsrEmailLbl2.Text = set[1];
+                    UsrEmailLbl4.Text = UsrEmailLbl2.Text;
+                    UsrEmailLbl6.Text = UsrEmailLbl2.Text;
+                    UsrEmailLbl7.Text = UsrEmailLbl2.Text;
+                    UsrEmailLbl8.Text = UsrEmailLbl2.Text;
                 }
                 else if (set.Contains("warningpoints"))
                 {
-                    UsrWrningPntsLbl.Text = set[1];
-                    UsrWrningPntsLbl2.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl4.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl6.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl7.Text = UsrWrningPntsLbl.Text;
-                    UsrWrningPntsLbl8.Text = UsrWrningPntsLbl.Text;
+                    UsrWrningPntsLbl2.Text = set[1];
+                    UsrWrningPntsLbl4.Text = UsrWrningPntsLbl2.Text;
+                    UsrWrningPntsLbl6.Text = UsrWrningPntsLbl2.Text;
+                    UsrWrningPntsLbl7.Text = UsrWrningPntsLbl2.Text;
+                    UsrWrningPntsLbl8.Text = UsrWrningPntsLbl2.Text;
                 }
                 else if (set.Contains("timezone"))
                 {
-                    UsrTimeZoneLbl.Text = set[1];
-                    UsrTimeZoneLbl2.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl4.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl6.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl7.Text = UsrTimeZoneLbl.Text;
-                    UsrTimeZoneLbl8.Text = UsrTimeZoneLbl.Text;
+                    UsrTimeZoneLbl2.Text = set[1];
+                    UsrTimeZoneLbl4.Text = UsrTimeZoneLbl2.Text;
+                    UsrTimeZoneLbl6.Text = UsrTimeZoneLbl2.Text;
+                    UsrTimeZoneLbl7.Text = UsrTimeZoneLbl2.Text;
+                    UsrTimeZoneLbl8.Text = UsrTimeZoneLbl2.Text;
                 }
                 else if (set.Contains("messagecount"))
                 {
-                    UsrMsgCntLbl.Text = set[1];
-                    UsrMsgCntLbl2.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl4.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl6.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl7.Text = UsrMsgCntLbl.Text;
-                    UsrMsgCntLbl8.Text = UsrMsgCntLbl.Text;
+                    UsrMsgCntLbl2.Text =  set[1];
+                    UsrMsgCntLbl4.Text = UsrMsgCntLbl2.Text;
+                    UsrMsgCntLbl6.Text = UsrMsgCntLbl2.Text;
+                    UsrMsgCntLbl7.Text = UsrMsgCntLbl2.Text;
+                    UsrMsgCntLbl8.Text = UsrMsgCntLbl2.Text;
                 }
                 else if (set.Contains("unreadconvos"))
                 {
-                    UsrUnreadConvoLbl.Text = set[1];
-                    UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl.Text;
-                    UsrUnreadConvoLbl8.Text = UsrUnreadConvoLbl.Text;
+                    UsrUnreadConvoLbl2.Text = set[1];
+                    UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl2.Text;
+                    UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl2.Text;
+                    UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl2.Text;
+                    UsrUnreadConvoLbl8.Text = UsrUnreadConvoLbl2.Text;
                 }
                 else if (set.Contains("registrationdate"))
                 {
-                    UsrRegDateLbl.Text = set[1];
-                    UsrRegDateLbl2.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl4.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl6.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl7.Text = UsrRegDateLbl.Text;
-                    UsrRegDateLbl8.Text = UsrRegDateLbl.Text;
+                    UsrRegDateLbl2.Text = set[1];
+                    UsrRegDateLbl4.Text = UsrRegDateLbl2.Text;
+                    UsrRegDateLbl6.Text = UsrRegDateLbl2.Text;
+                    UsrRegDateLbl7.Text = UsrRegDateLbl2.Text;
+                    UsrRegDateLbl8.Text = UsrRegDateLbl2.Text;
                 }
                 else if (set.Contains("unreadalerts"))
                 {
-                    UsrUnreadAlertsLbl.Text = set[1];
-                    UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl.Text;
-                    UsrUnreadAlertsLbl8.Text = UsrUnreadAlertsLbl.Text;
+                    UsrUnreadAlertsLbl2.Text = set[1];
+                    UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl2.Text;
+                    UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl2.Text;
+                    UsrUnreadAlertsLbl7.Text = UsrUnreadAlertsLbl2.Text;
+                    UsrUnreadAlertsLbl8.Text = UsrUnreadAlertsLbl2.Text;
                 }
                 else if (set.Contains("userid"))
                 {
@@ -1010,7 +991,7 @@ namespace The_Elite_Patcher
             {
                 using (WebClient client = new WebClient())
                 {
-                    client.DownloadFile(UsrAvitarPic.ImageLocation, localFilename);
+                    client.DownloadFile(UsrAvitarPic2.ImageLocation, localFilename);
                 }
             }
             catch { }
@@ -1021,13 +1002,13 @@ namespace The_Elite_Patcher
             File.AppendAllText(path, "pass;" + encpass + Environment.NewLine);
             File.AppendAllText(path, "avatarlocation;" + localFilename + Environment.NewLine);
             File.AppendAllText(path, "usertitle;" + UsrTitleLbl2.Text + Environment.NewLine);
-            File.AppendAllText(path, "email;" + UsrEmailLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "warningpoints;" + UsrWrningPntsLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "timezone;" + UsrTimeZoneLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "messagecount;" + UsrMsgCntLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "unreadconvos;" + UsrUnreadConvoLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "registrationdate;" + UsrRegDateLbl.Text + Environment.NewLine);
-            File.AppendAllText(path, "unreadalerts;" + UsrUnreadAlertsLbl.Text + Environment.NewLine);
+            File.AppendAllText(path, "email;" + UsrEmailLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "warningpoints;" + UsrWrningPntsLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "timezone;" + UsrTimeZoneLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "messagecount;" + UsrMsgCntLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "unreadconvos;" + UsrUnreadConvoLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "registrationdate;" + UsrRegDateLbl2.Text + Environment.NewLine);
+            File.AppendAllText(path, "unreadalerts;" + UsrUnreadAlertsLbl2.Text + Environment.NewLine);
             File.AppendAllText(path, "userid;" + UsrIdLbl.Text + Environment.NewLine);
             File.AppendAllText(path, "referrerid;" + UsrReferridLbl.Text + Environment.NewLine);
             File.AppendAllText(path, "gender;" + UsrGenderLbl.Text + Environment.NewLine);
@@ -1525,19 +1506,6 @@ namespace The_Elite_Patcher
         private void buttonItem14_Click(object sender, EventArgs e)
         {
             Process.Start("http://www.elite.so/threads/the-elite-patch-beta.193/");
-        }
-        private void button36_Click(object sender, EventArgs e)
-        {
-            if (DtlUsrNfoPnl.Visible == true)
-            {
-                DtlUsrNfoPnl.Visible = false;
-                button36.Text = "Detailed Info >>";
-            }
-            else
-            {
-                DtlUsrNfoPnl.Visible = true;
-                button36.Text = "Detailed Info <<";
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -2459,7 +2427,7 @@ namespace The_Elite_Patcher
                 suggstSiteTxt.Text = suggstSiteTxt.Text.Replace("http://", "");
                 suggstSiteTxt.Text = suggstSiteTxt.Text.Replace("https://", "");
                 suggstSiteTxt.Text = suggstSiteTxt.Text.Replace("www.", "");
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://theelitepatch.com/api/siteadder/add.php?url=" + suggstSiteTxt.Text + "&submitter=" + UserNfoPanel.Text + "&ip=" + GetIP());
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://theelitepatch.com/api/siteadder/add.php?url=" + suggstSiteTxt.Text + "&submitter=" + UsrPnl2.Text + "&ip=" + GetIP());
                 WebResponse response = request.GetResponse();
                 System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
                 string res = sr.ReadToEnd();
@@ -2641,7 +2609,7 @@ namespace The_Elite_Patcher
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 //MessageBox.Show(ex.Message);
             }

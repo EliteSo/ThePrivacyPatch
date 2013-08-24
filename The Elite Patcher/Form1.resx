@@ -134,12 +134,6 @@
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>236, 17</value>
   </metadata>
-  <data name="textBox7.Text" xml:space="preserve">
-    <value>Welcome to the iOS Tools Section!
-As noted in the release notes, this section is a fill-in for cydia. If you have a jailbroken iOS device and don't want to use our cydia repo, you can use The Elite Patch to install the same patch.
-We are working hard to allow this to work on Jailbroken and non-jailbroken devices, but keep in mind with Apple's strict security policy for apps, this will take some time.
-So enjoy The Elite Patch for iOS!</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="office2007StartButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
