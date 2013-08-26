@@ -12,6 +12,44 @@ namespace NiCoding_Development_Library.Forum_Tools
 {
   public class Xenforo
   {
+
+      public static string register(string site, string username, string password, string email)
+      {
+          string registerurl = "http://"+site+"/api.php?action=register&hash=b8e7ae12510bdfb110bd&username="+username+"&password="+password+"&email="+email;
+          try
+          {
+              string ret = "";
+              HttpWebRequest request = (HttpWebRequest)WebRequest.Create(registerurl);
+              WebResponse response = request.GetResponse();
+              System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
+              string res = sr.ReadToEnd();
+              if (res.Contains("Argument: \"password\", is empty\\/missing a value"))
+              {
+                  ret = "Password empty!";
+              }
+              else if (res.Contains("Argument: \"email\", is empty\\/missing a value"))
+              {
+                  ret = "Email Empty!";
+              }
+              else if (res.Contains("Argument: \"username\", is empty\\/missing a value"))
+              {
+                  ret = "Username Empty!";
+              }
+              else if (res.Contains("User already exists\""))
+              {
+                  ret = "User Exists!";
+              }
+              else
+              {
+                  ret = "Success!";
+              }
+              return ret;
+          }
+          catch (Exception ex)
+          {
+              return ex.Message;
+          }
+      }
     public static string login(string site, string username, string password)
     {
       try

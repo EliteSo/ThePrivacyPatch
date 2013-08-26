@@ -603,5 +603,17 @@ namespace The_Elite_Patcher.Properties {
                 this["isCCAcc"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string site {
+            get {
+                return ((string)(this["site"]));
+            }
+            set {
+                this["site"] = value;
+            }
+        }
     }
 }

@@ -48,6 +48,7 @@
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupPanel3.SuspendLayout();
@@ -151,7 +152,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(136, 90);
+            this.button2.Location = new System.Drawing.Point(111, 90);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(99, 34);
             this.button2.TabIndex = 7;
@@ -208,9 +209,9 @@
             // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(257, 90);
+            this.button35.Location = new System.Drawing.Point(303, 90);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(99, 34);
+            this.button35.Size = new System.Drawing.Size(53, 34);
             this.button35.TabIndex = 0;
             this.button35.Text = "Login";
             this.button35.UseVisualStyleBackColor = true;
@@ -221,6 +222,7 @@
             this.groupPanel3.BackColor = System.Drawing.Color.Transparent;
             this.groupPanel3.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel3.Controls.Add(this.button3);
             this.groupPanel3.Controls.Add(this.button2);
             this.groupPanel3.Controls.Add(this.checkBox1);
             this.groupPanel3.Controls.Add(this.button1);
@@ -345,6 +347,16 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(216, 90);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(81, 34);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Login With Facebook";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // NewSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,5 +405,6 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.PictureBox pictureBox5;
         private DevComponents.DotNetBar.StyleManager styleManager1;
+        private System.Windows.Forms.Button button3;
     }
 }

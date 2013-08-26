@@ -1,5 +1,5 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Elite Patcher", "The Elite Patcher\The Elite Patcher.csproj", "{36EFB7B4-27C8-42A9-B7EC-2A57C57E9F2E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Elite Patch Proxy Tools", "The Elite Patch Proxy Tools\The Elite Patch Proxy Tools.csproj", "{3AE07A0E-9672-4431-845A-0FC87EAA50FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nicoding Development Library", "Nicoding Development Library\Nicoding Development Library.csproj", "{512C5EB7-E58C-4572-844C-B51F26BF90FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook-Net40", "Facebook SDK\Source\Facebook\Facebook-Net40.csproj", "{857E540C-0092-4590-A279-F98A6B77AC0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,16 @@ Global
 		{512C5EB7-E58C-4572-844C-B51F26BF90FB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{512C5EB7-E58C-4572-844C-B51F26BF90FB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{512C5EB7-E58C-4572-844C-B51F26BF90FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{857E540C-0092-4590-A279-F98A6B77AC0A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

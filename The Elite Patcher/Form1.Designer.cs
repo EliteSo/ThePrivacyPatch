@@ -34,13 +34,13 @@
             this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();
             this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
             this.superTabControl4 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel11 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.superTabItem11 = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel12 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.superTabItem12 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel11 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.superTabItem11 = new DevComponents.DotNetBar.SuperTabItem();
             this.groupBox27 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.suggstSiteTxt = new System.Windows.Forms.TextBox();
@@ -133,31 +133,6 @@
             this.UsrWrningPntsLbl4 = new System.Windows.Forms.Label();
             this.ribbonPanel8 = new DevComponents.DotNetBar.RibbonPanel();
             this.superTabControl1 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.label92 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.DtlUsrNfoPnl = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.UsrReferridLbl = new System.Windows.Forms.Label();
@@ -191,6 +166,31 @@
             this.label49 = new System.Windows.Forms.Label();
             this.UsrLikeCntLbl = new System.Windows.Forms.Label();
             this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.label92 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
             this.UsrPnl7 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.UsrRegDateLbl7 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
@@ -209,48 +209,6 @@
             this.UsrAvitarPic7 = new System.Windows.Forms.PictureBox();
             this.label82 = new System.Windows.Forms.Label();
             this.UsrWrningPntsLbl7 = new System.Windows.Forms.Label();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
-            this.superTabControl3 = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel7 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.listBox8 = new System.Windows.Forms.ListBox();
-            this.progressBarX4 = new DevComponents.DotNetBar.Controls.ProgressBarX();
-            this.progressBarX3 = new DevComponents.DotNetBar.Controls.ProgressBarX();
-            this.label28 = new System.Windows.Forms.Label();
-            this.listBox7 = new System.Windows.Forms.ListBox();
-            this.superTabItem7 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel8 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.superTabItem8 = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel9 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.superTabItem9 = new DevComponents.DotNetBar.SuperTabItem();
-            this.UsrPnl6 = new DevComponents.DotNetBar.Controls.GroupPanel();
-            this.UsrRegDateLbl6 = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
-            this.UsrUnreadConvoLbl6 = new System.Windows.Forms.Label();
-            this.label112 = new System.Windows.Forms.Label();
-            this.UsrMsgCntLbl6 = new System.Windows.Forms.Label();
-            this.UsrUnreadAlertsLbl6 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
-            this.UsrTimeZoneLbl6 = new System.Windows.Forms.Label();
-            this.label118 = new System.Windows.Forms.Label();
-            this.UsrTitleLbl6 = new System.Windows.Forms.Label();
-            this.label120 = new System.Windows.Forms.Label();
-            this.UsrEmailLbl6 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.UsrAvitarPic6 = new System.Windows.Forms.PictureBox();
-            this.label123 = new System.Windows.Forms.Label();
-            this.UsrWrningPntsLbl6 = new System.Windows.Forms.Label();
             this.ribbonPanel10 = new DevComponents.DotNetBar.RibbonPanel();
             this.UsrPnl8 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.UsrRegDateLbl8 = new System.Windows.Forms.Label();
@@ -281,6 +239,44 @@
             this.label85 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.superTabControl3 = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel7 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.listBox8 = new System.Windows.Forms.ListBox();
+            this.progressBarX4 = new DevComponents.DotNetBar.Controls.ProgressBarX();
+            this.progressBarX3 = new DevComponents.DotNetBar.Controls.ProgressBarX();
+            this.label28 = new System.Windows.Forms.Label();
+            this.listBox7 = new System.Windows.Forms.ListBox();
+            this.superTabItem7 = new DevComponents.DotNetBar.SuperTabItem();
+            this.UsrPnl6 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.UsrRegDateLbl6 = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.UsrUnreadConvoLbl6 = new System.Windows.Forms.Label();
+            this.label112 = new System.Windows.Forms.Label();
+            this.UsrMsgCntLbl6 = new System.Windows.Forms.Label();
+            this.UsrUnreadAlertsLbl6 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.UsrTimeZoneLbl6 = new System.Windows.Forms.Label();
+            this.label118 = new System.Windows.Forms.Label();
+            this.UsrTitleLbl6 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.UsrEmailLbl6 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.UsrAvitarPic6 = new System.Windows.Forms.PictureBox();
+            this.label123 = new System.Windows.Forms.Label();
+            this.UsrWrningPntsLbl6 = new System.Windows.Forms.Label();
             this.office2007StartButton1 = new DevComponents.DotNetBar.Office2007StartButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer3 = new DevComponents.DotNetBar.ItemContainer();
@@ -311,13 +307,14 @@
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.updchk = new System.Windows.Forms.Timer(this.components);
+            this.buttonItem20 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).BeginInit();
             this.superTabControl4.SuspendLayout();
+            this.superTabControlPanel11.SuspendLayout();
             this.superTabControlPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
-            this.superTabControlPanel11.SuspendLayout();
             this.groupBox27.SuspendLayout();
             this.UsrPnl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic2)).BeginInit();
@@ -339,22 +336,22 @@
             this.ribbonPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).BeginInit();
             this.superTabControl1.SuspendLayout();
-            this.superTabControlPanel2.SuspendLayout();
-            this.groupPanel1.SuspendLayout();
             this.superTabControlPanel1.SuspendLayout();
             this.DtlUsrNfoPnl.SuspendLayout();
+            this.superTabControlPanel2.SuspendLayout();
+            this.groupPanel1.SuspendLayout();
             this.UsrPnl7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).BeginInit();
+            this.ribbonPanel10.SuspendLayout();
+            this.UsrPnl8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).BeginInit();
+            this.groupPanel4.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).BeginInit();
             this.superTabControl3.SuspendLayout();
             this.superTabControlPanel7.SuspendLayout();
             this.UsrPnl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).BeginInit();
-            this.ribbonPanel10.SuspendLayout();
-            this.UsrPnl8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).BeginInit();
-            this.groupPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // styleManager1
@@ -371,10 +368,10 @@
             this.ribbonControl1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonControl1.CaptionVisible = true;
             this.ribbonControl1.Controls.Add(this.ribbonPanel4);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel3);
+            this.ribbonControl1.Controls.Add(this.ribbonPanel8);
             this.ribbonControl1.Controls.Add(this.ribbonPanel10);
             this.ribbonControl1.Controls.Add(this.ribbonPanel2);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel8);
-            this.ribbonControl1.Controls.Add(this.ribbonPanel3);
             this.ribbonControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ribbonControl1.ForeColor = System.Drawing.Color.Black;
             this.ribbonControl1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -390,6 +387,7 @@
             this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem14,
+            this.buttonItem20,
             this.qatCustomizeItem1});
             this.ribbonControl1.Size = new System.Drawing.Size(980, 470);
             this.ribbonControl1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -461,8 +459,8 @@
             this.superTabControl4.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControl4.ControlBox.MenuBox,
             this.superTabControl4.ControlBox.CloseBox});
-            this.superTabControl4.Controls.Add(this.superTabControlPanel11);
             this.superTabControl4.Controls.Add(this.superTabControlPanel12);
+            this.superTabControl4.Controls.Add(this.superTabControlPanel11);
             this.superTabControl4.ForeColor = System.Drawing.Color.Black;
             this.superTabControl4.Location = new System.Drawing.Point(182, 35);
             this.superTabControl4.Name = "superTabControl4";
@@ -476,6 +474,34 @@
             this.superTabItem12,
             this.superTabItem11});
             this.superTabControl4.Text = "hometabs";
+            // 
+            // superTabControlPanel11
+            // 
+            this.superTabControlPanel11.Controls.Add(this.textBox1);
+            this.superTabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel11.Name = "superTabControlPanel11";
+            this.superTabControlPanel11.Size = new System.Drawing.Size(783, 346);
+            this.superTabControlPanel11.TabIndex = 1;
+            this.superTabControlPanel11.TabItem = this.superTabItem11;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(783, 346);
+            this.textBox1.TabIndex = 4;
+            // 
+            // superTabItem11
+            // 
+            this.superTabItem11.AttachedControl = this.superTabControlPanel11;
+            this.superTabItem11.GlobalItem = false;
+            this.superTabItem11.Name = "superTabItem11";
+            this.superTabItem11.Text = "News";
             // 
             // superTabControlPanel12
             // 
@@ -521,34 +547,6 @@
             this.superTabItem12.GlobalItem = false;
             this.superTabItem12.Name = "superTabItem12";
             this.superTabItem12.Text = "Tutorials";
-            // 
-            // superTabControlPanel11
-            // 
-            this.superTabControlPanel11.Controls.Add(this.textBox1);
-            this.superTabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 25);
-            this.superTabControlPanel11.Name = "superTabControlPanel11";
-            this.superTabControlPanel11.Size = new System.Drawing.Size(783, 321);
-            this.superTabControlPanel11.TabIndex = 1;
-            this.superTabControlPanel11.TabItem = this.superTabItem11;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(783, 321);
-            this.textBox1.TabIndex = 4;
-            // 
-            // superTabItem11
-            // 
-            this.superTabItem11.AttachedControl = this.superTabControlPanel11;
-            this.superTabItem11.GlobalItem = false;
-            this.superTabItem11.Name = "superTabItem11";
-            this.superTabItem11.Text = "News";
             // 
             // groupBox27
             // 
@@ -1761,301 +1759,6 @@
             this.superTabItem1});
             this.superTabControl1.Text = "superTabControl1";
             // 
-            // superTabControlPanel2
-            // 
-            this.superTabControlPanel2.Controls.Add(this.label92);
-            this.superTabControlPanel2.Controls.Add(this.listBox1);
-            this.superTabControlPanel2.Controls.Add(this.groupPanel1);
-            this.superTabControlPanel2.Controls.Add(this.label13);
-            this.superTabControlPanel2.Controls.Add(this.label14);
-            this.superTabControlPanel2.Controls.Add(this.label11);
-            this.superTabControlPanel2.Controls.Add(this.label12);
-            this.superTabControlPanel2.Controls.Add(this.label9);
-            this.superTabControlPanel2.Controls.Add(this.label10);
-            this.superTabControlPanel2.Controls.Add(this.label8);
-            this.superTabControlPanel2.Controls.Add(this.label7);
-            this.superTabControlPanel2.Controls.Add(this.label6);
-            this.superTabControlPanel2.Controls.Add(this.textBox3);
-            this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel2.Name = "superTabControlPanel2";
-            this.superTabControlPanel2.Size = new System.Drawing.Size(700, 382);
-            this.superTabControlPanel2.TabIndex = 0;
-            this.superTabControlPanel2.TabItem = this.superTabItem2;
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.BackColor = System.Drawing.Color.Transparent;
-            this.label92.Location = new System.Drawing.Point(331, 161);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(83, 13);
-            this.label92.TabIndex = 25;
-            this.label92.Text = "Loaded Plugins:";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(355, 179);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(342, 199);
-            this.listBox1.TabIndex = 24;
-            // 
-            // groupPanel1
-            // 
-            this.groupPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
-            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.groupPanel1.Controls.Add(this.label26);
-            this.groupPanel1.Controls.Add(this.label24);
-            this.groupPanel1.Controls.Add(this.label23);
-            this.groupPanel1.Controls.Add(this.label22);
-            this.groupPanel1.Controls.Add(this.label21);
-            this.groupPanel1.Controls.Add(this.label20);
-            this.groupPanel1.Controls.Add(this.label19);
-            this.groupPanel1.Controls.Add(this.label18);
-            this.groupPanel1.Controls.Add(this.label16);
-            this.groupPanel1.Controls.Add(this.label17);
-            this.groupPanel1.Location = new System.Drawing.Point(9, 266);
-            this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(274, 112);
-            // 
-            // 
-            // 
-            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.groupPanel1.Style.BackColorGradientAngle = 90;
-            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderBottomWidth = 1;
-            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderLeftWidth = 1;
-            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderRightWidth = 1;
-            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.groupPanel1.Style.BorderTopWidth = 1;
-            this.groupPanel1.Style.CornerDiameter = 4;
-            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.groupPanel1.TabIndex = 23;
-            this.groupPanel1.Text = "Computer Info";
-            this.groupPanel1.Visible = false;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Location = new System.Drawing.Point(82, 24);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(68, 13);
-            this.label26.TabIndex = 17;
-            this.label26.Text = "Some Speed";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Location = new System.Drawing.Point(3, 24);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(37, 13);
-            this.label24.TabIndex = 15;
-            this.label24.Text = "Clock:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Location = new System.Drawing.Point(82, 71);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(34, 13);
-            this.label23.TabIndex = 14;
-            this.label23.Text = "32-Bit";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Location = new System.Drawing.Point(82, 54);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 13);
-            this.label22.TabIndex = 13;
-            this.label22.Text = "Some OS";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Location = new System.Drawing.Point(82, 38);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(59, 13);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "Some Ram";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Location = new System.Drawing.Point(3, 71);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(67, 13);
-            this.label20.TabIndex = 11;
-            this.label20.Text = "Architecture:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Location = new System.Drawing.Point(3, 54);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(25, 13);
-            this.label19.TabIndex = 10;
-            this.label19.Text = "OS:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Location = new System.Drawing.Point(3, 38);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(32, 13);
-            this.label18.TabIndex = 9;
-            this.label18.Text = "Ram:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Location = new System.Drawing.Point(82, 11);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(57, 13);
-            this.label16.TabIndex = 8;
-            this.label16.Text = "Something";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Location = new System.Drawing.Point(3, 11);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(32, 13);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "CPU:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Location = new System.Drawing.Point(146, 94);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "label13";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Location = new System.Drawing.Point(6, 94);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(85, 13);
-            this.label14.TabIndex = 21;
-            this.label14.Text = "System Version?";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(146, 67);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "label11";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Location = new System.Drawing.Point(6, 67);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(103, 13);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "Using Alt Proxy List?";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(146, 38);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(6, 38);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 13);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Using Manual Hosts File?";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(146, 11);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "label8";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(6, 11);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Using News From Web?";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(6, 114);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Hosts File:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(149, 114);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(327, 20);
-            this.textBox3.TabIndex = 13;
-            // 
-            // superTabItem2
-            // 
-            this.superTabItem2.AttachedControl = this.superTabControlPanel2;
-            this.superTabItem2.GlobalItem = false;
-            this.superTabItem2.Name = "superTabItem2";
-            this.superTabItem2.Text = "Developer Info";
-            // 
             // superTabControlPanel1
             // 
             this.superTabControlPanel1.Controls.Add(this.DtlUsrNfoPnl);
@@ -2450,6 +2153,301 @@
             this.superTabItem1.Name = "superTabItem1";
             this.superTabItem1.Text = "User Info";
             // 
+            // superTabControlPanel2
+            // 
+            this.superTabControlPanel2.Controls.Add(this.label92);
+            this.superTabControlPanel2.Controls.Add(this.listBox1);
+            this.superTabControlPanel2.Controls.Add(this.groupPanel1);
+            this.superTabControlPanel2.Controls.Add(this.label13);
+            this.superTabControlPanel2.Controls.Add(this.label14);
+            this.superTabControlPanel2.Controls.Add(this.label11);
+            this.superTabControlPanel2.Controls.Add(this.label12);
+            this.superTabControlPanel2.Controls.Add(this.label9);
+            this.superTabControlPanel2.Controls.Add(this.label10);
+            this.superTabControlPanel2.Controls.Add(this.label8);
+            this.superTabControlPanel2.Controls.Add(this.label7);
+            this.superTabControlPanel2.Controls.Add(this.label6);
+            this.superTabControlPanel2.Controls.Add(this.textBox3);
+            this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel2.Name = "superTabControlPanel2";
+            this.superTabControlPanel2.Size = new System.Drawing.Size(700, 382);
+            this.superTabControlPanel2.TabIndex = 0;
+            this.superTabControlPanel2.TabItem = this.superTabItem2;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.BackColor = System.Drawing.Color.Transparent;
+            this.label92.Location = new System.Drawing.Point(331, 161);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(83, 13);
+            this.label92.TabIndex = 25;
+            this.label92.Text = "Loaded Plugins:";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(355, 179);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(342, 199);
+            this.listBox1.TabIndex = 24;
+            // 
+            // groupPanel1
+            // 
+            this.groupPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.label26);
+            this.groupPanel1.Controls.Add(this.label24);
+            this.groupPanel1.Controls.Add(this.label23);
+            this.groupPanel1.Controls.Add(this.label22);
+            this.groupPanel1.Controls.Add(this.label21);
+            this.groupPanel1.Controls.Add(this.label20);
+            this.groupPanel1.Controls.Add(this.label19);
+            this.groupPanel1.Controls.Add(this.label18);
+            this.groupPanel1.Controls.Add(this.label16);
+            this.groupPanel1.Controls.Add(this.label17);
+            this.groupPanel1.Location = new System.Drawing.Point(9, 266);
+            this.groupPanel1.Name = "groupPanel1";
+            this.groupPanel1.Size = new System.Drawing.Size(274, 112);
+            // 
+            // 
+            // 
+            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel1.Style.BackColorGradientAngle = 90;
+            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderBottomWidth = 1;
+            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderLeftWidth = 1;
+            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderRightWidth = 1;
+            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderTopWidth = 1;
+            this.groupPanel1.Style.CornerDiameter = 4;
+            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.groupPanel1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.groupPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupPanel1.TabIndex = 23;
+            this.groupPanel1.Text = "Computer Info";
+            this.groupPanel1.Visible = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.Location = new System.Drawing.Point(82, 24);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(68, 13);
+            this.label26.TabIndex = 17;
+            this.label26.Text = "Some Speed";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Location = new System.Drawing.Point(3, 24);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(37, 13);
+            this.label24.TabIndex = 15;
+            this.label24.Text = "Clock:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Location = new System.Drawing.Point(82, 71);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(34, 13);
+            this.label23.TabIndex = 14;
+            this.label23.Text = "32-Bit";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Location = new System.Drawing.Point(82, 54);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(52, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Some OS";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Location = new System.Drawing.Point(82, 38);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(59, 13);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "Some Ram";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Location = new System.Drawing.Point(3, 71);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(67, 13);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "Architecture:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Location = new System.Drawing.Point(3, 54);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(25, 13);
+            this.label19.TabIndex = 10;
+            this.label19.Text = "OS:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Location = new System.Drawing.Point(3, 38);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(32, 13);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "Ram:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Location = new System.Drawing.Point(82, 11);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(57, 13);
+            this.label16.TabIndex = 8;
+            this.label16.Text = "Something";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Location = new System.Drawing.Point(3, 11);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(32, 13);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "CPU:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Location = new System.Drawing.Point(146, 94);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.TabIndex = 22;
+            this.label13.Text = "label13";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Location = new System.Drawing.Point(6, 94);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(85, 13);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "System Version?";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Location = new System.Drawing.Point(146, 67);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "label11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Location = new System.Drawing.Point(6, 67);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(103, 13);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "Using Alt Proxy List?";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(146, 38);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "label9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Location = new System.Drawing.Point(6, 38);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(127, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Using Manual Hosts File?";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Location = new System.Drawing.Point(146, 11);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "label8";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Location = new System.Drawing.Point(6, 11);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(122, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Using News From Web?";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(6, 114);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(56, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Hosts File:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(149, 114);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(327, 20);
+            this.textBox3.TabIndex = 13;
+            // 
+            // superTabItem2
+            // 
+            this.superTabItem2.AttachedControl = this.superTabControlPanel2;
+            this.superTabItem2.GlobalItem = false;
+            this.superTabItem2.Name = "superTabItem2";
+            this.superTabItem2.Text = "Developer Info";
+            // 
             // UsrPnl7
             // 
             this.UsrPnl7.BackColor = System.Drawing.Color.Transparent;
@@ -2661,555 +2659,6 @@
             this.UsrWrningPntsLbl7.Size = new System.Drawing.Size(72, 13);
             this.UsrWrningPntsLbl7.TabIndex = 30;
             this.UsrWrningPntsLbl7.Text = "warningpoints";
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel2.Controls.Add(this.superTabControl3);
-            this.ribbonPanel2.Controls.Add(this.UsrPnl6);
-            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(980, 414);
-            // 
-            // 
-            // 
-            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel2.TabIndex = 2;
-            this.ribbonPanel2.Visible = false;
-            // 
-            // superTabControl3
-            // 
-            this.superTabControl3.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            // 
-            // 
-            // 
-            this.superTabControl3.ControlBox.CloseBox.Name = "";
-            // 
-            // 
-            // 
-            this.superTabControl3.ControlBox.MenuBox.Name = "";
-            this.superTabControl3.ControlBox.Name = "";
-            this.superTabControl3.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabControl3.ControlBox.MenuBox,
-            this.superTabControl3.ControlBox.CloseBox});
-            this.superTabControl3.Controls.Add(this.superTabControlPanel7);
-            this.superTabControl3.Controls.Add(this.superTabControlPanel8);
-            this.superTabControl3.Controls.Add(this.superTabControlPanel9);
-            this.superTabControl3.ForeColor = System.Drawing.Color.Black;
-            this.superTabControl3.Location = new System.Drawing.Point(179, 3);
-            this.superTabControl3.Name = "superTabControl3";
-            this.superTabControl3.ReorderTabsEnabled = true;
-            this.superTabControl3.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.superTabControl3.SelectedTabIndex = 0;
-            this.superTabControl3.Size = new System.Drawing.Size(778, 382);
-            this.superTabControl3.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.superTabControl3.TabIndex = 50;
-            this.superTabControl3.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabItem7,
-            this.superTabItem8,
-            this.superTabItem9});
-            this.superTabControl3.Text = "Updates";
-            // 
-            // superTabControlPanel7
-            // 
-            this.superTabControlPanel7.Controls.Add(this.label35);
-            this.superTabControlPanel7.Controls.Add(this.textBox4);
-            this.superTabControlPanel7.Controls.Add(this.button6);
-            this.superTabControlPanel7.Controls.Add(this.button18);
-            this.superTabControlPanel7.Controls.Add(this.button16);
-            this.superTabControlPanel7.Controls.Add(this.button17);
-            this.superTabControlPanel7.Controls.Add(this.label34);
-            this.superTabControlPanel7.Controls.Add(this.label33);
-            this.superTabControlPanel7.Controls.Add(this.label32);
-            this.superTabControlPanel7.Controls.Add(this.label31);
-            this.superTabControlPanel7.Controls.Add(this.label29);
-            this.superTabControlPanel7.Controls.Add(this.listBox8);
-            this.superTabControlPanel7.Controls.Add(this.progressBarX4);
-            this.superTabControlPanel7.Controls.Add(this.progressBarX3);
-            this.superTabControlPanel7.Controls.Add(this.label28);
-            this.superTabControlPanel7.Controls.Add(this.listBox7);
-            this.superTabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel7.Location = new System.Drawing.Point(0, 25);
-            this.superTabControlPanel7.Name = "superTabControlPanel7";
-            this.superTabControlPanel7.Size = new System.Drawing.Size(778, 357);
-            this.superTabControlPanel7.TabIndex = 1;
-            this.superTabControlPanel7.TabItem = this.superTabItem7;
-            // 
-            // label35
-            // 
-            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.ForeColor = System.Drawing.Color.Black;
-            this.label35.Location = new System.Drawing.Point(479, 218);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(80, 13);
-            this.label35.TabIndex = 56;
-            this.label35.Text = "Update Details:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(519, 241);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(250, 75);
-            this.textBox4.TabIndex = 55;
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button6.Enabled = false;
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(523, 67);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(250, 23);
-            this.button6.TabIndex = 54;
-            this.button6.Text = "Update Plugins";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button18
-            // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button18.Enabled = false;
-            this.button18.ForeColor = System.Drawing.Color.Black;
-            this.button18.Location = new System.Drawing.Point(523, 92);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(250, 23);
-            this.button18.TabIndex = 53;
-            this.button18.Text = "Load an Update File";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // button16
-            // 
-            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button16.ForeColor = System.Drawing.Color.Black;
-            this.button16.Location = new System.Drawing.Point(523, 140);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(250, 23);
-            this.button16.TabIndex = 52;
-            this.button16.Text = "Force Update";
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
-            // 
-            // button17
-            // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button17.ForeColor = System.Drawing.Color.Black;
-            this.button17.Location = new System.Drawing.Point(523, 116);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(250, 23);
-            this.button17.TabIndex = 51;
-            this.button17.Text = "Check For Updates";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
-            // 
-            // label34
-            // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.ForeColor = System.Drawing.Color.Black;
-            this.label34.Location = new System.Drawing.Point(732, 9);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(28, 13);
-            this.label34.TabIndex = 47;
-            this.label34.Text = "-------";
-            // 
-            // label33
-            // 
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.ForeColor = System.Drawing.Color.Black;
-            this.label33.Location = new System.Drawing.Point(732, 31);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(41, 13);
-            this.label33.TabIndex = 46;
-            this.label33.Text = "0 bytes";
-            // 
-            // label32
-            // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.ForeColor = System.Drawing.Color.Black;
-            this.label32.Location = new System.Drawing.Point(663, 31);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(30, 13);
-            this.label32.TabIndex = 45;
-            this.label32.Text = "Size:";
-            // 
-            // label31
-            // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(663, 9);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(63, 13);
-            this.label31.TabIndex = 44;
-            this.label31.Text = "Current File:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.ForeColor = System.Drawing.Color.Black;
-            this.label29.Location = new System.Drawing.Point(3, 3);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(107, 13);
-            this.label29.TabIndex = 35;
-            this.label29.Text = "Files To Be Updated:";
-            // 
-            // listBox8
-            // 
-            this.listBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.listBox8.ForeColor = System.Drawing.Color.Black;
-            this.listBox8.FormattingEnabled = true;
-            this.listBox8.Location = new System.Drawing.Point(13, 22);
-            this.listBox8.Name = "listBox8";
-            this.listBox8.Size = new System.Drawing.Size(411, 173);
-            this.listBox8.TabIndex = 34;
-            // 
-            // progressBarX4
-            // 
-            this.progressBarX4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBarX4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            // 
-            // 
-            // 
-            this.progressBarX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.progressBarX4.ForeColor = System.Drawing.Color.Black;
-            this.progressBarX4.Location = new System.Drawing.Point(15, 326);
-            this.progressBarX4.Name = "progressBarX4";
-            this.progressBarX4.Size = new System.Drawing.Size(754, 10);
-            this.progressBarX4.TabIndex = 32;
-            this.progressBarX4.Text = "progressBarX4";
-            // 
-            // progressBarX3
-            // 
-            this.progressBarX3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBarX3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            // 
-            // 
-            // 
-            this.progressBarX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.progressBarX3.ForeColor = System.Drawing.Color.Black;
-            this.progressBarX3.Location = new System.Drawing.Point(15, 341);
-            this.progressBarX3.Name = "progressBarX3";
-            this.progressBarX3.Size = new System.Drawing.Size(754, 10);
-            this.progressBarX3.TabIndex = 33;
-            this.progressBarX3.Text = "progressBarX3";
-            // 
-            // label28
-            // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(3, 198);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(84, 13);
-            this.label28.TabIndex = 31;
-            this.label28.Text = "Files Completed:";
-            // 
-            // listBox7
-            // 
-            this.listBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.listBox7.ForeColor = System.Drawing.Color.Black;
-            this.listBox7.FormattingEnabled = true;
-            this.listBox7.Location = new System.Drawing.Point(16, 221);
-            this.listBox7.Name = "listBox7";
-            this.listBox7.Size = new System.Drawing.Size(408, 95);
-            this.listBox7.TabIndex = 30;
-            // 
-            // superTabItem7
-            // 
-            this.superTabItem7.AttachedControl = this.superTabControlPanel7;
-            this.superTabItem7.GlobalItem = false;
-            this.superTabItem7.Name = "superTabItem7";
-            this.superTabItem7.Text = "Program Updates";
-            // 
-            // superTabControlPanel8
-            // 
-            this.superTabControlPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel8.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel8.Name = "superTabControlPanel8";
-            this.superTabControlPanel8.Size = new System.Drawing.Size(778, 382);
-            this.superTabControlPanel8.TabIndex = 0;
-            this.superTabControlPanel8.TabItem = this.superTabItem8;
-            // 
-            // superTabItem8
-            // 
-            this.superTabItem8.AttachedControl = this.superTabControlPanel8;
-            this.superTabItem8.GlobalItem = false;
-            this.superTabItem8.Name = "superTabItem8";
-            this.superTabItem8.Text = "Plugin Updates";
-            // 
-            // superTabControlPanel9
-            // 
-            this.superTabControlPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel9.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel9.Name = "superTabControlPanel9";
-            this.superTabControlPanel9.Size = new System.Drawing.Size(778, 382);
-            this.superTabControlPanel9.TabIndex = 0;
-            this.superTabControlPanel9.TabItem = this.superTabItem9;
-            // 
-            // superTabItem9
-            // 
-            this.superTabItem9.AttachedControl = this.superTabControlPanel9;
-            this.superTabItem9.GlobalItem = false;
-            this.superTabItem9.Name = "superTabItem9";
-            this.superTabItem9.Text = "Addon Updates";
-            // 
-            // UsrPnl6
-            // 
-            this.UsrPnl6.BackColor = System.Drawing.Color.Transparent;
-            this.UsrPnl6.CanvasColor = System.Drawing.SystemColors.Control;
-            this.UsrPnl6.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.UsrPnl6.Controls.Add(this.UsrRegDateLbl6);
-            this.UsrPnl6.Controls.Add(this.label110);
-            this.UsrPnl6.Controls.Add(this.UsrUnreadConvoLbl6);
-            this.UsrPnl6.Controls.Add(this.label112);
-            this.UsrPnl6.Controls.Add(this.UsrMsgCntLbl6);
-            this.UsrPnl6.Controls.Add(this.UsrUnreadAlertsLbl6);
-            this.UsrPnl6.Controls.Add(this.label115);
-            this.UsrPnl6.Controls.Add(this.label116);
-            this.UsrPnl6.Controls.Add(this.UsrTimeZoneLbl6);
-            this.UsrPnl6.Controls.Add(this.label118);
-            this.UsrPnl6.Controls.Add(this.UsrTitleLbl6);
-            this.UsrPnl6.Controls.Add(this.label120);
-            this.UsrPnl6.Controls.Add(this.UsrEmailLbl6);
-            this.UsrPnl6.Controls.Add(this.label122);
-            this.UsrPnl6.Controls.Add(this.UsrAvitarPic6);
-            this.UsrPnl6.Controls.Add(this.label123);
-            this.UsrPnl6.Controls.Add(this.UsrWrningPntsLbl6);
-            this.UsrPnl6.Location = new System.Drawing.Point(3, 3);
-            this.UsrPnl6.Name = "UsrPnl6";
-            this.UsrPnl6.Size = new System.Drawing.Size(170, 234);
-            // 
-            // 
-            // 
-            this.UsrPnl6.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.UsrPnl6.Style.BackColorGradientAngle = 90;
-            this.UsrPnl6.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.UsrPnl6.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl6.Style.BorderBottomWidth = 1;
-            this.UsrPnl6.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.UsrPnl6.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl6.Style.BorderLeftWidth = 1;
-            this.UsrPnl6.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl6.Style.BorderRightWidth = 1;
-            this.UsrPnl6.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.UsrPnl6.Style.BorderTopWidth = 1;
-            this.UsrPnl6.Style.CornerDiameter = 4;
-            this.UsrPnl6.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.UsrPnl6.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.UsrPnl6.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.UsrPnl6.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
-            // 
-            // 
-            // 
-            this.UsrPnl6.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.UsrPnl6.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.UsrPnl6.TabIndex = 49;
-            this.UsrPnl6.Text = "User Info";
-            // 
-            // UsrRegDateLbl6
-            // 
-            this.UsrRegDateLbl6.AutoSize = true;
-            this.UsrRegDateLbl6.Location = new System.Drawing.Point(96, 184);
-            this.UsrRegDateLbl6.Name = "UsrRegDateLbl6";
-            this.UsrRegDateLbl6.Size = new System.Drawing.Size(43, 13);
-            this.UsrRegDateLbl6.TabIndex = 20;
-            this.UsrRegDateLbl6.Text = "regdate";
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(6, 184);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(92, 13);
-            this.label110.TabIndex = 19;
-            this.label110.Text = "Registration Date:";
-            // 
-            // UsrUnreadConvoLbl6
-            // 
-            this.UsrUnreadConvoLbl6.AutoSize = true;
-            this.UsrUnreadConvoLbl6.Location = new System.Drawing.Point(120, 169);
-            this.UsrUnreadConvoLbl6.Name = "UsrUnreadConvoLbl6";
-            this.UsrUnreadConvoLbl6.Size = new System.Drawing.Size(97, 13);
-            this.UsrUnreadConvoLbl6.TabIndex = 18;
-            this.UsrUnreadConvoLbl6.Text = "unreadconvocount";
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(6, 169);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(115, 13);
-            this.label112.TabIndex = 17;
-            this.label112.Text = "Unread Conversations:";
-            // 
-            // UsrMsgCntLbl6
-            // 
-            this.UsrMsgCntLbl6.AutoSize = true;
-            this.UsrMsgCntLbl6.Location = new System.Drawing.Point(89, 156);
-            this.UsrMsgCntLbl6.Name = "UsrMsgCntLbl6";
-            this.UsrMsgCntLbl6.Size = new System.Drawing.Size(53, 13);
-            this.UsrMsgCntLbl6.TabIndex = 16;
-            this.UsrMsgCntLbl6.Text = "msgcount";
-            // 
-            // UsrUnreadAlertsLbl6
-            // 
-            this.UsrUnreadAlertsLbl6.AutoSize = true;
-            this.UsrUnreadAlertsLbl6.BackColor = System.Drawing.Color.Transparent;
-            this.UsrUnreadAlertsLbl6.Location = new System.Drawing.Point(77, 197);
-            this.UsrUnreadAlertsLbl6.Name = "UsrUnreadAlertsLbl6";
-            this.UsrUnreadAlertsLbl6.Size = new System.Drawing.Size(65, 13);
-            this.UsrUnreadAlertsLbl6.TabIndex = 44;
-            this.UsrUnreadAlertsLbl6.Text = "unreadalerts";
-            // 
-            // label115
-            // 
-            this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(6, 156);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(84, 13);
-            this.label115.TabIndex = 15;
-            this.label115.Text = "Message Count:";
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.BackColor = System.Drawing.Color.Transparent;
-            this.label116.Location = new System.Drawing.Point(6, 197);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(74, 13);
-            this.label116.TabIndex = 43;
-            this.label116.Text = "Unread Alerts:";
-            // 
-            // UsrTimeZoneLbl6
-            // 
-            this.UsrTimeZoneLbl6.AutoSize = true;
-            this.UsrTimeZoneLbl6.Location = new System.Drawing.Point(63, 143);
-            this.UsrTimeZoneLbl6.Name = "UsrTimeZoneLbl6";
-            this.UsrTimeZoneLbl6.Size = new System.Drawing.Size(49, 13);
-            this.UsrTimeZoneLbl6.TabIndex = 12;
-            this.UsrTimeZoneLbl6.Text = "timezone";
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(6, 143);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(61, 13);
-            this.label118.TabIndex = 11;
-            this.label118.Text = "Time Zone:";
-            // 
-            // UsrTitleLbl6
-            // 
-            this.UsrTitleLbl6.AutoSize = true;
-            this.UsrTitleLbl6.Location = new System.Drawing.Point(35, 102);
-            this.UsrTitleLbl6.Name = "UsrTitleLbl6";
-            this.UsrTitleLbl6.Size = new System.Drawing.Size(52, 13);
-            this.UsrTitleLbl6.TabIndex = 10;
-            this.UsrTitleLbl6.Text = "User Title";
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(6, 102);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(30, 13);
-            this.label120.TabIndex = 9;
-            this.label120.Text = "Title:";
-            // 
-            // UsrEmailLbl6
-            // 
-            this.UsrEmailLbl6.AutoSize = true;
-            this.UsrEmailLbl6.Location = new System.Drawing.Point(39, 117);
-            this.UsrEmailLbl6.Name = "UsrEmailLbl6";
-            this.UsrEmailLbl6.Size = new System.Drawing.Size(31, 13);
-            this.UsrEmailLbl6.TabIndex = 6;
-            this.UsrEmailLbl6.Text = "email";
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(6, 117);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(35, 13);
-            this.label122.TabIndex = 5;
-            this.label122.Text = "Email:";
-            // 
-            // UsrAvitarPic6
-            // 
-            this.UsrAvitarPic6.Location = new System.Drawing.Point(32, 3);
-            this.UsrAvitarPic6.Name = "UsrAvitarPic6";
-            this.UsrAvitarPic6.Size = new System.Drawing.Size(96, 96);
-            this.UsrAvitarPic6.TabIndex = 0;
-            this.UsrAvitarPic6.TabStop = false;
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.BackColor = System.Drawing.Color.Transparent;
-            this.label123.Location = new System.Drawing.Point(6, 130);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(82, 13);
-            this.label123.TabIndex = 29;
-            this.label123.Text = "Warning Points:";
-            // 
-            // UsrWrningPntsLbl6
-            // 
-            this.UsrWrningPntsLbl6.AutoSize = true;
-            this.UsrWrningPntsLbl6.BackColor = System.Drawing.Color.Transparent;
-            this.UsrWrningPntsLbl6.Location = new System.Drawing.Point(86, 130);
-            this.UsrWrningPntsLbl6.Name = "UsrWrningPntsLbl6";
-            this.UsrWrningPntsLbl6.Size = new System.Drawing.Size(72, 13);
-            this.UsrWrningPntsLbl6.TabIndex = 30;
-            this.UsrWrningPntsLbl6.Text = "warningpoints";
             // 
             // ribbonPanel10
             // 
@@ -3601,6 +3050,519 @@
             this.radioButton1.Text = "Bug Report";
             this.radioButton1.UseVisualStyleBackColor = false;
             // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel2.Controls.Add(this.superTabControl3);
+            this.ribbonPanel2.Controls.Add(this.UsrPnl6);
+            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel2.Size = new System.Drawing.Size(980, 414);
+            // 
+            // 
+            // 
+            this.ribbonPanel2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel2.TabIndex = 2;
+            this.ribbonPanel2.Visible = false;
+            // 
+            // superTabControl3
+            // 
+            this.superTabControl3.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            // 
+            // 
+            // 
+            this.superTabControl3.ControlBox.CloseBox.Name = "";
+            // 
+            // 
+            // 
+            this.superTabControl3.ControlBox.MenuBox.Name = "";
+            this.superTabControl3.ControlBox.Name = "";
+            this.superTabControl3.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabControl3.ControlBox.MenuBox,
+            this.superTabControl3.ControlBox.CloseBox});
+            this.superTabControl3.Controls.Add(this.superTabControlPanel7);
+            this.superTabControl3.ForeColor = System.Drawing.Color.Black;
+            this.superTabControl3.Location = new System.Drawing.Point(179, 3);
+            this.superTabControl3.Name = "superTabControl3";
+            this.superTabControl3.ReorderTabsEnabled = true;
+            this.superTabControl3.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.superTabControl3.SelectedTabIndex = 0;
+            this.superTabControl3.Size = new System.Drawing.Size(778, 382);
+            this.superTabControl3.TabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.superTabControl3.TabIndex = 50;
+            this.superTabControl3.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabItem7});
+            this.superTabControl3.Text = "Updates";
+            // 
+            // superTabControlPanel7
+            // 
+            this.superTabControlPanel7.Controls.Add(this.label35);
+            this.superTabControlPanel7.Controls.Add(this.textBox4);
+            this.superTabControlPanel7.Controls.Add(this.button6);
+            this.superTabControlPanel7.Controls.Add(this.button18);
+            this.superTabControlPanel7.Controls.Add(this.button16);
+            this.superTabControlPanel7.Controls.Add(this.button17);
+            this.superTabControlPanel7.Controls.Add(this.label34);
+            this.superTabControlPanel7.Controls.Add(this.label33);
+            this.superTabControlPanel7.Controls.Add(this.label32);
+            this.superTabControlPanel7.Controls.Add(this.label31);
+            this.superTabControlPanel7.Controls.Add(this.label29);
+            this.superTabControlPanel7.Controls.Add(this.listBox8);
+            this.superTabControlPanel7.Controls.Add(this.progressBarX4);
+            this.superTabControlPanel7.Controls.Add(this.progressBarX3);
+            this.superTabControlPanel7.Controls.Add(this.label28);
+            this.superTabControlPanel7.Controls.Add(this.listBox7);
+            this.superTabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel7.Location = new System.Drawing.Point(0, 25);
+            this.superTabControlPanel7.Name = "superTabControlPanel7";
+            this.superTabControlPanel7.Size = new System.Drawing.Size(778, 357);
+            this.superTabControlPanel7.TabIndex = 1;
+            this.superTabControlPanel7.TabItem = this.superTabItem7;
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.ForeColor = System.Drawing.Color.Black;
+            this.label35.Location = new System.Drawing.Point(479, 218);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(80, 13);
+            this.label35.TabIndex = 56;
+            this.label35.Text = "Update Details:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.textBox4.ForeColor = System.Drawing.Color.Black;
+            this.textBox4.Location = new System.Drawing.Point(519, 241);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(250, 75);
+            this.textBox4.TabIndex = 55;
+            // 
+            // button6
+            // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button6.Enabled = false;
+            this.button6.ForeColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(523, 67);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(250, 23);
+            this.button6.TabIndex = 54;
+            this.button6.Text = "Update Plugins";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button18
+            // 
+            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button18.Enabled = false;
+            this.button18.ForeColor = System.Drawing.Color.Black;
+            this.button18.Location = new System.Drawing.Point(523, 92);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(250, 23);
+            this.button18.TabIndex = 53;
+            this.button18.Text = "Load an Update File";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button16
+            // 
+            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button16.ForeColor = System.Drawing.Color.Black;
+            this.button16.Location = new System.Drawing.Point(523, 140);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(250, 23);
+            this.button16.TabIndex = 52;
+            this.button16.Text = "Force Update";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button17.ForeColor = System.Drawing.Color.Black;
+            this.button17.Location = new System.Drawing.Point(523, 116);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(250, 23);
+            this.button17.TabIndex = 51;
+            this.button17.Text = "Check For Updates";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.ForeColor = System.Drawing.Color.Black;
+            this.label34.Location = new System.Drawing.Point(732, 9);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(28, 13);
+            this.label34.TabIndex = 47;
+            this.label34.Text = "-------";
+            // 
+            // label33
+            // 
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(732, 31);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(41, 13);
+            this.label33.TabIndex = 46;
+            this.label33.Text = "0 bytes";
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.Location = new System.Drawing.Point(663, 31);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(30, 13);
+            this.label32.TabIndex = 45;
+            this.label32.Text = "Size:";
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(663, 9);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(63, 13);
+            this.label31.TabIndex = 44;
+            this.label31.Text = "Current File:";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(3, 3);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(107, 13);
+            this.label29.TabIndex = 35;
+            this.label29.Text = "Files To Be Updated:";
+            // 
+            // listBox8
+            // 
+            this.listBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.listBox8.ForeColor = System.Drawing.Color.Black;
+            this.listBox8.FormattingEnabled = true;
+            this.listBox8.Location = new System.Drawing.Point(13, 22);
+            this.listBox8.Name = "listBox8";
+            this.listBox8.Size = new System.Drawing.Size(411, 173);
+            this.listBox8.TabIndex = 34;
+            // 
+            // progressBarX4
+            // 
+            this.progressBarX4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBarX4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            // 
+            // 
+            // 
+            this.progressBarX4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.progressBarX4.ForeColor = System.Drawing.Color.Black;
+            this.progressBarX4.Location = new System.Drawing.Point(15, 326);
+            this.progressBarX4.Name = "progressBarX4";
+            this.progressBarX4.Size = new System.Drawing.Size(754, 10);
+            this.progressBarX4.TabIndex = 32;
+            this.progressBarX4.Text = "progressBarX4";
+            // 
+            // progressBarX3
+            // 
+            this.progressBarX3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.progressBarX3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            // 
+            // 
+            // 
+            this.progressBarX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.progressBarX3.ForeColor = System.Drawing.Color.Black;
+            this.progressBarX3.Location = new System.Drawing.Point(15, 341);
+            this.progressBarX3.Name = "progressBarX3";
+            this.progressBarX3.Size = new System.Drawing.Size(754, 10);
+            this.progressBarX3.TabIndex = 33;
+            this.progressBarX3.Text = "progressBarX3";
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(3, 198);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(84, 13);
+            this.label28.TabIndex = 31;
+            this.label28.Text = "Files Completed:";
+            // 
+            // listBox7
+            // 
+            this.listBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.listBox7.ForeColor = System.Drawing.Color.Black;
+            this.listBox7.FormattingEnabled = true;
+            this.listBox7.Location = new System.Drawing.Point(16, 221);
+            this.listBox7.Name = "listBox7";
+            this.listBox7.Size = new System.Drawing.Size(408, 95);
+            this.listBox7.TabIndex = 30;
+            // 
+            // superTabItem7
+            // 
+            this.superTabItem7.AttachedControl = this.superTabControlPanel7;
+            this.superTabItem7.GlobalItem = false;
+            this.superTabItem7.Name = "superTabItem7";
+            this.superTabItem7.Text = "Program Updates";
+            // 
+            // UsrPnl6
+            // 
+            this.UsrPnl6.BackColor = System.Drawing.Color.Transparent;
+            this.UsrPnl6.CanvasColor = System.Drawing.SystemColors.Control;
+            this.UsrPnl6.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.UsrPnl6.Controls.Add(this.UsrRegDateLbl6);
+            this.UsrPnl6.Controls.Add(this.label110);
+            this.UsrPnl6.Controls.Add(this.UsrUnreadConvoLbl6);
+            this.UsrPnl6.Controls.Add(this.label112);
+            this.UsrPnl6.Controls.Add(this.UsrMsgCntLbl6);
+            this.UsrPnl6.Controls.Add(this.UsrUnreadAlertsLbl6);
+            this.UsrPnl6.Controls.Add(this.label115);
+            this.UsrPnl6.Controls.Add(this.label116);
+            this.UsrPnl6.Controls.Add(this.UsrTimeZoneLbl6);
+            this.UsrPnl6.Controls.Add(this.label118);
+            this.UsrPnl6.Controls.Add(this.UsrTitleLbl6);
+            this.UsrPnl6.Controls.Add(this.label120);
+            this.UsrPnl6.Controls.Add(this.UsrEmailLbl6);
+            this.UsrPnl6.Controls.Add(this.label122);
+            this.UsrPnl6.Controls.Add(this.UsrAvitarPic6);
+            this.UsrPnl6.Controls.Add(this.label123);
+            this.UsrPnl6.Controls.Add(this.UsrWrningPntsLbl6);
+            this.UsrPnl6.Location = new System.Drawing.Point(3, 3);
+            this.UsrPnl6.Name = "UsrPnl6";
+            this.UsrPnl6.Size = new System.Drawing.Size(170, 234);
+            // 
+            // 
+            // 
+            this.UsrPnl6.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.UsrPnl6.Style.BackColorGradientAngle = 90;
+            this.UsrPnl6.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.UsrPnl6.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl6.Style.BorderBottomWidth = 1;
+            this.UsrPnl6.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.UsrPnl6.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl6.Style.BorderLeftWidth = 1;
+            this.UsrPnl6.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl6.Style.BorderRightWidth = 1;
+            this.UsrPnl6.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.UsrPnl6.Style.BorderTopWidth = 1;
+            this.UsrPnl6.Style.CornerDiameter = 4;
+            this.UsrPnl6.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.UsrPnl6.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.UsrPnl6.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.UsrPnl6.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            // 
+            // 
+            // 
+            this.UsrPnl6.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.UsrPnl6.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.UsrPnl6.TabIndex = 49;
+            this.UsrPnl6.Text = "User Info";
+            // 
+            // UsrRegDateLbl6
+            // 
+            this.UsrRegDateLbl6.AutoSize = true;
+            this.UsrRegDateLbl6.Location = new System.Drawing.Point(96, 184);
+            this.UsrRegDateLbl6.Name = "UsrRegDateLbl6";
+            this.UsrRegDateLbl6.Size = new System.Drawing.Size(43, 13);
+            this.UsrRegDateLbl6.TabIndex = 20;
+            this.UsrRegDateLbl6.Text = "regdate";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(6, 184);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(92, 13);
+            this.label110.TabIndex = 19;
+            this.label110.Text = "Registration Date:";
+            // 
+            // UsrUnreadConvoLbl6
+            // 
+            this.UsrUnreadConvoLbl6.AutoSize = true;
+            this.UsrUnreadConvoLbl6.Location = new System.Drawing.Point(120, 169);
+            this.UsrUnreadConvoLbl6.Name = "UsrUnreadConvoLbl6";
+            this.UsrUnreadConvoLbl6.Size = new System.Drawing.Size(97, 13);
+            this.UsrUnreadConvoLbl6.TabIndex = 18;
+            this.UsrUnreadConvoLbl6.Text = "unreadconvocount";
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(6, 169);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(115, 13);
+            this.label112.TabIndex = 17;
+            this.label112.Text = "Unread Conversations:";
+            // 
+            // UsrMsgCntLbl6
+            // 
+            this.UsrMsgCntLbl6.AutoSize = true;
+            this.UsrMsgCntLbl6.Location = new System.Drawing.Point(89, 156);
+            this.UsrMsgCntLbl6.Name = "UsrMsgCntLbl6";
+            this.UsrMsgCntLbl6.Size = new System.Drawing.Size(53, 13);
+            this.UsrMsgCntLbl6.TabIndex = 16;
+            this.UsrMsgCntLbl6.Text = "msgcount";
+            // 
+            // UsrUnreadAlertsLbl6
+            // 
+            this.UsrUnreadAlertsLbl6.AutoSize = true;
+            this.UsrUnreadAlertsLbl6.BackColor = System.Drawing.Color.Transparent;
+            this.UsrUnreadAlertsLbl6.Location = new System.Drawing.Point(77, 197);
+            this.UsrUnreadAlertsLbl6.Name = "UsrUnreadAlertsLbl6";
+            this.UsrUnreadAlertsLbl6.Size = new System.Drawing.Size(65, 13);
+            this.UsrUnreadAlertsLbl6.TabIndex = 44;
+            this.UsrUnreadAlertsLbl6.Text = "unreadalerts";
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(6, 156);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(84, 13);
+            this.label115.TabIndex = 15;
+            this.label115.Text = "Message Count:";
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.BackColor = System.Drawing.Color.Transparent;
+            this.label116.Location = new System.Drawing.Point(6, 197);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(74, 13);
+            this.label116.TabIndex = 43;
+            this.label116.Text = "Unread Alerts:";
+            // 
+            // UsrTimeZoneLbl6
+            // 
+            this.UsrTimeZoneLbl6.AutoSize = true;
+            this.UsrTimeZoneLbl6.Location = new System.Drawing.Point(63, 143);
+            this.UsrTimeZoneLbl6.Name = "UsrTimeZoneLbl6";
+            this.UsrTimeZoneLbl6.Size = new System.Drawing.Size(49, 13);
+            this.UsrTimeZoneLbl6.TabIndex = 12;
+            this.UsrTimeZoneLbl6.Text = "timezone";
+            // 
+            // label118
+            // 
+            this.label118.AutoSize = true;
+            this.label118.Location = new System.Drawing.Point(6, 143);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(61, 13);
+            this.label118.TabIndex = 11;
+            this.label118.Text = "Time Zone:";
+            // 
+            // UsrTitleLbl6
+            // 
+            this.UsrTitleLbl6.AutoSize = true;
+            this.UsrTitleLbl6.Location = new System.Drawing.Point(35, 102);
+            this.UsrTitleLbl6.Name = "UsrTitleLbl6";
+            this.UsrTitleLbl6.Size = new System.Drawing.Size(52, 13);
+            this.UsrTitleLbl6.TabIndex = 10;
+            this.UsrTitleLbl6.Text = "User Title";
+            // 
+            // label120
+            // 
+            this.label120.AutoSize = true;
+            this.label120.Location = new System.Drawing.Point(6, 102);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(30, 13);
+            this.label120.TabIndex = 9;
+            this.label120.Text = "Title:";
+            // 
+            // UsrEmailLbl6
+            // 
+            this.UsrEmailLbl6.AutoSize = true;
+            this.UsrEmailLbl6.Location = new System.Drawing.Point(39, 117);
+            this.UsrEmailLbl6.Name = "UsrEmailLbl6";
+            this.UsrEmailLbl6.Size = new System.Drawing.Size(31, 13);
+            this.UsrEmailLbl6.TabIndex = 6;
+            this.UsrEmailLbl6.Text = "email";
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Location = new System.Drawing.Point(6, 117);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(35, 13);
+            this.label122.TabIndex = 5;
+            this.label122.Text = "Email:";
+            // 
+            // UsrAvitarPic6
+            // 
+            this.UsrAvitarPic6.Location = new System.Drawing.Point(32, 3);
+            this.UsrAvitarPic6.Name = "UsrAvitarPic6";
+            this.UsrAvitarPic6.Size = new System.Drawing.Size(96, 96);
+            this.UsrAvitarPic6.TabIndex = 0;
+            this.UsrAvitarPic6.TabStop = false;
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.BackColor = System.Drawing.Color.Transparent;
+            this.label123.Location = new System.Drawing.Point(6, 130);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(82, 13);
+            this.label123.TabIndex = 29;
+            this.label123.Text = "Warning Points:";
+            // 
+            // UsrWrningPntsLbl6
+            // 
+            this.UsrWrningPntsLbl6.AutoSize = true;
+            this.UsrWrningPntsLbl6.BackColor = System.Drawing.Color.Transparent;
+            this.UsrWrningPntsLbl6.Location = new System.Drawing.Point(86, 130);
+            this.UsrWrningPntsLbl6.Name = "UsrWrningPntsLbl6";
+            this.UsrWrningPntsLbl6.Size = new System.Drawing.Size(72, 13);
+            this.UsrWrningPntsLbl6.TabIndex = 30;
+            this.UsrWrningPntsLbl6.Text = "warningpoints";
+            // 
             // office2007StartButton1
             // 
             this.office2007StartButton1.AutoExpandOnClick = true;
@@ -3827,6 +3789,12 @@
             this.updchk.Interval = 300000;
             this.updchk.Tick += new System.EventHandler(this.updchk_Tick);
             // 
+            // buttonItem20
+            // 
+            this.buttonItem20.Name = "buttonItem20";
+            this.buttonItem20.Text = "Facebook Page";
+            this.buttonItem20.Click += new System.EventHandler(this.buttonItem20_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3849,10 +3817,10 @@
             this.ribbonPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl4)).EndInit();
             this.superTabControl4.ResumeLayout(false);
-            this.superTabControlPanel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.superTabControlPanel11.ResumeLayout(false);
             this.superTabControlPanel11.PerformLayout();
+            this.superTabControlPanel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.groupBox27.ResumeLayout(false);
             this.groupBox27.PerformLayout();
             this.UsrPnl2.ResumeLayout(false);
@@ -3880,16 +3848,22 @@
             this.ribbonPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).EndInit();
             this.superTabControl1.ResumeLayout(false);
+            this.superTabControlPanel1.ResumeLayout(false);
+            this.DtlUsrNfoPnl.ResumeLayout(false);
+            this.DtlUsrNfoPnl.PerformLayout();
             this.superTabControlPanel2.ResumeLayout(false);
             this.superTabControlPanel2.PerformLayout();
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel1.PerformLayout();
-            this.superTabControlPanel1.ResumeLayout(false);
-            this.DtlUsrNfoPnl.ResumeLayout(false);
-            this.DtlUsrNfoPnl.PerformLayout();
             this.UsrPnl7.ResumeLayout(false);
             this.UsrPnl7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic7)).EndInit();
+            this.ribbonPanel10.ResumeLayout(false);
+            this.UsrPnl8.ResumeLayout(false);
+            this.UsrPnl8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).EndInit();
+            this.groupPanel4.ResumeLayout(false);
+            this.groupPanel4.PerformLayout();
             this.ribbonPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.superTabControl3)).EndInit();
             this.superTabControl3.ResumeLayout(false);
@@ -3898,12 +3872,6 @@
             this.UsrPnl6.ResumeLayout(false);
             this.UsrPnl6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic6)).EndInit();
-            this.ribbonPanel10.ResumeLayout(false);
-            this.UsrPnl8.ResumeLayout(false);
-            this.UsrPnl8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.UsrAvitarPic8)).EndInit();
-            this.groupPanel4.ResumeLayout(false);
-            this.groupPanel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4139,10 +4107,6 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.ListBox listBox7;
         private DevComponents.DotNetBar.SuperTabItem superTabItem7;
-        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel9;
-        private DevComponents.DotNetBar.SuperTabItem superTabItem9;
-        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel8;
-        private DevComponents.DotNetBar.SuperTabItem superTabItem8;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel10;
         private System.Windows.Forms.Label label62;
         private System.Windows.Forms.ListBox listBox2;
@@ -4191,6 +4155,7 @@
         private System.Windows.Forms.Label UsrFriendCntLbl;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label UsrLikeCntLbl;
+        private DevComponents.DotNetBar.ButtonItem buttonItem20;
     }
 }
 

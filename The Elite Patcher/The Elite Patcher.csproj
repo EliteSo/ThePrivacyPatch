@@ -190,6 +190,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Facebook SDK\Source\Facebook\Facebook-Net40.csproj">
+      <Project>{857E540C-0092-4590-A279-F98A6B77AC0A}</Project>
+      <Name>Facebook-Net40</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nicoding Development Library\Nicoding Development Library.csproj">
       <Project>{512C5EB7-E58C-4572-844C-B51F26BF90FB}</Project>
       <Name>Nicoding Development Library</Name>

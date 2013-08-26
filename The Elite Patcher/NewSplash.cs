@@ -143,8 +143,8 @@ namespace The_Elite_Patcher
 
         private void button35_Click(object sender, EventArgs e)
         {
-            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("elite.so", textBox5.Text, textBox8.Text);
-            if (!hash.Contains("Invalid") && !hash.Contains("Please enter") && !hash.Contains("Unable to login"))
+            string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", textBox5.Text, textBox8.Text);
+            if (!hash3.Contains("Invalid") && !hash3.Contains("Please enter") && !hash3.Contains("Unable to login"))
             {
                 if (checkBox1.Checked == true)
                 {
@@ -152,15 +152,18 @@ namespace The_Elite_Patcher
                 }
                 The_Elite_Patcher.Properties.Settings.Default.user = textBox5.Text;
                 The_Elite_Patcher.Properties.Settings.Default.pass = textBox8.Text;
-                The_Elite_Patcher.Properties.Settings.Default.hash = hash;
+                The_Elite_Patcher.Properties.Settings.Default.hash = hash3;
                 The_Elite_Patcher.Properties.Settings.Default.isAsAcc = false;
                 The_Elite_Patcher.Properties.Settings.Default.isRhAcc = false;
+                The_Elite_Patcher.Properties.Settings.Default.isCCAcc = true;
+                The_Elite_Patcher.Properties.Settings.Default.site = "crazy-coderz.com";
                 The_Elite_Patcher.Properties.Settings.Default.Save();
                 groupPanel1.Visible = true;
                 groupPanel2.Visible = true;
                 groupPanel3.Visible = false;
                 timer1.Start();
             }
+
             else
             {
                 string mdpass = textBox8.Text;
@@ -186,9 +189,10 @@ namespace The_Elite_Patcher
                         }
                         The_Elite_Patcher.Properties.Settings.Default.user = textBox5.Text;
                         The_Elite_Patcher.Properties.Settings.Default.pass = textBox8.Text;
-                        The_Elite_Patcher.Properties.Settings.Default.hash = hash;
+                        The_Elite_Patcher.Properties.Settings.Default.hash = hash2;
                         The_Elite_Patcher.Properties.Settings.Default.isAsAcc = false;
                         The_Elite_Patcher.Properties.Settings.Default.isRhAcc = true;
+                        The_Elite_Patcher.Properties.Settings.Default.site = "royalhood.net";
                         The_Elite_Patcher.Properties.Settings.Default.Save();
                         groupPanel1.Visible = true;
                         groupPanel2.Visible = true;
@@ -197,8 +201,8 @@ namespace The_Elite_Patcher
                     }
                     else
                     {
-                        string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", textBox5.Text, textBox8.Text);
-                        if (!hash3.Contains("Invalid") && !hash3.Contains("Please enter") && !hash3.Contains("Unable to login"))
+                        string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("elite.so", textBox5.Text, textBox8.Text);
+                        if (!hash.Contains("Invalid") && !hash.Contains("Please enter") && !hash.Contains("Unable to login"))
                         {
                             if (checkBox1.Checked == true)
                             {
@@ -209,8 +213,16 @@ namespace The_Elite_Patcher
                             The_Elite_Patcher.Properties.Settings.Default.hash = hash;
                             The_Elite_Patcher.Properties.Settings.Default.isAsAcc = false;
                             The_Elite_Patcher.Properties.Settings.Default.isRhAcc = false;
-                            The_Elite_Patcher.Properties.Settings.Default.isCCAcc = true;
+                            The_Elite_Patcher.Properties.Settings.Default.site = "elite.so";
                             The_Elite_Patcher.Properties.Settings.Default.Save();
+                            if (!checkUser("crazy-coderz.com", textBox5.Text))
+                            {
+                                string reg = NiCoding_Development_Library.Forum_Tools.Xenforo.register("crazy-coderz.com", textBox5.Text, textBox8.Text, NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail("elite.so", textBox5.Text));
+                                if (reg == "Success!")
+                                {
+                                    MessageBox.Show("Hello " + textBox5.Text + "!" + Environment.NewLine + "As Elite.So has merged with Crazy-Coderz.com, your account has been converted! Please check your email for an activation link! Your elite.so account will be deactivated after you close The Elite Patch.");
+                                }
+                            }
                             groupPanel1.Visible = true;
                             groupPanel2.Visible = true;
                             groupPanel3.Visible = false;
@@ -222,6 +234,19 @@ namespace The_Elite_Patcher
                         }
                     }
                 }
+            }
+        }
+
+        private bool checkUser(string site, string user)
+        {
+            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", textBox5.Text, textBox8.Text);
+            if (!hash.Contains("Invalid") || !hash.Contains("Please enter") || !hash.Contains("Unable to login"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
@@ -246,6 +271,11 @@ namespace The_Elite_Patcher
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             Process.Start("http://crazy-coderz.com");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
