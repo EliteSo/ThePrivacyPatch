@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Gigawiz\Desktop\NDL.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{512C5EB7-E58C-4572-844C-B51F26BF90FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>NDL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>NiCoding_Development_Library</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forum_Tools\IPBAsync.cs" />
+    <Compile Include="Forum_Tools\IPB.cs" />
+    <Compile Include="Forum_Tools\XenforoAsync.cs" />
+    <Compile Include="Forum_Tools\Xenforo.cs" />
+    <Compile Include="File_Operations\Permissions.cs" />
+    <Compile Include="File_Operations\WriteFile.cs" />
+    <Compile Include="File_Operations\FileChecking.cs" />
+    <Compile Include="Compression\Extract.cs" />
+    <Compile Include="Compression\Compression.cs" />
+    <Compile Include="Voice_Operations\Text2Speech\Text2SpeechFemale.cs" />
+    <Compile Include="Voice_Operations\Text2Speech\Text2SpeechMale.cs" />
+    <Compile Include="Voice_Operations\Text2Speech\Text2SpeechGeneric.cs" />
+    <Compile Include="Encryption\md5engine.cs" />
+    <Compile Include="Logging\ErrorLogging.cs" />
+    <Compile Include="OSOperations\OSCheck.cs" />
+    <Compile Include="OSOperations\UserFuncs.cs" />
+    <Compile Include="Proxy_Operations\EsoProxy.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

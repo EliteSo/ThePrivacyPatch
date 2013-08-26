@@ -537,7 +537,7 @@ namespace The_Elite_Patcher
                     list.Add(ste);
                 }
                 plgste = list.ToArray();
-                NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
+                //NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
                 MessageBox.Show("Successfully patched " + name + "!");
             }
             catch
@@ -556,7 +556,7 @@ namespace The_Elite_Patcher
                         list.Add(ste);
                     }
                     plgste = list.ToArray();
-                    NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
+                    //NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
                     MessageBox.Show("Successfully patched " + name + "!");
                 }
                 catch (Exception ex)
@@ -581,7 +581,7 @@ namespace The_Elite_Patcher
                         #region basic
                         #region avatar pics
                         //avi on account
-                        UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.Xenforo.getAvatar(user, hash);
+                        UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.Xenforo.getAvatar("crazy-coderz.com", user, hash);
                         UsrAvitarPic4.ImageLocation = UsrAvitarPic2.ImageLocation;
                         UsrAvitarPic6.ImageLocation = UsrAvitarPic2.ImageLocation;
                         UsrAvitarPic7.ImageLocation = UsrAvitarPic2.ImageLocation;
@@ -602,7 +602,7 @@ namespace The_Elite_Patcher
                         UsrPnl8.Text = user;
                         #endregion
                         #region usrtitle
-                        string usrtitle = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserCustomTitle(user);
+                        string usrtitle = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserCustomTitle("crazy-coderz.com", user);;
                         UsrTitleLbl2.Text = usrtitle;
                         UsrTitleLbl4.Text = usrtitle;
                         UsrTitleLbl6.Text = usrtitle;
@@ -610,7 +610,7 @@ namespace The_Elite_Patcher
                         UsrTitleLbl8.Text = usrtitle;
                         #endregion
                         #region email
-                        string usremail = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail(user);
+                        string usremail = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail("crazy-coderz.com", user);;
                         UsrEmailLbl2.Text = usremail;
                         UsrEmailLbl4.Text = usremail;
                         UsrEmailLbl6.Text = usremail;
@@ -618,7 +618,7 @@ namespace The_Elite_Patcher
                         UsrEmailLbl8.Text = usremail;
                         #endregion
                         #region warning points
-                        string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserWarningPoints(user).ToString();
+                        string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserWarningPoints("crazy-coderz.com", user).ToString();
                         UsrWrningPntsLbl2.Text = UsrWrningPntsLbl;
                         UsrWrningPntsLbl4.Text = UsrWrningPntsLbl;
                         UsrWrningPntsLbl6.Text = UsrWrningPntsLbl;
@@ -626,7 +626,7 @@ namespace The_Elite_Patcher
                         UsrWrningPntsLbl8.Text = UsrWrningPntsLbl;
                         #endregion
                         #region time zone
-                        string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTimeZone(user);
+                        string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTimeZone("crazy-coderz.com", user);;
                         UsrTimeZoneLbl2.Text = UsrTimeZoneLbl;
                         UsrTimeZoneLbl4.Text = UsrTimeZoneLbl;
                         UsrTimeZoneLbl6.Text = UsrTimeZoneLbl;
@@ -634,7 +634,7 @@ namespace The_Elite_Patcher
                         UsrTimeZoneLbl8.Text = UsrTimeZoneLbl;
                         #endregion
                         #region msg count
-                        string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserMsgCount(user);
+                        string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserMsgCount("crazy-coderz.com", user);;
                         UsrMsgCntLbl2.Text = UsrMsgCntLbl;
                         UsrMsgCntLbl4.Text = UsrMsgCntLbl;
                         UsrMsgCntLbl6.Text = UsrMsgCntLbl;
@@ -642,7 +642,7 @@ namespace The_Elite_Patcher
                         UsrMsgCntLbl8.Text = UsrMsgCntLbl;
                         #endregion
                         #region unreadconvos
-                        string UsrUnreadConvoLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadConvos(user);
+                        string UsrUnreadConvoLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadConvos("crazy-coderz.com", user);;
                         UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl;
                         UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl;
                         UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl;
@@ -650,7 +650,7 @@ namespace The_Elite_Patcher
                         UsrUnreadConvoLbl8.Text = UsrUnreadConvoLbl;
                         #endregion
                         #region regdate
-                        string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserRegDate(user);
+                        string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserRegDate("crazy-coderz.com", user);;
                         UsrRegDateLbl2.Text = UsrRegDateLbl;
                         UsrRegDateLbl4.Text = UsrRegDateLbl;
                         UsrRegDateLbl6.Text = UsrRegDateLbl;
@@ -658,7 +658,7 @@ namespace The_Elite_Patcher
                         UsrRegDateLbl8.Text = UsrRegDateLbl;
                         #endregion
                         #region unread alerts
-                        string UsrUnreadAlertsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadAlerts(user).ToString();
+                        string UsrUnreadAlertsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadAlerts("crazy-coderz.com", user).ToString();
                         UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl;
                         UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl;
                         UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl;
@@ -668,24 +668,24 @@ namespace The_Elite_Patcher
                         #endregion
                         #region detailed
                         DtlUsrNfoPnl.Text = "Detailed User Info For " + user;
-                        UsrIdLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserId(user);
-                        UsrGenderLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserGender(user);
-                        UserVisibilityLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserVisibility(user);
-                        UsrFreeInvitesLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFreeInvites(user).ToString();
-                        UsrBnkAmtLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserBankMoney(user).ToString();
-                        UsrFriendCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFriendCount(user).ToString();
-                        UsrLikeCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLikeCount(user).ToString();
-                        UsrBanStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isBanned(user).ToString();
-                        UsrAdminStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isAdmin(user).ToString();
+                        UsrIdLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserId("crazy-coderz.com", user);;
+                        UsrGenderLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserGender("crazy-coderz.com", user);;
+                        UserVisibilityLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserVisibility("crazy-coderz.com", user);;
+                        UsrFreeInvitesLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFreeInvites("crazy-coderz.com", user).ToString();
+                        UsrBnkAmtLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserBankMoney("crazy-coderz.com", user).ToString();
+                        UsrFriendCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFriendCount("crazy-coderz.com", user).ToString();
+                        UsrLikeCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLikeCount("crazy-coderz.com", user).ToString();
+                        UsrBanStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isBanned("crazy-coderz.com", user).ToString();
+                        UsrAdminStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isAdmin("crazy-coderz.com", user).ToString();
                         if (UsrAdminStatLbl.Text == "true" || UsrAdminStatLbl.Text == "True")
                         {
                             superTabItem4.Visible = true;
                         }
-                        UsrModStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isMod(user).ToString();
-                        UsrValidStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserState(user).ToString();
-                        UsrAviDateLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserAvitarDate(user);
-                        UsrTrophyPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTrophyPoints(user).ToString();
-                        UsrLastActiveDate.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLastActiveDate(user);
+                        UsrModStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isMod("crazy-coderz.com", user).ToString();
+                        UsrValidStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserState("crazy-coderz.com", user).ToString();
+                        UsrAviDateLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserAvitarDate("crazy-coderz.com", user);;
+                        UsrTrophyPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTrophyPoints("crazy-coderz.com", user).ToString();
+                        UsrLastActiveDate.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLastActiveDate("crazy-coderz.com", user);;
                         #endregion
                     }
                 }
@@ -714,7 +714,7 @@ namespace The_Elite_Patcher
                     #region basic
                     #region avatar pics
                     //avi on account
-                    UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getAvatar(user, hash);
+                    UsrAvitarPic2.ImageLocation = NiCoding_Development_Library.Forum_Tools.Xenforo.getAvatar("royalhood.net", user, hash);
                     UsrAvitarPic4.ImageLocation = UsrAvitarPic2.ImageLocation;
                     UsrAvitarPic6.ImageLocation = UsrAvitarPic2.ImageLocation;
                     UsrAvitarPic7.ImageLocation = UsrAvitarPic2.ImageLocation;
@@ -732,56 +732,56 @@ namespace The_Elite_Patcher
                     UsrPnl7.Text = user;
                     #endregion
                     #region usrtitle
-                    string usrtitle = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserCustomTitle(user);
+                    string usrtitle = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserCustomTitle("royalhood.net", user);;
                     UsrTitleLbl2.Text = usrtitle;
                     UsrTitleLbl4.Text = usrtitle;
                     UsrTitleLbl6.Text = usrtitle;
                     UsrTitleLbl7.Text = usrtitle;
                     #endregion
                     #region email
-                    string UsrEmailLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserEmail(user);
+                    string UsrEmailLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserEmail("royalhood.net", user); ;
                     UsrEmailLbl2.Text = UsrEmailLbl;
                     UsrEmailLbl4.Text = UsrEmailLbl;
                     UsrEmailLbl6.Text = UsrEmailLbl;
                     UsrEmailLbl7.Text = UsrEmailLbl;
                     #endregion
                     #region warning points
-                    string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserWarningPoints(user).ToString();
+                    string UsrWrningPntsLbl= NiCoding_Development_Library.Forum_Tools.Xenforo.getUserWarningPoints("royalhood.net", user).ToString();
                     UsrWrningPntsLbl2.Text = UsrWrningPntsLbl;
                     UsrWrningPntsLbl4.Text = UsrWrningPntsLbl;
                     UsrWrningPntsLbl6.Text = UsrWrningPntsLbl;
                     UsrWrningPntsLbl7.Text = UsrWrningPntsLbl;
                     #endregion
                     #region time zone
-                    string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserTimeZone(user);
+                    string UsrTimeZoneLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTimeZone("royalhood.net", user); ;
                     UsrTimeZoneLbl2.Text = UsrTimeZoneLbl;
                     UsrTimeZoneLbl4.Text = UsrTimeZoneLbl;
                     UsrTimeZoneLbl6.Text = UsrTimeZoneLbl;
                     UsrTimeZoneLbl7.Text = UsrTimeZoneLbl;
                     #endregion
                     #region msg count
-                    string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserMsgCount(user);
+                    string UsrMsgCntLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserMsgCount("royalhood.net", user); ;
                     UsrMsgCntLbl2.Text = UsrMsgCntLbl;
                     UsrMsgCntLbl4.Text = UsrMsgCntLbl;
                     UsrMsgCntLbl6.Text = UsrMsgCntLbl;
                     UsrMsgCntLbl7.Text = UsrMsgCntLbl;
                     #endregion
                     #region unreadconvos
-                    string UsrUnreadConvoLbl= NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadConvos(user);
+                    string UsrUnreadConvoLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadConvos("royalhood.net", user); ;
                     UsrUnreadConvoLbl2.Text = UsrUnreadConvoLbl;
                     UsrUnreadConvoLbl4.Text = UsrUnreadConvoLbl;
                     UsrUnreadConvoLbl6.Text = UsrUnreadConvoLbl;
                     UsrUnreadConvoLbl7.Text = UsrUnreadConvoLbl;
                     #endregion
                     #region regdate
-                    string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserRegDate(user);
+                    string UsrRegDateLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserRegDate("royalhood.net", user); ;
                     UsrRegDateLbl2.Text = UsrRegDateLbl;
                     UsrRegDateLbl4.Text = UsrRegDateLbl;
                     UsrRegDateLbl6.Text = UsrRegDateLbl;
                     UsrRegDateLbl7.Text = UsrRegDateLbl;
                     #endregion
                     #region unread alerts
-                    string UsrUnreadAlertsLbl = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserUnreadAlerts(user).ToString();
+                    string UsrUnreadAlertsLbl = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserUnreadAlerts("royalhood.net", user).ToString();
                     UsrUnreadAlertsLbl2.Text = UsrUnreadAlertsLbl;
                     UsrUnreadAlertsLbl4.Text = UsrUnreadAlertsLbl;
                     UsrUnreadAlertsLbl6.Text = UsrUnreadAlertsLbl;
@@ -790,24 +790,24 @@ namespace The_Elite_Patcher
                     #endregion
                     #region detailed
                     DtlUsrNfoPnl.Text = "Detailed User Info For " + user;
-                    UsrIdLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserId(user);
-                    UsrGenderLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserGender(user);
-                    UserVisibilityLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserVisibility(user);
-                    UsrFreeInvitesLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserFreeInvites(user).ToString();
-                    UsrBnkAmtLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserBankMoney(user).ToString();
-                    UsrFriendCntLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserFriendCount(user).ToString();
-                    UsrLikeCntLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserLikeCount(user).ToString();
-                    UsrBanStatLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.isBanned(user).ToString();
-                    UsrAdminStatLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.isAdmin(user).ToString();
+                    UsrIdLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserId("royalhood.net", user); ;
+                    UsrGenderLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserGender("royalhood.net", user); ;
+                    UserVisibilityLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserVisibility("royalhood.net", user); ;
+                    UsrFreeInvitesLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFreeInvites("royalhood.net", user).ToString();
+                    UsrBnkAmtLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserBankMoney("royalhood.net", user).ToString();
+                    UsrFriendCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserFriendCount("royalhood.net", user).ToString();
+                    UsrLikeCntLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLikeCount("royalhood.net", user).ToString();
+                    UsrBanStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isBanned("royalhood.net", user).ToString();
+                    UsrAdminStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isAdmin("royalhood.net", user).ToString();
                     if (UsrAdminStatLbl.Text == "true" || UsrAdminStatLbl.Text == "True")
                     {
                         superTabItem4.Visible = true;
                     }
-                    UsrModStatLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.isMod(user).ToString();
-                    UsrValidStatLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserState(user).ToString();
-                    UsrAviDateLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserAvitarDate(user);
-                    UsrTrophyPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserTrophyPoints(user).ToString();
-                    UsrLastActiveDate.Text = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.getUserLastActiveDate(user);
+                    UsrModStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.isMod("royalhood.net", user).ToString();
+                    UsrValidStatLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserState("royalhood.net", user).ToString();
+                    UsrAviDateLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserAvitarDate("royalhood.net", user); ;
+                    UsrTrophyPntsLbl.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserTrophyPoints("royalhood.net", user).ToString();
+                    UsrLastActiveDate.Text = NiCoding_Development_Library.Forum_Tools.Xenforo.getUserLastActiveDate("royalhood.net", user); ;
                     #endregion
                 }
             }
@@ -817,7 +817,7 @@ namespace The_Elite_Patcher
         {
             string fil = @"\usrnfo.cnf";
             path = path + fil;
-            NiCoding_Development_Library.Encryption.EncFuncs.encryptFile(path);
+            //NiCoding_Development_Library.Encryption.EncFuncs.encryptFile(path);
             string[] settings = File.ReadAllLines(path);
             string user = "";
             foreach (string line in settings)
@@ -1028,7 +1028,7 @@ namespace The_Elite_Patcher
             The_Elite_Patcher.Properties.Settings.Default.usrcachsaved = true;
             The_Elite_Patcher.Properties.Settings.Default.usrcachset = true;
             The_Elite_Patcher.Properties.Settings.Default.Save();
-            NiCoding_Development_Library.Encryption.EncFuncs.encryptFile(path);
+            //NiCoding_Development_Library.Encryption.EncFuncs.encryptFile(path);
         }
         #region hosts tools
         private void backupHosts()

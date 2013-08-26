@@ -143,7 +143,7 @@ namespace The_Elite_Patcher
 
         private void button35_Click(object sender, EventArgs e)
         {
-            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login(textBox5.Text, textBox8.Text);
+            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("elite.so", textBox5.Text, textBox8.Text);
             if (!hash.Contains("Invalid") && !hash.Contains("Please enter") && !hash.Contains("Unable to login"))
             {
                 if (checkBox1.Checked == true)
@@ -177,7 +177,7 @@ namespace The_Elite_Patcher
                 }
                 else
                 {
-                    string hash2 = NiCoding_Development_Library.Forum_Tools.XenforoRoyalhood.login(textBox5.Text, textBox8.Text);
+                    string hash2 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("royalhood.net", textBox5.Text, textBox8.Text);
                     if (!hash2.Contains("Invalid") && !hash2.Contains("Please enter") && !hash2.Contains("Unable to login"))
                     {
                         if (checkBox1.Checked == true)
@@ -197,7 +197,7 @@ namespace The_Elite_Patcher
                     }
                     else
                     {
-                        string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.newlogin("crazy-coderz.com", textBox5.Text, textBox8.Text);
+                        string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", textBox5.Text, textBox8.Text);
                         if (!hash3.Contains("Invalid") && !hash3.Contains("Please enter") && !hash3.Contains("Unable to login"))
                         {
                             if (checkBox1.Checked == true)
