@@ -47,6 +47,21 @@ namespace NiCoding_Development_Library.File_Operations
       return num;
     }
 
+    public static bool writeFileFromDll(string file, Array data)
+    {
+        try
+        {
+            foreach (string contents in data)
+            {
+                System.IO.File.AppendAllText(file, contents + Environment.NewLine);
+            }
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
     public static string writeFileFromUrl(string file, string location, bool newline, Array AltTxt)
     {
       int num = 0;

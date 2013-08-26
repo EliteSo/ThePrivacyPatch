@@ -537,8 +537,14 @@ namespace The_Elite_Patcher
                     list.Add(ste);
                 }
                 plgste = list.ToArray();
-                //NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
-                MessageBox.Show("Successfully patched " + name + "!");
+                if (NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste))
+                {
+                    MessageBox.Show("Successfully patched " + name + "!");
+                }
+                else
+                {
+                    MessageBox.Show(name + " was not patched! Please check that you are running The Elite Patch with administrator permissions, close any programs that may have locked your hosts file and try again. If the problem persists, please submit a bug report.");
+                }
             }
             catch
             {
@@ -556,8 +562,14 @@ namespace The_Elite_Patcher
                         list.Add(ste);
                     }
                     plgste = list.ToArray();
-                    //NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste);
-                    MessageBox.Show("Successfully patched " + name + "!");
+                    if (NiCoding_Development_Library.File_Operations.WriteFile.writeFileFromDll(hosts, plgste))
+                    {
+                        MessageBox.Show("Successfully patched " + name + "!");
+                    }
+                    else
+                    {
+                        MessageBox.Show(name + " was not patched! Please check that you are running The Elite Patch with administrator permissions, close any programs that may have locked your hosts file and try again. If the problem persists, please submit a bug report.");
+                    }
                 }
                 catch (Exception ex)
                 {
