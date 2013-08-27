@@ -615,5 +615,17 @@ namespace The_Elite_Patcher.Properties {
                 this["site"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fbregd {
+            get {
+                return ((bool)(this["fbregd"]));
+            }
+            set {
+                this["fbregd"] = value;
+            }
+        }
     }
 }

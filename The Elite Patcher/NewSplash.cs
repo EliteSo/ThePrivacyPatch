@@ -164,7 +164,6 @@ namespace The_Elite_Patcher
                 groupPanel3.Visible = false;
                 timer1.Start();
             }
-
             else
             {
                 string mdpass = textBox8.Text;
@@ -274,7 +273,7 @@ namespace The_Elite_Patcher
             Process.Start("http://crazy-coderz.com");
         }
         private const string AppId = "509817575770888";
-        private const string ExtendedPermissions = "user_about_me,publish_stream,offline_access";
+        private const string ExtendedPermissions = "user_about_me,publish_stream,offline_access,email";
         private void button3_Click(object sender, EventArgs e)
         {
             // open the Facebook Login Dialog and ask for user permissions.
@@ -302,8 +301,29 @@ namespace The_Elite_Patcher
                 // since our respone_type in FacebookLoginDialog was token,
                 // we got the access_token
                 // The user now has successfully granted permission to our app.
-                GraphApiAsyncExample(facebookOAuthResult.AccessToken);
-                posttowall("", facebookOAuthResult.AccessToken);
+                // Let's ask them if they want to register for Crazy-Coderz!
+                NiCoding_Development_Library.Forum_Tools.Xenforo.register("crazy-coderz.com", getFacebookUser(facebookOAuthResult.AccessToken), "pleasechangeme", getFacebookEmail(facebookOAuthResult.AccessToken));
+                MessageBox.Show("Your account has been registered at Crazy-Coderz.com! Please keep the following info for your records." + Environment.NewLine + "Username: " + getFacebookUser(facebookOAuthResult.AccessToken) + Environment.NewLine + "Password: pleasechangeme" + Environment.NewLine + "Email: " + getFacebookEmail(facebookOAuthResult.AccessToken)+Environment.NewLine+"You can change your email/password at http://crazy-coderz.com/account");
+                string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", getFacebookUser(facebookOAuthResult.AccessToken), "pleasechangeme");
+                if (!hash3.Contains("Invalid") && !hash3.Contains("Please enter") && !hash3.Contains("Unable to login"))
+                {
+                    if (checkBox1.Checked == true)
+                    {
+                        The_Elite_Patcher.Properties.Settings.Default.rememberme = true;
+                    }
+                    The_Elite_Patcher.Properties.Settings.Default.user = textBox5.Text;
+                    The_Elite_Patcher.Properties.Settings.Default.pass = textBox8.Text;
+                    The_Elite_Patcher.Properties.Settings.Default.hash = hash3;
+                    The_Elite_Patcher.Properties.Settings.Default.isAsAcc = false;
+                    The_Elite_Patcher.Properties.Settings.Default.isRhAcc = false;
+                    The_Elite_Patcher.Properties.Settings.Default.isCCAcc = true;
+                    The_Elite_Patcher.Properties.Settings.Default.site = "crazy-coderz.com";
+                    The_Elite_Patcher.Properties.Settings.Default.Save();
+                    groupPanel1.Visible = true;
+                    groupPanel2.Visible = true;
+                    groupPanel3.Visible = false;
+                    timer1.Start();
+                }
             }
             else
             {
@@ -312,7 +332,43 @@ namespace The_Elite_Patcher
                 MessageBox.Show(facebookOAuthResult.ErrorDescription);
             }
         }
-        private void GraphApiAsyncExample(string accessToken)
+        private string getFacebookUser(string accessToken)
+        {
+            try
+            {
+                var fb = new FacebookClient(accessToken);
+                // instead of casting to IDictionary<string,object> or IList<object>
+                // you can also make use of the dynamic keyword.
+                dynamic result = fb.Get("me");
+                // You can either access it this way, using the .
+                dynamic name = result.username;
+                return name;
+            }
+            catch (FacebookApiException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "";
+            }
+        }
+        private string getFacebookEmail(string accessToken)
+        {
+            try
+            {
+                var fb = new FacebookClient(accessToken);
+                // instead of casting to IDictionary<string,object> or IList<object>
+                // you can also make use of the dynamic keyword.
+                dynamic result = fb.Get("me");
+                // You can either access it this way, using the .
+                dynamic name = result.email;
+                return name;
+            }
+            catch (FacebookApiException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "";
+            }
+        }
+        private void GetInfoAsync(string accessToken)
         {
             var fb = new FacebookClient(accessToken);
 
@@ -359,7 +415,7 @@ namespace The_Elite_Patcher
                     this.BeginInvoke(new MethodInvoker(
                                          () =>
                                          {
-                                            // lblFirstName.Text = "First Name: " + firstName;
+                                             // lblFirstName.Text = "First Name: " + firstName;
                                          }));
                 }
             };

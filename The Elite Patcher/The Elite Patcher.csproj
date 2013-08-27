@@ -62,6 +62,7 @@
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
     <Compile Include="classes\Bitmaps.cs" />
+    <Compile Include="classes\Functions.cs" />
     <Compile Include="classes\Icons.cs" />
     <Compile Include="classes\Resources.cs" />
     <Compile Include="classes\Sounds.cs" />

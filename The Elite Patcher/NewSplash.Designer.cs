@@ -43,12 +43,12 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button35 = new System.Windows.Forms.Button();
             this.groupPanel3 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.button3 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupPanel3.SuspendLayout();
@@ -265,6 +265,16 @@
             this.groupPanel3.TabIndex = 10;
             this.groupPanel3.Text = "Login with your Crazy-Coderz.com, Elite.So or AdminSpot.net Account";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(216, 90);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(81, 34);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Register With Facebook";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(67, 40);
@@ -346,16 +356,6 @@
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(216, 90);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 34);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Login With Facebook";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // NewSplash
             // 
