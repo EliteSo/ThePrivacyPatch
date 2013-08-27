@@ -32,7 +32,7 @@ namespace The_Elite_Patcher
 
         private void button35_Click(object sender, EventArgs e)
         {
-            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("elite.so", textBox5.Text, textBox8.Text);
+            string hash = NiCoding_Development_Library.Forum_Tools.Xenforo.login("elite.so", textBox5.Text, textBox8.Text, false);
             if (!hash.Contains("Invalid") && !hash.Contains("Please enter") && !hash.Contains("Unable to login"))
             {
                 if (checkBox1.Checked == true)

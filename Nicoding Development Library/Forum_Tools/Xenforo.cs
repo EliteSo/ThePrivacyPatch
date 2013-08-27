@@ -7,6 +7,7 @@ using System;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Windows.Forms;
 
 namespace NiCoding_Development_Library.Forum_Tools
 {
@@ -50,26 +51,39 @@ namespace NiCoding_Development_Library.Forum_Tools
               return ex.Message;
           }
       }
-    public static string login(string site, string username, string password)
-    {
-      try
+      public static string login(string site, string username, string password, bool includeHash)
       {
-        string str1 = new StreamReader(WebRequest.Create("http://"+site+"/api.php?action=authenticate&username=" + username + "&password=" + password).GetResponse().GetResponseStream(), Encoding.GetEncoding("windows-1252")).ReadToEnd();
-        string str2;
-        if (str1.Contains("\"hash\":\""))
-        {
-          string str3 = str1.Remove(0, 9);
-          str2 = str3.Substring(0, str3.Length - 2);
-        }
-        else
-          str2 = !str1.Contains("Authentication error:") ? (!str1.Contains("Argument: 'password', is empty") ? "Unable to login at this time" : "Please enter your password!") : "Invalid username or password!";
-        return str2;
+          try
+          {
+              string ret = "";
+              string url = "http://" + site + "/api.php?action=authenticate&username=" + username + "&password=" + password;
+              HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(url));
+              WebResponse response = request.GetResponse();
+              System.IO.StreamReader sr = new System.IO.StreamReader(response.GetResponseStream(), System.Text.Encoding.GetEncoding("windows-1252"));
+              string result = sr.ReadToEnd();
+              if (!result.Contains("hash"))
+              {
+                  ret = "Bad username or password!";
+              }
+              else
+              {
+                  if (!includeHash)
+                  {
+                      string str3 = result.Remove(0, 9);
+                      ret = str3.Substring(0, str3.Length - 2);
+                  }
+                  else
+                  {
+                      ret = result;
+                  }
+              }
+              return ret;
+          }
+          catch (Exception ex)
+          {
+              return ex.Message;
+          }
       }
-      catch (Exception ex)
-      {
-        return ex.Message;
-      }
-    }
 
     public static string getAvatar(string site, string username, string hash)
     {
