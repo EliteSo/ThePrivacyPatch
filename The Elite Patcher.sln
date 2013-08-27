@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Elite Patch Proxy Tools
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nicoding Development Library", "Nicoding Development Library\Nicoding Development Library.csproj", "{512C5EB7-E58C-4572-844C-B51F26BF90FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook-Net40", "Facebook SDK\Source\Facebook\Facebook-Net40.csproj", "{857E540C-0092-4590-A279-F98A6B77AC0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook", "Facebook SDK\Facebook\Facebook.csproj", "{857E540C-0092-4590-A279-F98A6B77AC0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

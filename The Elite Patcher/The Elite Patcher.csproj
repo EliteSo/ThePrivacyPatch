@@ -66,6 +66,18 @@
     <Compile Include="classes\Resources.cs" />
     <Compile Include="classes\Sounds.cs" />
     <Compile Include="CryptorEngine.cs" />
+    <Compile Include="FacebookInfoDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacebookInfoDialog.designer.cs">
+      <DependentUpon>FacebookInfoDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacebookLoginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacebookLoginDialog.designer.cs">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +115,12 @@
     </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacebookInfoDialog.resx">
+      <DependentUpon>FacebookInfoDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacebookLoginDialog.resx">
+      <DependentUpon>FacebookLoginDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -190,9 +208,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Facebook SDK\Source\Facebook\Facebook-Net40.csproj">
+    <ProjectReference Include="..\Facebook SDK\Facebook\Facebook.csproj">
       <Project>{857E540C-0092-4590-A279-F98A6B77AC0A}</Project>
-      <Name>Facebook-Net40</Name>
+      <Name>Facebook</Name>
     </ProjectReference>
     <ProjectReference Include="..\Nicoding Development Library\Nicoding Development Library.csproj">
       <Project>{512C5EB7-E58C-4572-844C-B51F26BF90FB}</Project>

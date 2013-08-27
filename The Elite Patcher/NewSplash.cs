@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
+using Facebook;
 
 namespace The_Elite_Patcher
 {
@@ -272,10 +273,136 @@ namespace The_Elite_Patcher
         {
             Process.Start("http://crazy-coderz.com");
         }
-
+        private const string AppId = "509817575770888";
+        private const string ExtendedPermissions = "user_about_me,publish_stream,offline_access";
         private void button3_Click(object sender, EventArgs e)
         {
+            // open the Facebook Login Dialog and ask for user permissions.
+            var fbLoginDlg = new FacebookLoginDialog(AppId, ExtendedPermissions);
+            fbLoginDlg.ShowDialog();
 
+            // The user has taken action, either allowed/denied or cancelled the authorization,
+            // which can be known by looking at the dialogs FacebookOAuthResult property.
+            // Depending on the result take appropriate actions.
+            TakeLoggedInAction(fbLoginDlg.FacebookOAuthResult);
+        }
+        private void TakeLoggedInAction(Facebook.FacebookOAuthResult facebookOAuthResult)
+        {
+            if (facebookOAuthResult == null)
+            {
+                // the user closed the FacebookLoginDialog, so do nothing.
+                MessageBox.Show("Cancelled!");
+                return;
+            }
+
+            // Even though facebookOAuthResult is not null, it could had been an 
+            // OAuth 2.0 error, so make sure to check IsSuccess property always.
+            if (facebookOAuthResult.IsSuccess)
+            {
+                // since our respone_type in FacebookLoginDialog was token,
+                // we got the access_token
+                // The user now has successfully granted permission to our app.
+                GraphApiAsyncExample(facebookOAuthResult.AccessToken);
+                posttowall("", facebookOAuthResult.AccessToken);
+            }
+            else
+            {
+                // for some reason we failed to get the access token.
+                // most likely the user clicked don't allow.
+                MessageBox.Show(facebookOAuthResult.ErrorDescription);
+            }
+        }
+        private void GraphApiAsyncExample(string accessToken)
+        {
+            var fb = new FacebookClient(accessToken);
+
+            // make sure to add the appropriate event handler
+            // before calling the async methods.
+            // GetCompleted     => GetAsync
+            // PostCompleted    => PostAsync
+            // DeleteCompleted  => DeleteAsync
+            fb.GetCompleted += (o, e) =>
+            {
+                // incase you support cancellation, make sure to check
+                // e.Cancelled property first even before checking (e.Error!=null).
+                if (e.Cancelled)
+                {
+                    // for this example, we can ignore as we don't allow this
+                    // example to be cancelled.
+
+                    // you can check e.Error for reasons behind the cancellation.
+                    var cancellationError = e.Error;
+                }
+                else if (e.Error != null)
+                {
+                    // error occurred
+                    this.BeginInvoke(new MethodInvoker(
+                                                 () =>
+                                                 {
+                                                     MessageBox.Show(e.Error.Message);
+                                                 }));
+                }
+                else
+                {
+                    // the request was completed successfully
+
+                    // now we can either cast it to IDictionary<string, object> or IList<object>
+                    // depending on the type.
+                    // For this example, we know that it is IDictionary<string,object>.
+                    var result = (IDictionary<string, object>)e.GetResultData();
+
+                    var firstName = (string)result["first_name"];
+                    var lastName = (string)result["last_name"];
+
+                    // since this is an async callback, make sure to be on the right thread
+                    // when working with the UI.
+                    this.BeginInvoke(new MethodInvoker(
+                                         () =>
+                                         {
+                                            // lblFirstName.Text = "First Name: " + firstName;
+                                         }));
+                }
+            };
+
+            // additional parameters can be passed and 
+            // must be assignable from IDictionary<string, object>
+            var parameters = new Dictionary<string, object>();
+            parameters["fields"] = "first_name,last_name";
+
+            fb.GetAsync("me", parameters);
+        }
+        private void posttowall(string message, string accessToken)
+        {
+            /*var fb = new FacebookClient(accessToken);
+
+            // make sure to add event handler for PostCompleted.
+            fb.PostCompleted += (o, e) =>
+            {
+                // incase you support cancellation, make sure to check
+                // e.Cancelled property first even before checking (e.Error!=null).
+                if (e.Cancelled)
+                {
+                    // for this example, we can ignore as we don't allow this
+                    // example to be cancelled.
+
+                    // you can check e.Error for reasons behind the cancellation.
+                    var cancellationError = e.Error;
+                }
+                else if (e.Error != null)
+                {
+                    // error occurred
+                    this.BeginInvoke(new MethodInvoker(
+                                                 () =>
+                                                 {
+                                                     MessageBox.Show(e.Error.Message);
+                                                 }));
+                }
+            };
+
+            dynamic parameters = new ExpandoObject();
+            parameters.message = message;
+
+            fb.PostAsync("me/feed", parameters);*/
         }
     }
 }
