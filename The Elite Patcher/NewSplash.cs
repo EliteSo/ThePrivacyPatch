@@ -72,6 +72,7 @@ namespace The_Elite_Patcher
 
         private void button35_Click(object sender, EventArgs e)
         {
+            //the remote name could not be resolved
             string hash3 = NiCoding_Development_Library.Forum_Tools.Xenforo.login("crazy-coderz.com", textBox5.Text, textBox8.Text, true);
             if (hash3.Contains("hash"))
             {
@@ -161,6 +162,10 @@ namespace The_Elite_Patcher
                             groupPanel2.Visible = true;
                             groupPanel3.Visible = false;
                             timer1.Start();
+                        }
+                        else if (hash == "the remote name could not be resolved")
+                        {
+                            MessageBox.Show("You don't seem to be connected to the internet. Please connect and try again!");
                         }
                         else
                         {

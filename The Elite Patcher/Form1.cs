@@ -219,6 +219,19 @@ namespace The_Elite_Patcher
         string assembly = "";
         private void Form1_Load(object sender, EventArgs e)
         {
+            if (String.IsNullOrEmpty(The_Elite_Patcher.Properties.Settings.Default.hosts))
+            {
+                The_Elite_Patcher.Properties.Settings.Default.hosts = hosts;
+                The_Elite_Patcher.Properties.Settings.Default.Save();
+            }
+            if (!Directory.Exists(plugindir))
+            {
+                Directory.CreateDirectory(plugindir);
+            }
+            if (!Directory.Exists(addondir))
+            {
+                Directory.CreateDirectory(addondir);
+            }
             if (!File.Exists(hosts))
             {
                 if (MessageBox.Show("It Seems that your hosts file is missing. Would you like to create a fresh one now? (Please note that the hosts file must exist for The Elite Patch to work)", "Hosts File Missing!", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -1518,11 +1531,6 @@ namespace The_Elite_Patcher
         private void buttonItem14_Click(object sender, EventArgs e)
         {
             Process.Start("http://www.elite.so/threads/the-elite-patch-beta.193/");
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            NiCoding_Development_Library.Voice_Operations.Text2Speech.Text2SpeechFemale.speakTextAsyncAdultFemale("Welcome to The Elite Patch!");
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -14,11 +14,9 @@ namespace NiCoding_Development_Library.Forum_Tools
     {
       try
       {
-        Uri uri = new Uri("http://thepiratebay.elite.so");
-        WebClient webClient = new WebClient();
         string output = "";
-        webClient.DownloadStringCompleted += (DownloadStringCompletedEventHandler) ((s, e) => output = e.Result);
-        webClient.DownloadStringAsync(new Uri("http://adimspot.com/api.php?name=" + username + "&password=" + password));
+        WebClient.DownloadStringCompleted += (DownloadStringCompletedEventHandler) ((s, e) => output = e.Result);
+        WebClient.DownloadStringAsync(new Uri("http://adimspot.com/api.php?name=" + username + "&password=" + password));
         return output.Contains("Success");
       }
       catch
