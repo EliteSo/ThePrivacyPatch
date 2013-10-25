@@ -1,41 +1,24 @@
 The Elite Patch
 ==========
-The Elite Patch was specifically to bypass the restriction that uk isp's put on websites. With V3, the system has changed completely. The main function of The Elite Patch (TEP) is still functioning, however TEP has more than just the ability to bypass those blocks. In essance, TEP has evolved into more than just a way to get onto restricted sites, into a collection of tools to perform any function required.
+The Elite Patch was specifically to bypass the restriction that uk isp's put on websites. With V3, the system has changed completely. The original idea was to use a "plugin" system to patch each host, but due to a recent discovery (a developer on the team was using his code to mine user information), we have trashed that idea, and started fresh. There are no more plugins, every host is managed by a single web page, controlled by Elite.SO. The user only has to click a single button. No Plugins downloaded.
 
 Features
 ==========
-Hosts Patcher (AKA "Plugins")
-
-*NEW* Fully Featured Plugin System
-
-*NEW* Get Plugins from ESO Servers
-
-*NEW* Plugin Update System
-
-*NEW* Hosts Tools (Read current hosts file, backup & Restore hosts file, write new hosts file)
-
-*NEW* Proxy Creation Tool
-
-*NEW* Suggest a proxy
-
-*NEW* Addon System to extend functionality
-
+Hosts Patcher
 
 Changelog
 ==========
-The Elite Patch V2.99
+The Elite Patch V3.0 Alpha
 
-Currently Unstable. Patcher is working, but plugin updates need to be implemented. 
+Currently in Proof Of Concept Stage. Code not complete.
 
 
 Requirements
 ==========
-.Net Framework V4 Extended
+.Net Framework V4 Client Profile
 
 (Source) Visual Studio 2010 (or Visual C# Express 2010)
 
 Issues
 ==========
-Currently does not update plugins properly
-
-Proxy Creation tool is not operational
+Still in proof of concept stage, so no functions are working at all
