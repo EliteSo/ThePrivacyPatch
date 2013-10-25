@@ -8,6 +8,10 @@ Hosts Patcher
 
 Changelog
 ==========
+V3.02 Alpha
+
+Sucessfully ran and tested new system. Currently Patches "ThePirateBay" to a known tpb proxy. 
+
 V3.01 Alpha
 
 Moved from Proof of Concept Stage to Functioning.
@@ -27,4 +31,6 @@ Requirements
 
 Issues
 ==========
-Currently patches The Pirate bay to a fake IP Address. Still in testing and unusable.
+Currently only patches the pirate bay
+
+Update system not yet implemented

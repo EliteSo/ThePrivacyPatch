@@ -1,18 +1,32 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>The Elite Patch</title>
         <script type="text/javascript">
-            function ShowMessage(message) {
-                alert(message);
-            }
-            function ShowWinFormsMessage() {
-                var msg = document.getElementById('txtMessage').value;
-                return window.external.ShowMessage(msg);
-            }
-            function DoPatch() {
-                var edit = document.getElementById('edit').value;
+            function DoPatch(edit) {
                 return window.external.PatchHost(edit);
+            }
+            function DoUserLink(user) {
+                var usr = "http://theelitepatch.com/user/" + user;
+                return window.external.OpenUrl(usr);
+            }
+            function DoRemove(edit) {
+                return window.external.RemoveHost(edit);
+            }
+            function DoVisitSite(sitename) {
+                var site = "http://" + sitename;
+                return window.external.VisitSite(site);
+            }
+            function DoVersionLink(vers) {
+                var verlnk = "http://theelitepatch.com/host/" + vers;
+                return window.external.VersSite(verlnk);
+            }
+            function DoVerifiedLink(verif) {
+                var veriflnk = "http://theelitepatch.com/verification/" + verif;
+                return window.external.VerifSite(veriflnk);
+            }
+            function GetLoggedInUser() {
+                return window.external.LoggedInUser();
             }
           </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -2139,7 +2153,7 @@ div.uploader input{
                         --> 
         <div id="head">
             <div class="left">
-                The Elite Patch V3 - Alpha 
+                Welcome, Gigawiz
             </div>
             <div class="right">
             </div>
@@ -2186,21 +2200,23 @@ div.uploader input{
             <tbody>
                 <tr>
                     <td><input type="checkbox" /></td>
-                    <td><a href="#">ThePirateBay</a></td>
-                    <td><a href="#">Gigawiz</a></td>
-                    <td><a href="#">1.1a</a></td>
-                    <td><a href="#">Yes</a></td>
-                    <td class="actions"><input type="hidden" id="edit" value="192.168.1.166 thepiratebay.se=192.168.1.166 www.thepiratebay.se"/>
-          <input type="button" value="Install" onclick="DoPatch()" /></td>
+                    <td><a href="#" onclick=" DoVisitSite('thepiratebay.se')">ThePirateBay</a></td>
+                    <td><a href="#" onclick=" DoUserLink('Gigawiz')">Gigawiz</a></td>
+                    <td><a href="#" onclick=" DoVersionLink('tpb')">1.1a</a></td>
+                    <td><a href="#" onclick=" DoVerifiedLink('tpb')">Yes</a></td>
+                    <td class="actions">
+                    <input type="button" value="Install" onclick="DoPatch('194.71.107.81 thepiratebay.se=194.71.107.81 www.thepiratebay.se')" />
+                    <input type="button" value="Remove" onclick="DoRemove('194.71.107.81 thepiratebay.se=194.71.107.81 www.thepiratebay.se')" />
+                    </td>
                 </tr>
             </tbody>
         </table>
-        <div class="left input">
+        <!--<div class="left input">
             <select name="action" id="tableaction">
                 <option value="">Action</option>
                 <option value="delete">Delete</option>
             </select>
-        </div>
+        </div>-->
     </div>
 </div>
         </div>  
