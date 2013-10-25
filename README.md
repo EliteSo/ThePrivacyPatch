@@ -8,7 +8,13 @@ Hosts Patcher
 
 Changelog
 ==========
-The Elite Patch V3.0 Alpha
+V3.01 Alpha
+
+Moved from Proof of Concept Stage to Functioning.
+
+Currently patches The Pirate bay to a fake IP Address. Still in testing and unusable.
+
+V3.0 Alpha
 
 Currently in Proof Of Concept Stage. Code not complete.
 
@@ -21,4 +27,4 @@ Requirements
 
 Issues
 ==========
-Still in proof of concept stage, so no functions are working at all
+Currently patches The Pirate bay to a fake IP Address. Still in testing and unusable.
