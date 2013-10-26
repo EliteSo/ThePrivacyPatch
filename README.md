@@ -8,11 +8,17 @@ Hosts Patcher
 
 Changelog
 ==========
-V3.02 Alpha
+V3.0.3 Alpha
+
+Offline patching system completed.
+
+Started work on online portion of patcher - Progress - 70% complete
+
+V3.0.2 Alpha
 
 Sucessfully ran and tested new system. Currently Patches "ThePirateBay" to a known tpb proxy. 
 
-V3.01 Alpha
+V3.0.1 Alpha
 
 Moved from Proof of Concept Stage to Functioning.
 

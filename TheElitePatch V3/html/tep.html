@@ -3,6 +3,9 @@
     <head>
         <title>The Elite Patch</title>
         <script type="text/javascript">
+            function CheckLogin() {
+                return window.external.checklogins();
+            }
             function DoPatch(edit) {
                 return window.external.PatchHost(edit);
             }
@@ -27,6 +30,9 @@
             }
             function GetLoggedInUser() {
                 return window.external.LoggedInUser();
+            }
+            function DoLogout() {
+                return window.external.logout();
             }
           </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -2153,9 +2159,13 @@ div.uploader input{
                         --> 
         <div id="head">
             <div class="left">
-                Welcome, Gigawiz
+                <script type="text/javascript"> if(CheckLogin()){
+                document.write("Welcome, " + GetLoggedInUser());}</script>
             </div>
             <div class="right">
+            <script type="text/javascript">if (CheckLogin()) {
+                    document.write('<a href="#" onclick="DoLogout();">Logout</a>');
+                }</script>
             </div>
         </div>
                 

@@ -21,31 +21,17 @@ namespace TheElitePatch_V3
             InitializeComponent();
             webBrowser1.ObjectForScripting = new ScriptManager(this);
         }
-        [DllImport("urlmon.dll", CharSet = CharSet.Ansi)]
-        private static extern int UrlMkSetSessionOption(
-            int dwOption, string pBuffer, int dwBufferLength, int dwReserved);
-
-        const int URLMON_OPTION_USERAGENT = 0x10000001;
-        const int URLMON_OPTION_USERAGENT_REFRESH = 0x10000002;
-
-        public void ChangeUserAgent()
-        {
-            List<string> userAgent = new List<string>();
-            string ua = "TEPBot (+http://www.theelitepatch.com/bot.html)";
-
-            UrlMkSetSessionOption(URLMON_OPTION_USERAGENT_REFRESH, null, 0, 0);
-            UrlMkSetSessionOption(URLMON_OPTION_USERAGENT, ua, ua.Length, 0);
-        }
         string[] loadfiles = new string[] { Directory.GetCurrentDirectory() + @"\tep.html", Directory.GetCurrentDirectory() + @"\bg.png", Directory.GetCurrentDirectory() + @"\spriteh.png" };
         private void Form1_Load(object sender, EventArgs e)
         {
-            /*if (CheckForInternetConnection())
+            this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver;
+            if (CheckForInternetConnection())
             {
-                ChangeUserAgent();
-                webBrowser1.Navigate("http://tep.theelitepatch.com/tep.php");
+                checkPageUpdate();
+                webBrowser1.Navigate("http://tep.theelitepatch.com/");
             }
             else
-            {*/
+            {
                 foreach (string resource_name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
                 {
                     string filetocheck = Directory.GetCurrentDirectory() + @"\" + resource_name.Substring((resource_name.IndexOf(".") + 1), (resource_name.Length - (resource_name.IndexOf(".") + 1)));
@@ -61,17 +47,11 @@ namespace TheElitePatch_V3
                 }
                 webBrowser1.Navigate("file://" + Directory.GetCurrentDirectory() + @"\tep.html");
             }
-        //}
+        }
 
         [ComVisible(true)]
         public class ScriptManager
         {
-            /*
-            function DoVisitSite(site) {
-                return window.external.VisitSite(site);
-            }
-
-             */
             Form1 _form;
             public ScriptManager(Form1 form)
             {
@@ -131,7 +111,17 @@ namespace TheElitePatch_V3
             }
             public string LoggedInUser()
             {
-                return "Gigawiz";
+                return TheElitePatch_V3.Properties.Settings.Default.user;
+            }
+            public void setUser(object user)
+            {
+                TheElitePatch_V3.Properties.Settings.Default.user = user.ToString();
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
+            public void logout()
+            {
+                TheElitePatch_V3.Properties.Settings.Default.user = "";
+                TheElitePatch_V3.Properties.Settings.Default.Save();
             }
             public void VerifSite(object Veriflink)
             {
@@ -144,6 +134,15 @@ namespace TheElitePatch_V3
             public void VisitSite(object site)
             {
                 Process.Start(site.ToString());
+            }
+            public bool checklogins()
+            {
+                bool loggedin = false;
+                if (!String.IsNullOrEmpty(TheElitePatch_V3.Properties.Settings.Default.user))
+                {
+                    loggedin = true;
+                }
+                return loggedin;
             }
         }
 
@@ -164,7 +163,7 @@ namespace TheElitePatch_V3
             try
             {
                 using (var client = new WebClient())
-                using (var stream = client.OpenRead("http://www.google.com"))
+                using (var stream = client.OpenRead("http://theelitepatch.com"))
                 {
                     return true;
                 }
