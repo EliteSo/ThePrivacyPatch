@@ -21,13 +21,33 @@ namespace TheElitePatch_V3
             InitializeComponent();
             webBrowser1.ObjectForScripting = new ScriptManager(this);
         }
-        string[] loadfiles = new string[] { Directory.GetCurrentDirectory() + @"\tep.html", Directory.GetCurrentDirectory() + @"\bg.png", Directory.GetCurrentDirectory() + @"\spriteh.png" };
+        string[] loadfiles = new string[] { Directory.GetCurrentDirectory() + @"\tep.html", Directory.GetCurrentDirectory() + @"\bg.png", Directory.GetCurrentDirectory() + @"\spriteh.png", Directory.GetCurrentDirectory() + @"\update.exe" };
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver;
+            #region set title
+            string os = "Windows Edition";
+            string targetframework = ".Net 4.0 Client Profile";
+            if (IsRunningOnMono())
+            {
+                targetframework = "Mono 2.8";
+            }
+            if (isLinux())
+            {
+                os = "Linux Edition";
+            }
+            else if (isMacOS())
+            {
+                os = "Mac OSX Edition";
+            }
+            else if (isWindows())
+            {
+                os = "Windows Edition";
+            }
+            this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver + " - " + targetframework + " - " + os;
+            #endregion
+            #region choose running mode
             if (CheckForInternetConnection())
             {
-                checkPageUpdate();
                 webBrowser1.Navigate("http://tep.theelitepatch.com/");
             }
             else
@@ -47,9 +67,10 @@ namespace TheElitePatch_V3
                 }
                 webBrowser1.Navigate("file://" + Directory.GetCurrentDirectory() + @"\tep.html");
             }
+            #endregion
         }
-
         [ComVisible(true)]
+        #region web interactions
         public class ScriptManager
         {
             Form1 _form;
@@ -135,6 +156,10 @@ namespace TheElitePatch_V3
             {
                 Process.Start(site.ToString());
             }
+            public int programversion()
+            {
+                return TheElitePatch_V3.Properties.Settings.Default.progver;
+            }
             public bool checklogins()
             {
                 bool loggedin = false;
@@ -144,8 +169,34 @@ namespace TheElitePatch_V3
                 }
                 return loggedin;
             }
+            public void setFriendlyVersion(object verstring)
+            {
+                TheElitePatch_V3.Properties.Settings.Default.buildver = verstring.ToString();
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
+            string updurl = "";
+            public void update(object updateurl)
+            {
+                updurl = updateurl.ToString();
+                WebClient WC = new WebClient();
+                WC.DownloadFileCompleted += new AsyncCompletedEventHandler(WC_DownloadFileCompleted);
+                WC.DownloadFileAsync(new Uri("http://download.theelitepatch.com/update.exe"), Directory.GetCurrentDirectory() + @"\update.exe");
+            }
+            void WC_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
+            {
+                string file = Process.GetCurrentProcess().ProcessName + ".exe";
+                file = file.Replace(" ", "_");
+                file = file.Replace(".vshost", "");
+                Process p = new Process();
+                ProcessStartInfo psi = new ProcessStartInfo();
+                psi.Arguments = updurl + " " + file;
+                psi.FileName = "update.exe";
+                p.StartInfo = psi;
+                p.Start();
+                Environment.Exit(0);
+            }
         }
-
+        #endregion
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             foreach (string loadfile in loadfiles)
@@ -157,7 +208,11 @@ namespace TheElitePatch_V3
             }
             Environment.Exit(0);
         }
-
+        #region system checks
+        public static bool IsRunningOnMono()
+        {
+            return Type.GetType("Mono.Runtime") != null;
+        }
         public static bool CheckForInternetConnection()
         {
             try
@@ -173,12 +228,19 @@ namespace TheElitePatch_V3
                 return false;
             }
         }
-
-        private void checkPageUpdate()
+        public static bool isLinux()
         {
-
+            return false;
         }
-
+        public static bool isWindows()
+        {
+            return true;
+        }
+        public static bool isMacOS()
+        {
+            return false;
+        }
+        #endregion
         static void ExtractFileResource(string resource_name, string file_name)
         {
             try

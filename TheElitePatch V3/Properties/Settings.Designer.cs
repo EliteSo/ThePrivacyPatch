@@ -35,12 +35,24 @@ namespace TheElitePatch_V3.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("3.0.3 Alpha")]
         public string buildver {
             get {
                 return ((string)(this["buildver"]));
+            }
+            set {
+                this["buildver"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("303")]
+        public int progver {
+            get {
+                return ((int)(this["progver"]));
             }
         }
     }

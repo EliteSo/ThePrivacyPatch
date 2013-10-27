@@ -8,6 +8,18 @@ Hosts Patcher
 
 Changelog
 ==========
+V3.0.3 Beta
+
+Program now out of Alpha, users may download this version, but there may be bugs
+
+Completed update checks (both server side and client side)
+
+Update function 80% Complete (both server side and client side)
+
+Server Scripts 90% Complete
+
+Added Server Scripts to Source Control
+
 V3.0.3 Alpha
 
 Offline patching system completed.
@@ -35,8 +47,12 @@ Requirements
 
 (Source) Visual Studio 2010 (or Visual C# Express 2010)
 
+(Source) Html/PHP Editor
+
+(Source) HTTP Server
+
 Issues
 ==========
 Currently only patches the pirate bay
 
-Update system not yet implemented
+Update system not fully functional

@@ -80,16 +80,16 @@ namespace TheElitePatch_V3.Properties {
         ///    &lt;head&gt;
         ///        &lt;title&gt;The Elite Patch&lt;/title&gt;
         ///        &lt;script type=&quot;text/javascript&quot;&gt;
-        ///            function ShowMessage(message) {
-        ///                alert(message);
+        ///            function CheckLogin() {
+        ///                return window.external.checklogins();
         ///            }
-        ///            function ShowWinFormsMessage() {
-        ///                var msg = document.getElementById(&apos;txtMessage&apos;).value;
-        ///                return window.external.ShowMessage(msg);
+        ///            function DoPatch(edit) {
+        ///                return window.external.PatchHost(edit);
         ///            }
-        ///            function DoPatch() {
-        ///                var edit = document.getElementById(&apos;edit&apos;).value;
-        ///          [rest of string was truncated]&quot;;.
+        ///            function DoUserLink(user) {
+        ///                var usr = &quot;http://theelitepatch.com/user/&quot; + user;
+        ///                return window.external.OpenUrl(usr);
+        ///            }        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string tep {
             get {
