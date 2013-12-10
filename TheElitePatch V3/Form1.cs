@@ -26,11 +26,6 @@ namespace TheElitePatch_V3
         {
             #region set title
             string os = "Windows Edition";
-            string targetframework = ".Net 4.0 Client Profile";
-            if (IsRunningOnMono())
-            {
-                targetframework = "Mono 2.8";
-            }
             if (isLinux())
             {
                 os = "Linux Edition";
@@ -43,30 +38,10 @@ namespace TheElitePatch_V3
             {
                 os = "Windows Edition";
             }
-            this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver + " - " + targetframework + " - " + os;
+            this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver + " - " + os;
             #endregion
             #region choose running mode
-            if (CheckForInternetConnection())
-            {
-                webBrowser1.Navigate("http://tep.theelitepatch.com/");
-            }
-            else
-            {
-                foreach (string resource_name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
-                {
-                    string filetocheck = Directory.GetCurrentDirectory() + @"\" + resource_name.Substring((resource_name.IndexOf(".") + 1), (resource_name.Length - (resource_name.IndexOf(".") + 1)));
-                    filetocheck = filetocheck.Substring((filetocheck.IndexOf(".") + 1), (filetocheck.Length - (filetocheck.IndexOf(".") + 1)));
-                    if (filetocheck.Contains(".png") || filetocheck.Contains(".html"))
-                    {
-                        filetocheck = Directory.GetCurrentDirectory() + @"\" + filetocheck;
-                        if (!File.Exists(filetocheck))
-                        {
-                            ExtractFileResource(resource_name, filetocheck);
-                        }
-                    }
-                }
-                webBrowser1.Navigate("file://" + Directory.GetCurrentDirectory() + @"\tep.html");
-            }
+            webBrowser1.Navigate(TheElitePatch_V3.Properties.Settings.Default.customonlinemode);
             #endregion
         }
         [ComVisible(true)]
@@ -77,6 +52,10 @@ namespace TheElitePatch_V3
             public ScriptManager(Form1 form)
             {
                 _form = form;
+            }
+            public string isAlpha()
+            {
+                return "true";
             }
             public void OpenUrl(object obj)
             {
@@ -195,8 +174,45 @@ namespace TheElitePatch_V3
                 p.Start();
                 Environment.Exit(0);
             }
+            public void setOfflineMode(object mode)
+            {
+                string offlinemode = mode.ToString();
+                if (offlinemode == "False")
+                {
+                    TheElitePatch_V3.Properties.Settings.Default.offlinemode = false;
+                }
+                else
+                {
+                    TheElitePatch_V3.Properties.Settings.Default.offlinemode = true;
+                }
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
+            public void setBeta(object mode)
+            {
+                string betamode = mode.ToString();
+                if (betamode == "False")
+                {
+                    TheElitePatch_V3.Properties.Settings.Default.usebeta = false;
+                }
+                else
+                {
+                    TheElitePatch_V3.Properties.Settings.Default.usebeta = true;
+                }
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
+            public void setCusUrl(object urltoset)
+            {
+                TheElitePatch_V3.Properties.Settings.Default.customonlinemode = urltoset.ToString();
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
+            public void setProdKey(object key)
+            {
+                TheElitePatch_V3.Properties.Settings.Default.productkey = key.ToString();
+                TheElitePatch_V3.Properties.Settings.Default.Save();
+            }
         }
         #endregion
+        #region closing
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             foreach (string loadfile in loadfiles)
@@ -208,25 +224,22 @@ namespace TheElitePatch_V3
             }
             Environment.Exit(0);
         }
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (string loadfile in loadfiles)
+            {
+                if (File.Exists(loadfile))
+                {
+                    File.Delete(loadfile);
+                }
+            }
+            Environment.Exit(0);
+        }
+        #endregion
         #region system checks
         public static bool IsRunningOnMono()
         {
             return Type.GetType("Mono.Runtime") != null;
-        }
-        public static bool CheckForInternetConnection()
-        {
-            try
-            {
-                using (var client = new WebClient())
-                using (var stream = client.OpenRead("http://theelitepatch.com"))
-                {
-                    return true;
-                }
-            }
-            catch
-            {
-                return false;
-            }
         }
         public static bool isLinux()
         {
@@ -241,32 +254,18 @@ namespace TheElitePatch_V3
             return false;
         }
         #endregion
-        static void ExtractFileResource(string resource_name, string file_name)
+        #region optionsbuttons
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (File.Exists(file_name))
-                    File.Delete(file_name);
-
-                if (!Directory.Exists(Path.GetDirectoryName(file_name)))
-                    Directory.CreateDirectory(Path.GetDirectoryName(file_name));
-
-                using (Stream sfile = Assembly.GetExecutingAssembly().GetManifestResourceStream(resource_name))
-                {
-                    byte[] buf = new byte[sfile.Length];
-                    sfile.Read(buf, 0, Convert.ToInt32(sfile.Length));
-
-                    using (FileStream fs = File.Create(file_name))
-                    {
-                        fs.Write(buf, 0, Convert.ToInt32(sfile.Length));
-                        fs.Close();
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(string.Format("Can't extract resource '{0}' to file '{1}': {2}", resource_name, file_name, ex.Message), ex);
-            }
+            webBrowser1.Navigate("http://tep.theelitepatch.com/tep.php?p=progprefs");
         }
+        #endregion
+        #region helpbuttons
+        private void aboutTheElitePatchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://tep.theelitepatch.com/tep.php?p=about");
+        }
+        #endregion
+        
     }
 }
