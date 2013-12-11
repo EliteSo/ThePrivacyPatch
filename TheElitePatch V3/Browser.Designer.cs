@@ -1,6 +1,6 @@
 ﻿namespace TheElitePatch_V3
 {
-    partial class Form1
+    partial class Browser
     {
         /// <summary>
         /// Required designer variable.
@@ -28,53 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.webToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutTheElitePatchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.supportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 24);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(535, 385);
-            this.webBrowser1.TabIndex = 0;
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
+            this.webToolStripMenuItem,
             this.toolsToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(535, 24);
-            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Size = new System.Drawing.Size(688, 24);
+            this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // fileToolStripMenuItem
+            // webToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.webToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2});
+            this.webToolStripMenuItem.Name = "webToolStripMenuItem";
+            this.webToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.webToolStripMenuItem.Text = "File";
             // 
-            // exitToolStripMenuItem
+            // toolStripMenuItem2
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(92, 22);
+            this.toolStripMenuItem2.Text = "Exit";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -94,33 +85,51 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutTheElitePatchToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.supportToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // aboutTheElitePatchToolStripMenuItem
+            // aboutToolStripMenuItem
             // 
-            this.aboutTheElitePatchToolStripMenuItem.Name = "aboutTheElitePatchToolStripMenuItem";
-            this.aboutTheElitePatchToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
-            this.aboutTheElitePatchToolStripMenuItem.Text = "About The Elite Patch";
-            this.aboutTheElitePatchToolStripMenuItem.Click += new System.EventHandler(this.aboutTheElitePatchToolStripMenuItem_Click);
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutTheElitePatchToolStripMenuItem_Click);
             // 
-            // Form1
+            // supportToolStripMenuItem
+            // 
+            this.supportToolStripMenuItem.Name = "supportToolStripMenuItem";
+            this.supportToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.supportToolStripMenuItem.Text = "Support";
+            this.supportToolStripMenuItem.Click += new System.EventHandler(this.supportToolStripMenuItem_Click);
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 24);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(688, 329);
+            this.webBrowser1.TabIndex = 1;
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            // 
+            // Browser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(535, 409);
+            this.ClientSize = new System.Drawing.Size(688, 353);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.menuStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Browser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "The Elite Patch V3 Alpha";
+            this.Text = "Browser";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Browser_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -130,14 +139,14 @@
 
         #endregion
 
-        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem webToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutTheElitePatchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem supportToolStripMenuItem;
     }
 }
-

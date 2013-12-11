@@ -11,17 +11,11 @@
     <Setting Name="progver" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">303</Value>
     </Setting>
-    <Setting Name="usebeta" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="customonlinemode" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://tep.theelitepatch.com</Value>
-    </Setting>
-    <Setting Name="offlinemode" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="productkey" Type="System.String" Scope="User">
+    <Setting Name="pass" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="autologin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>

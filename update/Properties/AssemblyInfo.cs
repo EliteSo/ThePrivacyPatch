@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("update")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("update")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("24a51c90-b292-4350-8276-1a68621d2611")]
+[assembly: Guid("db9e3e2c-6f98-4b6e-b131-e6b537c73ccb")]
 
 // Version information for an assembly consists of the following four values:
 //

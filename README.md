@@ -8,9 +8,61 @@ Hosts Patcher
 
 Changelog
 ==========
-V3.0.3 Beta
+V3.0.32 Alpha
 
-Program now out of Alpha, users may download this version, but there may be bugs
+Official "Usable" Alpha Release almost here!
+
+Replaced code for splash screen. Code was removed when testing for runtime error caused by avast.
+
+Added process checks to program start. If The Elite Patch is already running, and the user tries to run it again, it will close the old process and start a new one.
+
+Fixed a bug where program would not close from memory.
+
+Added Encryption Algorithm to hide password from human eyes
+
+Added "isTEP" COM call for use with page redirection. If the browser doesnt return "isTEP" as a string, then it is assumed that the user is accessing via a web browser, and disables redirection (if enabled)
+
+Removed COM calls for custom online url.
+
+Removed Offline Mode COM calls and setting
+
+Removed “Beta” com calls and setting
+
+Removed “Product Key” setting and com calls
+
+Removed misc unused com calls
+
+Added “AutoLogin” com calls to program. If set, then The Elite Patch will remember your username/password.
+
+Added “setPass” routine to com calls
+
+Added “autoLogin” routine to com calls
+
+Updated “logout” routine to remove password as well as username
+
+Updated session to contain program settings
+
+Fixed typo on Login button (was "Login me in", now "Login")
+
+Updated hosts list to only display hosts with "visible" set to 1
+
+Edit Account is now 100% Functional
+
+Program Preferences is now 100% Functional
+
+Added redirect to javascript. JS calls for the COM string "isTEP". if it's returned and redirection is enabled, then it redirects. Otherwise, it is assumed that the user is on an unknown browser for recovery
+
+Added "Autologin" field to database
+
+Removed "Offline Mode" field from database
+
+emoved "IsAlpha" field from database
+
+Added "Visible" field to hosts table
+
+
+V3.0.31 Alpha
+
 
 Completed update checks (both server side and client side)
 
@@ -51,8 +103,11 @@ Requirements
 
 (Source) HTTP Server
 
+(Source) Database Server (Capable of handling PDO)
+
 Issues
 ==========
-Currently only patches the pirate bay
 
 Update system not fully functional
+
+Some random memory leaks

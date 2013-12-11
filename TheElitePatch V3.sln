@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheElitePatch V3", "TheElitePatch V3\TheElitePatch V3.csproj", "{9BC2826F-008C-4CBF-8CC3-A72263F20321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "update", "update\update.csproj", "{79FC883F-A948-410F-AA26-27AE8CD7F366}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "update", "update\update.csproj", "{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{9BC2826F-008C-4CBF-8CC3-A72263F20321}.Debug|x86.Build.0 = Debug|x86
 		{9BC2826F-008C-4CBF-8CC3-A72263F20321}.Release|x86.ActiveCfg = Release|x86
 		{9BC2826F-008C-4CBF-8CC3-A72263F20321}.Release|x86.Build.0 = Release|x86
-		{79FC883F-A948-410F-AA26-27AE8CD7F366}.Debug|x86.ActiveCfg = Debug|x86
-		{79FC883F-A948-410F-AA26-27AE8CD7F366}.Debug|x86.Build.0 = Debug|x86
-		{79FC883F-A948-410F-AA26-27AE8CD7F366}.Release|x86.ActiveCfg = Release|x86
-		{79FC883F-A948-410F-AA26-27AE8CD7F366}.Release|x86.Build.0 = Release|x86
+		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Debug|x86.ActiveCfg = Debug|x86
+		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Debug|x86.Build.0 = Debug|x86
+		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Release|x86.ActiveCfg = Release|x86
+		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

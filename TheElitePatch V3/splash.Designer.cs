@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(splash));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -52,10 +51,6 @@
             // 
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // backgroundWorker1
-            // 
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
             // progressBar1
             // 
@@ -86,7 +81,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
