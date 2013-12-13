@@ -37,7 +37,7 @@ namespace TheElitePatch_V3.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("3.0.3 Alpha")]
+        [global::System.Configuration.DefaultSettingValueAttribute("3.0.4 Alpha")]
         public string buildver {
             get {
                 return ((string)(this["buildver"]));
@@ -49,7 +49,7 @@ namespace TheElitePatch_V3.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("303")]
+        [global::System.Configuration.DefaultSettingValueAttribute("304")]
         public int progver {
             get {
                 return ((int)(this["progver"]));

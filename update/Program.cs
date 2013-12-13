@@ -20,7 +20,14 @@ namespace update
             }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(args[0]));
+            if (args == null)
+            {
+                Application.Run(new Form1("none"));
+            }
+            else
+            {
+                Application.Run(new Form1(args[0]));
+            }
         }
         public static Process PriorProcess()
         // Returns a System.Diagnostics.Process pointing to

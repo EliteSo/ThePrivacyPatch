@@ -23,6 +23,7 @@ namespace TheElitePatch_V3
         bool firstload = true;
         private void Browser_Load(object sender, EventArgs e)
         {
+            lblVersionToolStrip.Text = "Version: " + TheElitePatch_V3.Properties.Settings.Default.buildver + "(" + TheElitePatch_V3.Properties.Settings.Default.progver.ToString() + ")";
             #region set title
             this.Text = "The Elite Patch - V" + TheElitePatch_V3.Properties.Settings.Default.buildver;
             #endregion
@@ -166,10 +167,10 @@ namespace TheElitePatch_V3
                 TheElitePatch_V3.Properties.Settings.Default.buildver = verstring.ToString();
                 TheElitePatch_V3.Properties.Settings.Default.Save();
             }
-            string updurl = "";
+            string usrnm = TheElitePatch_V3.Properties.Settings.Default.user;
             public void update(object updateurl)
             {
-                updurl = updateurl.ToString();
+                string updurl = updateurl.ToString();
                 WebClient WC = new WebClient();
                 WC.DownloadFileCompleted += new AsyncCompletedEventHandler(WC_DownloadFileCompleted);
                 WC.DownloadFileAsync(new Uri(updurl), Directory.GetCurrentDirectory() + @"\update.exe");
@@ -178,7 +179,7 @@ namespace TheElitePatch_V3
             {
                 Process p = new Process();
                 ProcessStartInfo psi = new ProcessStartInfo();
-                psi.Arguments = updurl;
+                psi.Arguments = usrnm;
                 psi.FileName = "update.exe";
                 p.StartInfo = psi;
                 p.Start();

@@ -20,10 +20,17 @@ namespace update
         string filedling = "";
         string folder = Directory.GetCurrentDirectory();
         #endregion
-        public Form1(string updurl)
+        public Form1(string username)
         {
             InitializeComponent();
-            listurl = updurl;
+            if (String.IsNullOrEmpty(username))
+            {
+                listurl = "http://tep.theelitepatch.com/api.php?apikey=thisistep&request=getupdater&username=none";
+            }
+            else
+            {
+                listurl = "http://tep.theelitepatch.com/api.php?apikey=thisistep&request=getupdater&username=" + username;
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,10 +49,12 @@ namespace update
             IEnumerable<string> urls = parts;
             foreach (string url in urls)
             {
-                Match match = Regex.Match(url, @"([A-Za-z0-9\-]+)\.([A-Za-z0-9\-]+)$", RegexOptions.IgnoreCase);
+                string urlfix = url.Remove(url.IndexOf("<"));
+                Match match = Regex.Match(urlfix, @"([A-Za-z0-9\-]+)\.([A-Za-z0-9\-]+)$", RegexOptions.IgnoreCase);
                 if (match.Success)
                 {
-                    _downloadUrls.Enqueue(url);
+                    _downloadUrls.Enqueue(urlfix);
+                    listBox1.Items.Add(urlfix);
                 }
             }
             DownloadFile();
@@ -96,24 +105,15 @@ namespace update
         {
             //MessageBox.Show("Done!");
             //Pandoras_box.Properties.Settings.Default.updated = true;
-            Process.Start("update.exe");
+            Process.Start("TheElitePatch.exe");
             Environment.Exit(0);
         }
-        bool start = false;
         private void timer1_Tick(object sender, EventArgs e)
         {
             try
             {
                 Process[] pname = Process.GetProcessesByName("TheElitePatch");
                 if (pname.Length == 0)
-                {
-                    MessageBox.Show("nothing");
-                }
-                else
-                {
-                    MessageBox.Show("run");
-                }
-                if (start)
                 {
                     timer1.Stop();
                     dlfiles();
