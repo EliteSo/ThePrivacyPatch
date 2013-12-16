@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Net;
@@ -61,7 +60,7 @@ namespace update
         }
         private void DownloadFile()
         {
-            if (_downloadUrls.Any())
+            if (_downloadUrls.Count > 0)
             {
                 WebClient client = new WebClient();
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
@@ -98,7 +97,29 @@ namespace update
 
         static string GetParentUriString(Uri uri)
         {
-            return uri.AbsoluteUri.Remove(uri.AbsoluteUri.Length - uri.Segments.Last().Length);
+            //
+            /*
+             .Net 3.5 +
+             return uri.AbsoluteUri.Remove(uri.AbsoluteUri.Length - uri.Segments.Last().Length);
+             */
+            StringBuilder parentName = new StringBuilder();
+
+            // Append the scheme: http, ftp etc.
+            parentName.Append(uri.Scheme);
+
+            // Appned the '://' after the http, ftp etc.
+            parentName.Append("://");
+
+            // Append the host name www.foo.com
+            parentName.Append(uri.Host);
+
+            // Append each segment except the last one. The last one is the
+            // leaf and we will ignore it.
+            for (int i = 0; i < uri.Segments.Length - 1; i++)
+            {
+                parentName.Append(uri.Segments[i]);
+            }
+            return parentName.ToString();
         }
 
         private void end()

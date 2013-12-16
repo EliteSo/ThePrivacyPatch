@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="user" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Gigawiz</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="buildver" Type="System.String" Scope="User">
       <Value Profile="(Default)">3.0.4 Alpha</Value>

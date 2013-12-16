@@ -25,7 +25,7 @@ namespace TheElitePatch_V3.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Gigawiz")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string user {
             get {
                 return ((string)(this["user"]));

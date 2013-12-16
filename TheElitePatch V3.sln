@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheElitePatch V3", "TheElitePatch V3\TheElitePatch V3.csproj", "{9BC2826F-008C-4CBF-8CC3-A72263F20321}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "update", "update\update.csproj", "{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "The Elite Patch", "The Elite Patch\The Elite Patch.vdproj", "{AF262061-C5DE-4984-B49B-31BC93B46826}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,8 @@ Global
 		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Debug|x86.Build.0 = Debug|x86
 		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Release|x86.ActiveCfg = Release|x86
 		{D7BD1365-4E1E-468A-9CCA-02E6E1F61AF6}.Release|x86.Build.0 = Release|x86
+		{AF262061-C5DE-4984-B49B-31BC93B46826}.Debug|x86.ActiveCfg = Debug
+		{AF262061-C5DE-4984-B49B-31BC93B46826}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
@@ -108,12 +107,17 @@ namespace TheElitePatch_V3
                         System.IO.File.Delete(file + "bak");
                     else
                         System.IO.File.Copy(file, file + "bak");
-                    foreach (string str in strArray)
+                    List<string> duphosts = new List<string>();
+                    using (StringReader reader = new StringReader(File.ReadAllText(file)))
                     {
-                        string lines = str;
-                        if (!Enumerable.Any<string>((IEnumerable<string>)line, (Func<string, bool>)(s => lines.Contains(s))))
-                            System.IO.File.AppendAllText(file + "tmp", lines + Environment.NewLine);
+                        string remlin = null;
+                        while ((remlin = reader.ReadLine()) != null)
+                            if (!duphosts.Contains(remlin) && remlin != line[1] && remlin != line[0] && !String.IsNullOrEmpty(remlin))
+                                duphosts.Add(remlin);
                     }
+                    using (StreamWriter writer = new StreamWriter(File.Open(file + "tmp", FileMode.Create)))
+                        foreach (string value in duphosts)
+                            writer.WriteLine(value); 
                     System.IO.File.Delete(file);
                     System.IO.File.Copy(file + "tmp", file);
                     MessageBox.Show("Host Removed Successfully!");
