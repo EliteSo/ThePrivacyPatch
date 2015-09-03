@@ -1,6 +1,6 @@
-The Elite Patch
+The Privacy Patch
 ==========
-The Elite Patch was specifically to bypass the restriction that uk isp's put on websites. With V3, the system has changed completely. The original idea was to use a "plugin" system to patch each host, but due to a recent discovery (a developer on the team was using his code to mine user information), we have trashed that idea, and started fresh. There are no more plugins, every host is managed by a single web page, controlled by Elite.SO. The user only has to click a single button. No Plugins downloaded.
+The Privacy Patch was specifically to bypass the restriction that uk isp's put on websites. With V3, the system has changed completely. The original idea was to use a "plugin" system to patch each host, but due to a recent discovery (a developer on the team was using his code to mine user information), we have trashed that idea, and started fresh. There are no more plugins, every host is managed by a single web page, controlled by Elite.SO. The user only has to click a single button. No Plugins downloaded.
 
 Features
 ==========
@@ -32,7 +32,7 @@ Removed “Product Key” setting and com calls
 
 Removed misc unused com calls
 
-Added “AutoLogin” com calls to program. If set, then The Elite Patch will remember your username/password.
+Added “AutoLogin” com calls to program. If set, then The Privacy Patch will remember your username/password.
 
 Added “setPass” routine to com calls
 
